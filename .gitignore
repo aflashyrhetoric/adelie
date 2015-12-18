@@ -1,0 +1,8 @@
+/vendor
+/node_modules
+/bower_components
+/components
+/bootstrap
+Homestead.yaml
+Homestead.json
+.env
