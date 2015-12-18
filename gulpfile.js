@@ -16,14 +16,24 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
 
     mix.sass(
-      'app.scss', // Source Files
-      'public/css', //Destination folder
-      {includePaths: ['components/foundation/scss/']}
+      ['app.scss'], // Source Files
+      'public/css' //Destination folder
     );
 
-    // mix.scripts(
-    //   ['node_modules/foundation-sites/js'],
-    //   'public/js/app.js',
-    //   'node_modules_'
-    // );
+    mix.scripts(
+      'jquery.min.js',
+      'public/js/jquery.js',
+      'node_modules/jquery/dist/'
+    ).scripts(
+      [
+      'foundation.core.js',
+      '*.js'
+      ],
+      'public/js/vendor.js',
+      'node_modules/foundation-sites/js/'
+    ).scripts(
+      ['app.js'],
+      'public/js/app.js',
+      'resources/assets/js' 
+    );
 });
