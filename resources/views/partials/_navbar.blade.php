@@ -6,18 +6,18 @@
   </div>
   <div class="top-bar-right">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li><a href="#">About Adelie</a></li>
+      <li><a href="#">ABOUT</a></li>
       <li class="has-submenu">
-        <a href="#">Services</a>
+        <a href="#">SERVICES</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="services/webdev">Web Development</a></li>
-          <li><a href="#">Graphic Design</a></li>
-          <li><a href="#">Branding</a></li
+          <li><a href="services/webdev">WEB DEVELOPMENT</a></li>
+          <li><a href="#">GRAPHIC DESIGN</a></li>
+          <li><a href="#">BRANDING</a></li
           >
         </ul>
       </li>
-      <li><a href="#">Meet The Team</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#">MEET THE TEAM</a></li>
+      <li><a href="#">CONTACT</a></li>
     </ul>
   </div>
 </div>
