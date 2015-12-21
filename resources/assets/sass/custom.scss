@@ -7,7 +7,8 @@ $corporate_e: 'corporate-e', sans-serif;
 $raleway: 'raleway', sans-serif;
 
 // Colors
-$primary-color: #3A539B;
+// $primary-color: #3A539B;
+$primary-color: #272727;
 $white: #ffffff;
 $darkgray: #252525;
 
@@ -18,6 +19,7 @@ html {
 
 // Foundation overrides
 .top-bar {
+  top: 0;
   background-color: $primary-color;
   ul { background-color: transparent;}
   ul li a {
@@ -39,8 +41,9 @@ html {
   padding-bottom: 0.2rem;
 }
 
-// Navbar
+// Adelie
 .navbar-logo {
+  font-weight: normal;
   background-color: transparent;
   font-family: $corporate_e;
   color: $white;

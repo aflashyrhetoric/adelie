@@ -3,25 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Adelie</title>
-    <!-- Compressed CSS -->
     <link rel="stylesheet" href="css/app.css">
-    <!--TypeKit -->
     <script src="https://use.typekit.net/ghk7jiq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
     <div class="container">
-
-      <!--Navigation -->
-      @include('partials._navbar')
-
+      @include('partials.navbar')
       @yield('content')
-
     </div>
-
-    <!--Footer -->
-    @yield('footer')
-
     <!-- jQuery + Foundation Import -->
     <script src="js/jquery.js"></script>
     <!-- Compressed JavaScript -->

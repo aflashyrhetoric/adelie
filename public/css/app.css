@@ -3187,7 +3187,8 @@ html {
   font-size: 1em; }
 
 .top-bar {
-  background-color: #3A539B;
+  top: 0;
+  background-color: #272727;
   padding: 0px;
   padding-bottom: 0.2rem; }
   .top-bar ul {
@@ -3198,13 +3199,14 @@ html {
     font-size: 1rem;
     margin-top: 0.5rem; }
   .top-bar ul.submenu {
-    background-color: #3A539B !important;
+    background-color: #272727 !important;
     border: 0px !important; }
     .top-bar ul.submenu li:hover {
-      background-color: #4c69bc !important;
+      background-color: #414141 !important;
       position: relative; }
 
 .navbar-logo {
+  font-weight: normal;
   background-color: transparent;
   font-family: "corporate-e", sans-serif;
   color: #ffffff;
