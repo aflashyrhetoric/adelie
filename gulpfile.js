@@ -11,13 +11,10 @@ var elixir = require('laravel-elixir');
  |
  */
 
-
-
 elixir(function(mix) {
 
     mix.sass(
-      ['vendor.scss', 'settings.scss', 'app.scss', 
-      'home_sections/**'], // Source Files
+      ['app.scss'], // Source Files
       'public/css' //Destination folder
     );
 

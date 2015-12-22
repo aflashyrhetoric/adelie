@@ -1,15 +1,22 @@
-/*****************/
+/*************************/
 /* Custom SCSS For the app.
-/*****************/ 
+/*************************/
 
-// Utility classes
-.full-width {
-  max-width: 100% !important;
+// Utility Classes
+.section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  p {
+    font-size: 0.9rem;
+  }
 }
+
+@import '_vendor';
+@import '_settings';
 
 /*********************************/
 /******* SECTION IMPORTS *********/
 /*********************************/
 
-
-@import "home_sections/section_one";
+@import "home_sections/_section_one";

@@ -1,9 +1,6 @@
 /*********************************/
 /******* Home: Section One *******/
 /*********************************/
-
-@import "../settings";
-
 // Base PX: 16px;
 // 1 REM: 16px;
 // 2 REM: 32px;
@@ -15,5 +12,11 @@
   padding: 2rem;
   h1 {
     color: white;
+    font-family: $corporate_e;
+    margin-bottom: 2rem;
+  }
+  @include breakpoint(large up) {
+    height: 20rem;
+    padding-top: 5em;
   }
 }
