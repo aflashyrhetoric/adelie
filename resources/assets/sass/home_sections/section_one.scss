@@ -1,0 +1,19 @@
+/*********************************/
+/******* Home: Section One *******/
+/*********************************/
+
+@import "../settings";
+
+// Base PX: 16px;
+// 1 REM: 16px;
+// 2 REM: 32px;
+
+.section-one {
+  background-color: $primary-color;
+  color: $white;
+  text-align: center;
+  padding: 2rem;
+  h1 {
+    color: white;
+  }
+}

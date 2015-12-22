@@ -1,4 +1,9 @@
-<div class="top-bar">
+<div class="title-bar" data-responsive-toggle="adelie-navbar" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="adelie-navbar">
   <div class="top-bar-left">
     <ul class="menu" data-dropdown-menu>
       <li class="navbar-logo menu-text">adelie</li>

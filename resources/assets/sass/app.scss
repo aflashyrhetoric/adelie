@@ -1,2 +1,15 @@
-@import "settings";
-@import "../../../node_modules/foundation-sites/foundation-sites"; 
+/*****************/
+/* Custom SCSS For the app.
+/*****************/ 
+
+// Utility classes
+.full-width {
+  max-width: 100% !important;
+}
+
+/*********************************/
+/******* SECTION IMPORTS *********/
+/*********************************/
+
+
+@import "home_sections/section_one";

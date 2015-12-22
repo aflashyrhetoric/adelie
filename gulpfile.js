@@ -16,7 +16,8 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
 
     mix.sass(
-      ['app.scss', 'custom.scss'], // Source Files
+      ['vendor.scss', 'settings.scss', 'app.scss', 
+      'home_sections/**'], // Source Files
       'public/css' //Destination folder
     );
 

@@ -8,8 +8,8 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
+    @include('partials.navbar')
     <div class="container">
-      @include('partials.navbar')
       @yield('content')
     </div>
     <!-- jQuery + Foundation Import -->

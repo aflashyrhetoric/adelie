@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*********************************/
+/******* Vendor Libraries ********/
+/*********************************/
 /**
  * Foundation for Sites by ZURB
  * Version 6.0.6
@@ -3180,11 +3183,17 @@ table.hover tr:nth-of-type(even):hover {
 .top-bar-right {
   float: right; }
 
-/**************/
-/* Global Styles
-/**************/
+/*********************************/
+/******* Home: Section One *******/
+/*********************************/
+/********************************/
+/* Site-Wide Configs & Settings */
+/********************************/
 html {
-  font-size: 1em; }
+  font-size: 16px; }
+
+.title-bar {
+  background-color: #272727; }
 
 .top-bar {
   top: 0;
@@ -3199,10 +3208,10 @@ html {
     font-size: 1rem;
     margin-top: 0.5rem; }
   .top-bar ul.submenu {
-    background-color: #272727 !important;
+    background-color: #3A539B !important;
     border: 0px !important; }
     .top-bar ul.submenu li:hover {
-      background-color: #414141 !important;
+      background-color: #4c69bc !important;
       position: relative; }
 
 .navbar-logo {
@@ -3212,5 +3221,13 @@ html {
   color: #ffffff;
   font-size: 2rem;
   letter-spacing: -0.05em; }
+
+.section-one {
+  background-color: #3A539B;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem; }
+  .section-one h1 {
+    color: white; }
 
 /*# sourceMappingURL=app.css.map */
