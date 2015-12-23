@@ -6,7 +6,7 @@
     <p>We aim to elevate small businesses by leveraging the power of the web.</p>
 </div>
 <div class="features section section-two">
-    <h1>Boop</h1>
+    <h3>Why Adelie?</h3>
     <div class="row">
         @include('services/one')
         @include('services/two')

@@ -22,6 +22,16 @@ html {
   background-color: $background-color;
 }
 
+.color-bar {
+  height: 5px;
+  width: 100%;
+  @include breakpoint(medium up) {
+    background-color: $primary-color;
+    position: absolute;
+    top: 0px;
+  }
+}
+
 .top-bar {
   top: 0;
   background-color: $background-color;
@@ -53,4 +63,12 @@ html {
   color: $white;
   font-size: 2rem;
   letter-spacing: -0.05em;
+}
+
+@mixin cover-bg($img, $x-pos, $y-pos) {
+  background: url($img) #DCDCDC no-repeat $x-pos $y-pos fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

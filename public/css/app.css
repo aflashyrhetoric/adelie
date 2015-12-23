@@ -3202,6 +3202,15 @@ html {
 .title-bar {
   background-color: #272727; }
 
+.color-bar {
+  height: 5px;
+  width: 100%; }
+  @media screen and (min-width: 40em) {
+    .color-bar {
+      background-color: #3A539B;
+      position: absolute;
+      top: 0px; } }
+
 .top-bar {
   top: 0;
   background-color: #272727;
@@ -3236,12 +3245,12 @@ html {
 /******* Home: Section One *******/
 /*********************************/
 .section-one {
-  background-color: #3A539B;
-  color: #ffffff;
+  background: url("../img/cat.png") #DCDCDC no-repeat 50% 80% fixed;
+  background-size: cover;
+  color: #252525;
   text-align: center;
   padding: 2rem; }
   .section-one h1 {
-    color: white;
     font-family: "corporate-e", sans-serif;
     margin-bottom: 2rem; }
   @media screen and (min-width: 64em) {

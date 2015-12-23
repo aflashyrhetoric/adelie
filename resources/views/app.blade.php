@@ -8,6 +8,7 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </head>
   <body>
+    <div class="color-bar"></div>
     @include('partials.navbar')
     <div class="container">
       @yield('content')

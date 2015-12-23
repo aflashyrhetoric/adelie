@@ -6,15 +6,16 @@
 // 2 REM: 32px;
 
 .section-one {
-  background-color: $primary-color;
-  color: $white;
+  @include cover-bg('../img/cat.png', 50%, 80%);
+  color: $darkgray;
   text-align: center;
   padding: 2rem;
+  // adelie
   h1 {
-    color: white;
     font-family: $corporate_e;
     margin-bottom: 2rem;
   }
+
   @include breakpoint(large up) {
     height: 20rem;
     padding-top: 5em;

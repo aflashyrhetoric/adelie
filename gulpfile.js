@@ -13,25 +13,40 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
 
-    mix.sass(
-      ['app.scss'], // Source Files
-      'public/css' //Destination folder
-    );
+  // SCSS
+  mix.sass(
+    ['app.scss'], // Source Files
+    'public/css' //Destination folder
+  );
 
-    mix.scripts(
-      'jquery.min.js',
-      'public/js/jquery.js',
-      'node_modules/jquery/dist/'
-    ).scripts(
-      [
-      'foundation.core.js',
-      '*.js'
-      ],
-      'public/js/vendor.js',
-      'node_modules/foundation-sites/js/'
-    ).scripts(
-      ['app.js'],
-      'public/js/app.js',
-      'resources/assets/js' 
-    );
+  // JS
+  mix.scripts(
+    'jquery.min.js',
+    'public/js/jquery.js',
+    'node_modules/jquery/dist/'
+  ).scripts(
+    [
+    'foundation.core.js',
+    '*.js'
+    ],
+    'public/js/vendor.js',
+    'node_modules/foundation-sites/js/'
+  ).scripts(
+    ['app.js'],
+    'public/js/app.js',
+    'resources/assets/js' 
+  );
+
+  // IMAGES
+  mix.copy(
+    'resources/assets/img/**', 
+    'public/img/'
+  );
+
+  mix.browserSync({
+    proxy: 'adelie.dev',
+    port: 8000
+  });
+
 });
+
