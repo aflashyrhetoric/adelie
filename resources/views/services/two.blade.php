@@ -1,7 +1,8 @@
 <div class="
   small-12
-  medium-3 medium-offset-1 end columns">
+  medium-3 columns service">
+  <h4>Invested In Success</h4>
   <p>
-    Web development is a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vitae, odio cum dolores culpa. Esse est eaque laborum amet nesciunt quasi nemo temporibus, molestias neque accusantium, delectus ex eos, at?
+    At Adelie, our goal is to provide <i>real</i> value to our clients. We're wholly invested in your success and satisfaction. We don't cut corners to save costs and we're happy to help with any and all questions. We are our clients' biggest cheerleaders.
   </p>
 </div>

@@ -1,0 +1,23 @@
+/*********************************/
+/******* Home: Section One *******/
+/*********************************/
+// Base PX: 16px;
+// 1 REM: 16px;
+// 2 REM: 32px;
+
+.section-two {
+  .service-description {
+    color: black;
+  }
+
+}
+
+.services-list{
+  background-color: $primary-color;
+  .service {
+    color: white;
+    h4 {
+      font-weight: bold;
+    }
+  }
+}

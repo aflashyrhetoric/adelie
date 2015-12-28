@@ -6,8 +6,10 @@
 // 2 REM: 32px;
 
 .section-one {
-  @include cover-bg('../img/cat.png', 50%, 80%);
-  color: $darkgray;
+  // @include cover-bg('../img/cat.png', 50%, 80%);
+  // color: $darkgray;
+  background-color: $primary-color;
+  color: $white;
   text-align: center;
   padding: 2rem;
   // adelie

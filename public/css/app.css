@@ -3203,11 +3203,11 @@ html {
   background-color: #272727; }
 
 .color-bar {
-  height: 5px;
+  height: 0px;
   width: 100%; }
   @media screen and (min-width: 40em) {
     .color-bar {
-      background-color: #3A539B;
+      background-color: #334988;
       position: absolute;
       top: 0px; } }
 
@@ -3245,9 +3245,8 @@ html {
 /******* Home: Section One *******/
 /*********************************/
 .section-one {
-  background: url("../img/cat.png") #DCDCDC no-repeat 50% 80% fixed;
-  background-size: cover;
-  color: #252525;
+  background-color: #3A539B;
+  color: #ffffff;
   text-align: center;
   padding: 2rem; }
   .section-one h1 {
@@ -3257,5 +3256,18 @@ html {
     .section-one {
       height: 20rem;
       padding-top: 5em; } }
+
+/*********************************/
+/******* Home: Section One *******/
+/*********************************/
+.section-two .service-description {
+  color: black; }
+
+.services-list {
+  background-color: #3A539B; }
+  .services-list .service {
+    color: white; }
+    .services-list .service h4 {
+      font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */

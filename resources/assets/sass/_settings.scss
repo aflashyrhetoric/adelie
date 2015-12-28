@@ -22,11 +22,12 @@ html {
   background-color: $background-color;
 }
 
+// A little sliver at the top, for a bit more pizazzzzz
 .color-bar {
-  height: 5px;
+  height: 0px;
   width: 100%;
   @include breakpoint(medium up) {
-    background-color: $primary-color;
+    background-color: darken($primary-color, 5%);
     position: absolute;
     top: 0px;
   }

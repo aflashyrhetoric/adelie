@@ -1,5 +1,6 @@
 <div class="
   small-12 
-  medium-6 columns">
-  <p>Web development is a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil vitae, odio cum dolores culpa. Esse est eaque laborum amet nesciunt quasi nemo temporibus, molestias neque accusantium, delectus ex eos, at?</p>
+  medium-3 columns service">
+  <h4>Best Practices</h4>
+  <p>We adhere to industry best practices and ethical standards at every point in our company. In short, this means that our services will yield affordable, maintainable, and practical solutions - <i>without cutting corners in the process.</i></p>
 </div>
