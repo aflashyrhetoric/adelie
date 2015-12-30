@@ -7,19 +7,38 @@
 
 .section-one {
   // @include cover-bg('../img/cat.png', 50%, 80%);
-  // color: $darkgray;
-  background-color: $primary-color;
+  background-color :$primary-color;
   color: $white;
   text-align: center;
-  padding: 2rem;
+  padding-bottom: 2rem;
+
   // adelie
   h1 {
     font-family: $corporate_e;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    letter-spacing: -0.2rem;
+  }
+    
+  p{
+    font-size: 1.2rem;
   }
 
+  // LEARN MORE
+  a {
+    margin-top: 1rem;
+    border: 1px solid lighten($primary-color, 15);
+    border-radius: 0px;
+    color: white;
+    background-color: darken($primary-color, 5);
+    &:hover {
+      background-color: darken($primary-color, 9);
+    }
+  }
+
+  @include breakpoint(medium up) {
+  }
   @include breakpoint(large up) {
     height: 20rem;
-    padding-top: 5em;
   }
 }

@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA","file":"app.js","sourcesContent":[""],"sourceRoot":"/source/"}
+{"version":3,"sources":["app.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"app.js","sourcesContent":["// Script For Smooth Scrolling\n\n$('a#learn-more').click(function(){\n    $('html, body').animate({\n        scrollTop: $( $.attr(this, 'href') ).offset().top\n    }, 800);\n    return false;\n});\n"],"sourceRoot":"/source/"}

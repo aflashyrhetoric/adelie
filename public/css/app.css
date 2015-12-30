@@ -3197,7 +3197,8 @@ table.hover tr:nth-of-type(even):hover {
 /* Site-Wide Configs & Settings */
 /********************************/
 html {
-  font-size: 18px; }
+  font-size: 18px;
+  height: 50rem; }
 
 .title-bar {
   background-color: #272727; }
@@ -3213,7 +3214,7 @@ html {
 
 .top-bar {
   top: 0;
-  background-color: #272727;
+  background-color: #3A539B;
   padding: 0px;
   padding-bottom: 0.2rem; }
   .top-bar ul {
@@ -3248,26 +3249,55 @@ html {
   background-color: #3A539B;
   color: #ffffff;
   text-align: center;
-  padding: 2rem; }
+  padding-bottom: 2rem; }
   .section-one h1 {
     font-family: "corporate-e", sans-serif;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    letter-spacing: -0.2rem; }
+  .section-one p {
+    font-size: 1.2rem; }
+  .section-one a {
+    margin-top: 1rem;
+    border: 1px solid #5f78c3;
+    border-radius: 0px;
+    color: white;
+    background-color: #334988; }
+    .section-one a:hover {
+      background-color: #2e417a; }
   @media screen and (min-width: 64em) {
     .section-one {
-      height: 20rem;
-      padding-top: 5em; } }
+      height: 20rem; } }
 
 /*********************************/
-/******* Home: Section One *******/
+/******* Home: Section *******/
 /*********************************/
-.section-two .service-description {
-  color: black; }
+.section-two .feature-description {
+  color: #4C4C4C;
+  padding: 1rem; }
+  .section-two .feature-description h1 {
+    font-weight: bold; }
 
-.services-list {
-  background-color: #3A539B; }
-  .services-list .service {
-    color: white; }
-    .services-list .service h4 {
-      font-weight: bold; }
+.features-list .feature {
+  color: white;
+  padding: 10px; }
+  .features-list .feature h4 {
+    color: #3A539B;
+    font-weight: bold; }
+  .features-list .feature p {
+    color: #4C4C4C;
+    font-size: 1rem; }
+
+/*************************/
+/* Custom SCSS For the app.
+/*************************/
+/*************************/
+/* Custom SCSS For the app.
+/*************************/
+/*************************/
+/* Custom SCSS For the app.
+/*************************/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
 
 /*# sourceMappingURL=app.css.map */

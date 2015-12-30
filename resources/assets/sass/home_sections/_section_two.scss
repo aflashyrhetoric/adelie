@@ -1,23 +1,35 @@
 /*********************************/
-/******* Home: Section One *******/
+/******* Home: Section *******/
 /*********************************/
 // Base PX: 16px;
 // 1 REM: 16px;
 // 2 REM: 32px;
 
-.section-two {
-  .service-description {
-    color: black;
-  }
+$feature-color: #4C4C4C;
 
+.section-two {
+  // WHY ADELIE?
+  .feature-description {
+    color: $feature-color;
+    padding: 1rem;
+    h1 {
+      font-weight: bold;
+    }
+  }
 }
 
-.services-list{
-  background-color: $primary-color;
-  .service {
+.features-list{
+  // background-color: $primary-color;
+  .feature {
     color: white;
+    padding: 10px;
     h4 {
+      color: $primary-color;
       font-weight: bold;
+    }
+    p{
+      color: $feature-color;
+      font-size: 1rem;
     }
   }
 }

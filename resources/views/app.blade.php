@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="css/app.css">
     <script src="https://use.typekit.net/ghk7jiq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--CDN for Font-Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="color-bar"></div>
     @include('partials.navbar')
-    <div class="container">
+    <div id="site-container" class="container">
       @yield('content')
     </div>
     <!-- jQuery + Foundation Import -->
