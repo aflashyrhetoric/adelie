@@ -29,4 +29,13 @@
         
     </div>
 </div>
+
+<div class="row section section-two features-list">
+    <div class="small-12 medium-10 large-8 small-centered columns">
+        @include('features/one')
+        @include('features/two')
+        @include('features/three')
+        @include('features/four')
+    </div>
+</div>
 @endsection
