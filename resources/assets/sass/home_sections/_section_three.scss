@@ -5,27 +5,22 @@
 // 1 REM: 16px;
 // 2 REM: 32px;
 
-$service-color: #4C4C4C;
+$feature-color: #4C4C4C;
 
-.section-two {
+.section-three {
   // WHY ADELIE?
-  .service-description {
-    color: $service-color;
+  .feature-description {
+    color: $feature-color;
     padding: 1rem;
     h4 {
       font-weight: bold;
     }
   }
-
-  .service-header {
-    font-weight: bold;
-    color: $service-color;
-  }
 }
 
-.services-list{
+.features-list{
   // background-color: $primary-color;
-  .service {
+  .feature {
     color: white;
     padding: 10px;
     h4 {
@@ -33,7 +28,7 @@ $service-color: #4C4C4C;
       font-weight: bold;
     }
     p{
-      color: $service-color;
+      color: $feature-color;
       font-size: 1rem;
     }
   }

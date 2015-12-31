@@ -3272,10 +3272,33 @@ html {
 /*********************************/
 /******* Home: Section *******/
 /*********************************/
-.section-two .feature-description {
+.section-two .service-description {
   color: #4C4C4C;
   padding: 1rem; }
-  .section-two .feature-description h1 {
+  .section-two .service-description h4 {
+    font-weight: bold; }
+
+.section-two .service-header {
+  font-weight: bold;
+  color: #4C4C4C; }
+
+.services-list .service {
+  color: white;
+  padding: 10px; }
+  .services-list .service h4 {
+    color: #3A539B;
+    font-weight: bold; }
+  .services-list .service p {
+    color: #4C4C4C;
+    font-size: 1rem; }
+
+/*********************************/
+/******* Home: Section *******/
+/*********************************/
+.section-three .feature-description {
+  color: #4C4C4C;
+  padding: 1rem; }
+  .section-three .feature-description h4 {
     font-weight: bold; }
 
 .features-list .feature {
@@ -3287,17 +3310,5 @@ html {
   .features-list .feature p {
     color: #4C4C4C;
     font-size: 1rem; }
-
-/*************************/
-/* Custom SCSS For the app.
-/*************************/
-/*************************/
-/* Custom SCSS For the app.
-/*************************/
-/*************************/
-/* Custom SCSS For the app.
-/*************************/
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal; }
 
 /*# sourceMappingURL=app.css.map */
