@@ -9,6 +9,13 @@ $service-color: #4C4C4C;
 
 .section-two {
 
+  // Margin 
+  margin-top: 0;
+  max-width: 100%;
+  width: 100%;
+  padding-top: 1rem;
+  border-top: 5px solid $primary-color;
+
   // WHY ADELIE?
   .service-description {
     color: $service-color;

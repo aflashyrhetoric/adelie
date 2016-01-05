@@ -12,22 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+  return view('index');
 });
 
-// Invalid route, return to index page
-Route::get('/services/', function () {
-    return view('index');
-});
+Route::get('/services', 'StaticPagesController@redirectToHome');
 
-Route::get('/services/webdev', function () {
-    return view('services/webdev');
-});
+Route::get('/services/webdev', 'StaticPagesController@webdev');
 
 Route::get('/services/graphic_design', function () {
-    return view('services/graphic_design');
+  return view('services/graphic_design');
 });
 
 Route::get('/services/branding', function () {
-    return view('services/branding');
+  return view('services/branding');
+});
+
+Route::get('/meet', function () {
+  return view('meet');
 });

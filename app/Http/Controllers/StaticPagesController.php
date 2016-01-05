@@ -9,14 +9,16 @@ use App\Http\Controllers\Controller;
 
 class StaticPagesController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function services()
+
+    // Redirect back to home
+    public function redirectToHome()
     {
-        
+       return redirect('/');
+    }
+
+    public function webdev()
+    {
+       return view('services/webdev');
     }
 
     /**

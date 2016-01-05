@@ -15,23 +15,12 @@ $darkgray: #252525;
 // Resets % Page-Wide Configuration
 html {
   font-size: 18px;
-  height: 50rem;
+  height: 100%;
 }
 
 // Foundation overrides
 .title-bar {
   background-color: $background-color;
-}
-
-// A little sliver at the top, for a bit more pizazzzzz
-.color-bar {
-  height: 0px;
-  width: 100%;
-  @include breakpoint(medium up) {
-    background-color: darken($primary-color, 5%);
-    position: absolute;
-    top: 0px;
-  }
 }
 
 .top-bar {
@@ -73,4 +62,52 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+$footer-color: #4C4C4C;
+
+// Footer
+footer{
+
+  min-height: 22rem;
+  border-top: 10px solid lighten($footer-color, 10);
+  text-align: center;
+
+  .footer-body {
+    padding: 1rem;
+    min-height: 19rem;
+  }
+
+  // Left-side Footer
+  .footer-body:nth-child(1){
+    background-color: $footer-color;
+    .footer-logo {
+      font-family: $corporate_e; 
+      color: white;
+    }
+  }
+
+  // Right-side Footer
+  .footer-body:nth-child(2){
+    i {
+      color: $white;
+    }
+    h2, span {
+      color: $white;
+    }
+
+    background-color: $footer-color;
+  }
+
+
+  .footer-end{
+    padding: 0.5rem;
+    border-top: 1px solid $primary-color;
+    background-color: #333333;
+    h4 {
+      margin-bottom: 0px;
+      color: white;
+      font-family: $raleway;
+    }
+  }
 }

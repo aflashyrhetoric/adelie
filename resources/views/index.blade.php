@@ -39,4 +39,12 @@
         @include('partials/features')
     </div>
 </div>
+<div class="row section section-four cta">
+    <h1>Ready to begin?</h1>
+    <h4>Let's build something great.</h4>
+    <hr class="mini-hr">
+    <a class="button" href="contact">Request A Quote</a>
+    <br>
+    <a href="meet">Or, click here to meet the team!</a>
+</div>
 @endsection
