@@ -15,7 +15,13 @@
 
 .section-one {
   //bg
-  @include cover-bg('../img/bg.jpg', 50%, 90%);
+  @include breakpoint(medium up) {
+    @include cover-bg('../img/bg.jpg', 50%, 90%);
+  }
+
+  @include breakpoint(small only) {
+    background-color: $primary-color;
+  }
   .inner-flex {
     display: flex;
     flex-direction: column;
@@ -24,9 +30,14 @@
     align-items: flex-start;
 
     h1, p {
-      padding: 0.5rem;
       color: $white;
-      background-color: rgba(0,0,0,0.5);
+      padding: 1rem;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+
+      @include breakpoint(medium up) {
+        background-color: rgba(0,0,0,0.5);
+      }
     }
 
     p {
@@ -37,6 +48,10 @@
       font-size: 1.2rem;
       padding: 1rem;
       font-weight: bold;
+      
+      @include breakpoint(small only) {
+        margin-left: 1rem;
+      }        
     }
 
     //adelie
@@ -47,7 +62,8 @@
       margin-bottom: 1rem;
       font-size: 5rem;
       letter-spacing: -0.2rem;
-      padding: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
 
@@ -56,8 +72,6 @@
   // LEARN MORE
   a {
     margin-top: 1rem;
-    border: 1px solid lighten($primary-color, 15);
-    border-radius: 0px;
     color: white;
     background-color: darken($primary-color, 5);
     &:hover {

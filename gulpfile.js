@@ -42,11 +42,5 @@ elixir(function(mix) {
     'resources/assets/img/**', 
     'public/img/'
   );
-
-  mix.browserSync({
-    proxy: 'adelie.dev',
-    port: 8000
-  });
-
 });
 

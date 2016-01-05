@@ -14,6 +14,7 @@
     @include('partials.navbar')
     <div id="site-container" class="container">
       @yield('content')
+      @yield('partials.foot')
     </div>
     <!-- jQuery + Foundation Import -->
     <script src="js/jquery.js"></script>

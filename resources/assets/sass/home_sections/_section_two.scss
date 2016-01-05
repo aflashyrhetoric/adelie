@@ -8,6 +8,7 @@
 $service-color: #4C4C4C;
 
 .section-two {
+
   // WHY ADELIE?
   .service-description {
     color: $service-color;
@@ -20,6 +21,12 @@ $service-color: #4C4C4C;
   .service-header {
     font-weight: bold;
     color: $service-color;
+    margin: 2rem;
+  }
+
+  .service-subheader{
+    margin: 2rem;
+    font-size: 1.3rem;
   }
 }
 

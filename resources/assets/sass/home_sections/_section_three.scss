@@ -8,13 +8,18 @@
 $feature-color: #4C4C4C;
 
 .section-three {
-  // WHY ADELIE?
+  padding-top: 1rem;
+  background-color: $primary-color;
+  box-shadow: 0px 3px 5px 0px black;
+
   .feature-description {
-    color: $feature-color;
-    padding: 1rem;
-    h4 {
-      font-weight: bold;
-    }
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: $white;
+    background-color: darken($primary-color, 10);
+    box-shadow: 0px 3px 5px 0px black;
   }
 }
 
@@ -22,13 +27,10 @@ $feature-color: #4C4C4C;
   // background-color: $primary-color;
   .feature {
     color: white;
-    padding: 10px;
     h4 {
-      color: $primary-color;
       font-weight: bold;
     }
     p{
-      color: $feature-color;
       font-size: 1rem;
     }
   }

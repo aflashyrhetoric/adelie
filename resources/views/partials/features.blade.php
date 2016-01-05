@@ -2,8 +2,8 @@
   small-12 
   medium-6 
   columns feature">
-    <h4>Cohesive Approach</h4>
-    <p>Rather than leaving you on your own to learn the intricacies of web design, web development, graphic design, branding, and marketing, we'll guide you every step of the way. We'll help you organize your thoughts and explore your options.</p>
+    <h4>Start To Finish</h4>
+    <p>From establishing a unique brand, to creating website mockups, and finally to deploying a full-fledged website all your own, we can help you with it all. From start to finish, we'll help you organize your thoughts and explore your options - all in one place.</p>
 </div>
 
 <div class="
@@ -12,7 +12,7 @@
   columns feature">
   <h4>Invested In Your Success</h4>
   <p>
-    At Adelie, our goal is to provide <i>real</i> value to our clients. We're wholly invested in your success and satisfaction. We don't cut corners to save costs and we're happy to help with any and all questions. We are our clients' biggest cheerleaders.
+    At Adelie, we acknowledge the difference between "project completion" and "project success." Our goal isn't to spit out logos, websites, and photos at our clients. We'll work with you to provide <i>real</i> business value to our clients. 
   </p>
 </div>
 
@@ -32,4 +32,4 @@
   <p>
     At all times, you'll be talking with the people best-equipped to help you. There's no waiting around for a clumsy Project Manager to forward your emails. This means faster overall turnaround times, higher-quality output, and less downtime.
   </p>
-</div>as
+</div>

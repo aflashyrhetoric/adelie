@@ -16,7 +16,7 @@
       </div>
       <div class="top-bar-right">
         <ul class="dropdown menu" data-dropdown-menu>
-          <li><a href="#">ABOUT</a></li>
+          <li><a href="about">ABOUT</a></li>
           <li class="has-submenu">
             <a href="#">SERVICES</a>
             <ul class="submenu menu vertical" data-submenu>
@@ -26,8 +26,8 @@
               >
             </ul>
           </li>
-          <li><a href="#">MEET THE TEAM</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="meet">MEET THE TEAM</a></li>
+          <li><a href="contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
