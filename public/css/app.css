@@ -3305,6 +3305,9 @@ footer {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .section-one .inner-flex {
+      text-align: center; } }
   .section-one .inner-flex h1, .section-one .inner-flex p {
     color: #ffffff;
     padding: 1rem;
@@ -3401,6 +3404,17 @@ footer {
     font-weight: bold; }
   .features-list .feature p {
     font-size: 1rem; }
+
+/*********************************/
+/******* Home: Section *******/
+/*********************************/
+.section-four {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .section-four .columns {
+    box-shadow: 0px 3px 3px 0px black;
+    border: 1px solid black;
+    padding: 2rem; }
 
 hr.mini-hr {
   max-width: 300px !important;

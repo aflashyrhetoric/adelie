@@ -16,6 +16,8 @@
   </p>
 </div>
 
+<div class="small-12">.</div>
+
 <div class="
   small-12 
   medium-6 

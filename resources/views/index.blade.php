@@ -40,11 +40,18 @@
     </div>
 </div>
 <div class="row section section-four cta">
-    <h1>Ready to begin?</h1>
-    <h4>Let's build something great.</h4>
-    <hr class="mini-hr">
-    <a class="button" href="contact">Request A Quote</a>
-    <br>
-    <a href="meet">Or, click here to meet the team!</a>
+    <div class="
+    small-12 
+    small-centered
+    medium-10 
+    large-4
+    columns">
+        <h1>Ready to begin?</h1>
+        <h4>Let's build something great.</h4>
+        <hr class="mini-hr">
+        <a class="button" href="contact">Request A Quote</a>
+        <br>
+        <a href="meet">Or, click here to meet the team!</a>
+    </div>
 </div>
 @endsection
