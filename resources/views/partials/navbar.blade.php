@@ -21,8 +21,8 @@
             <a href="#">SERVICES</a>
             <ul class="submenu menu vertical" data-submenu>
               <li><a href="services/webdev">WEB DEVELOPMENT</a></li>
-              <li><a href="#">GRAPHIC DESIGN</a></li>
-              <li><a href="#">BRANDING</a></li
+              <li><a href="services/graphic_design">GRAPHIC DESIGN</a></li>
+              <li><a href="services/branding">BRANDING</a></li
               >
             </ul>
           </li>

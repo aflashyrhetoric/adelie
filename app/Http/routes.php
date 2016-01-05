@@ -15,3 +15,19 @@ Route::get('/', function () {
     return view('index');
 });
 
+// Invalid route, return to index page
+Route::get('/services/', function () {
+    return view('index');
+});
+
+Route::get('/services/webdev', function () {
+    return view('services/webdev');
+});
+
+Route::get('/services/graphic_design', function () {
+    return view('services/graphic_design');
+});
+
+Route::get('/services/branding', function () {
+    return view('services/branding');
+});

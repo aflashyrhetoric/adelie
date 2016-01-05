@@ -3245,18 +3245,64 @@ html {
 /*********************************/
 /******* Home: Section One *******/
 /*********************************/
+.outer-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 .section-one {
-  background-color: #3A539B;
-  color: #ffffff;
-  text-align: center;
-  padding-bottom: 2rem; }
-  .section-one h1 {
-    font-family: "corporate-e", sans-serif;
-    margin-bottom: 1rem;
-    font-size: 5rem;
-    letter-spacing: -0.2rem; }
-  .section-one p {
-    font-size: 1.2rem; }
+  background: url("../img/bg.jpg") #DCDCDC no-repeat 50% 90% fixed;
+  background-size: cover; }
+  .section-one .inner-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .section-one .inner-flex h1, .section-one .inner-flex p {
+      padding: 0.5rem;
+      color: #ffffff;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .section-one .inner-flex p {
+      font-size: 1.4rem; }
+    .section-one .inner-flex a {
+      font-size: 1.2rem;
+      padding: 1rem;
+      font-weight: bold; }
+    .section-one .inner-flex h1 {
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "corporate-e", sans-serif;
+      margin-bottom: 1rem;
+      font-size: 5rem;
+      letter-spacing: -0.2rem;
+      padding: 1rem; }
   .section-one a {
     margin-top: 1rem;
     border: 1px solid #5f78c3;
@@ -3264,10 +3310,10 @@ html {
     color: white;
     background-color: #334988; }
     .section-one a:hover {
-      background-color: #2e417a; }
+      background-color: #253563; }
   @media screen and (min-width: 64em) {
     .section-one {
-      height: 20rem; } }
+      height: 40rem; } }
 
 /*********************************/
 /******* Home: Section *******/
