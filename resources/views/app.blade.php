@@ -19,10 +19,12 @@
       </footer>
     </div>
     <!-- jQuery + Foundation Import -->
+
     <script src="/js/jquery.js"></script>
     <!-- Compressed JavaScript -->
     <script src="/js/vendor.js"></script>
     <script src="/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.min.js"></script>
     <script>$(document).foundation();</script>
   </body>
 </html>

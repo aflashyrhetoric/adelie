@@ -8,6 +8,10 @@
 $service-color: #4C4C4C;
 
 .section-two {
+  i {
+    color: $primary-color;
+    padding-bottom: 1rem;
+  }
 
   // Margin 
   margin-top: 0;
@@ -39,11 +43,13 @@ $service-color: #4C4C4C;
 
 .services-list{
   // background-color: $primary-color;
+  // WEB DESIGN, WEB DEV
   .service {
     color: white;
     padding: 10px;
     h4 {
-      color: $primary-color;
+      // color: $primary-color;
+      color: $service-color;
       font-weight: bold;
     }
     p{

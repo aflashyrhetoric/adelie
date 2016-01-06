@@ -3207,7 +3207,7 @@ html {
   top: 0;
   background-color: #3A539B;
   padding: 0px;
-  padding-bottom: 0.2rem; }
+  padding-bottom: 0.3rem; }
   .top-bar ul {
     background-color: transparent; }
   .top-bar ul li a {
@@ -3231,12 +3231,17 @@ html {
   letter-spacing: -0.05em; }
 
 footer {
-  min-height: 22rem;
   border-top: 10px solid #666666;
   text-align: center; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    footer {
+      min-height: 0rem; } }
+  @media screen and (min-width: 40em) {
+    footer {
+      min-height: 16rem; } }
   footer .footer-body {
     padding: 1rem;
-    min-height: 19rem; }
+    min-height: 14rem; }
   footer .footer-body:nth-child(1) {
     background-color: #4C4C4C; }
     footer .footer-body:nth-child(1) .footer-logo {
@@ -3249,6 +3254,7 @@ footer {
     footer .footer-body:nth-child(2) h2, footer .footer-body:nth-child(2) span {
       color: #ffffff; }
   footer .footer-end {
+    text-align: right;
     padding: 0.5rem;
     border-top: 1px solid #3A539B;
     background-color: #333333; }
@@ -3256,6 +3262,50 @@ footer {
       margin-bottom: 0px;
       color: white;
       font-family: "raleway", sans-serif; }
+
+/*********************/
+/****** SERVICES *****/
+/*********************/
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .service-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
+
+@media screen and (min-width: 40em) {
+  .service-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem; } }
+
+.service-container .anchor-item {
+  padding-top: 4rem;
+  margin-top: -4rem;
+  font-weight: bold; }
+
+.service-container h2 {
+  font-size: 2rem;
+  font-weight: bold; }
+
+.service-container h2, .service-container h4 {
+  color: #3A539B; }
+
+@media screen and (min-width: 40em) {
+  .service-container .webdev-process {
+    margin-bottom: 3rem; } }
+
+.service-container .webdev-process strong, .service-container .webdev-process b, .service-container .webdev-process li.success {
+  color: #3A539B; }
+
+.service-container .cta-box {
+  text-align: center; }
+  .service-container .cta-box h3 {
+    font-weight: bold; }
+
+.service-container .boxed {
+  padding: 1rem; }
+  @media screen and (min-width: 40em) {
+    .service-container .boxed {
+      border: 1px solid gray;
+      box-shadow: 0px 3px 3px 0px gray; } }
 
 /*********************************/
 /******* SECTION IMPORTS *********/
@@ -3302,15 +3352,20 @@ footer {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start; }
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .section-one .inner-flex {
       text-align: center; } }
+  @media screen and (min-width: 64em) {
+    .section-one .inner-flex {
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start; } }
   .section-one .inner-flex h1, .section-one .inner-flex p {
     color: #ffffff;
-    padding: 1rem;
+    padding: 0.5rem;
     padding-top: 0rem;
     padding-bottom: 0.1rem; }
     @media screen and (min-width: 40em) {
@@ -3326,6 +3381,7 @@ footer {
       .section-one .inner-flex a {
         margin-left: 1rem; } }
   .section-one .inner-flex h1 {
+    line-height: 4rem;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -3334,10 +3390,18 @@ footer {
     align-items: center;
     font-family: "corporate-e", sans-serif;
     margin-bottom: 1rem;
-    font-size: 5rem;
     letter-spacing: -0.2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .section-one .inner-flex h1 {
+        margin-top: 2rem; } }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .section-one .inner-flex h1 {
+        font-size: 5rem; } }
+    @media screen and (min-width: 64em) {
+      .section-one .inner-flex h1 {
+        font-size: 5rem; } }
 
 .section-one a {
   margin-top: 1rem;
@@ -3359,6 +3423,9 @@ footer {
   width: 100%;
   padding-top: 1rem;
   border-top: 5px solid #3A539B; }
+  .section-two i {
+    color: #3A539B;
+    padding-bottom: 1rem; }
   .section-two .service-description {
     color: #4C4C4C;
     padding: 1rem; }
@@ -3376,7 +3443,7 @@ footer {
   color: white;
   padding: 10px; }
   .services-list .service h4 {
-    color: #3A539B;
+    color: #4C4C4C;
     font-weight: bold; }
   .services-list .service p {
     color: #4C4C4C;
@@ -3409,17 +3476,27 @@ footer {
 /******* Home: Section *******/
 /*********************************/
 .section-four {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .section-four {
+      background-color: #ffffff; } }
+  @media screen and (min-width: 40em) {
+    .section-four {
+      background: url("../img/desk.jpg") #DCDCDC no-repeat 70% 40% fixed;
+      background-size: cover; } }
   .section-four .columns {
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0px 3px 3px 0px black;
     border: 1px solid black;
     padding: 2rem; }
 
 hr.mini-hr {
   max-width: 300px !important;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem; }
 
 ul.lstn {
   list-style-type: none;

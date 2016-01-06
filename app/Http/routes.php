@@ -16,17 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/services', 'StaticPagesController@redirectToHome');
-
+Route::get('/services/about', 'StaticPagesController@about');
 Route::get('/services/webdev', 'StaticPagesController@webdev');
-
-Route::get('/services/graphic_design', function () {
-  return view('services/graphic_design');
-});
-
-Route::get('/services/branding', function () {
-  return view('services/branding');
-});
-
-Route::get('/meet', function () {
-  return view('meet');
-});
+Route::get('/services/graphic_design', 
+  'StaticPagesController@graphicDesign');
+Route::get('/services/branding', 'StaticPagesController@branding');
+Route::get('/services/meet', 'StaticPagesController@meet');
+Route::get('/services/contact', 'StaticPagesController@contact');

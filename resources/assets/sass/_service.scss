@@ -1,0 +1,58 @@
+/*********************/
+/****** SERVICES *****/
+/*********************/
+
+.service-container {
+  @include breakpoint(small only) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  @include breakpoint(medium up) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .anchor-item{
+    padding-top: 4rem;
+    margin-top: -4rem;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  // subheading
+  h2, h4 {
+    color: $primary-color;
+  }
+
+  .webdev-process {
+    @include breakpoint(medium up) {
+      margin-bottom: 3rem; 
+    }
+
+    
+    strong, b, li.success {
+      color: $primary-color;
+    }
+  }
+
+  .cta-box {
+    h3{
+      font-weight: bold;
+    }
+    text-align: center;
+  }
+
+  .boxed {
+    padding: 1rem;
+    // These aspects should only work on larger screen sizes
+    @include breakpoint(medium up) {
+      border: 1px solid gray;
+      box-shadow: 0px 3px 3px 0px gray;
+    }
+  }
+}

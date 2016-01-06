@@ -2,6 +2,7 @@
   small-12
   medium-6
   columns service">
+  <i class="fa fa-laptop fa-4x"></i>
   <h4>Web Design</h4>
   <p>
     Using industry standard software like Sketch and llustrator, we create wireframes and "look-and-feel" mock-ups of beautiful web designs customized to synergize with your existing brand, business, and needs. 
@@ -15,6 +16,7 @@
   small-12
   medium-6 
   columns service">
+  <i class="fa fa-code fa-4x"></i>
   <h4>Web Development</h4>
   <p>
     There's more to a modern website than just HTML. We use modern tech stacks (Laravel, NGINX) and front-end tooling (SCSS, Foundation, TypeKit) to build a web solution that suits your budget, timeline, experience, and brand. For simpler sites with more modest budgets, we'll utilize existing web platforms (SquareSpace, Shopify, WordPress) as a starting point.

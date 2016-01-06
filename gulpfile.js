@@ -26,7 +26,6 @@ elixir(function(mix) {
     'node_modules/jquery/dist/'
   ).scripts(
     [
-    'foundation.core.js',
     '*.js'
     ],
     'public/js/vendor.js',

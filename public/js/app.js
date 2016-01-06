@@ -7,4 +7,10 @@ $('a#learn-more').click(function(){
     return false;
 });
 
+$('#adelie-logo').hover(function(){
+  $(this).css('cursor', 'pointer');
+});
+$('#adelie-logo').click(function(){
+  window.location.href = '/';
+});
 //# sourceMappingURL=app.js.map

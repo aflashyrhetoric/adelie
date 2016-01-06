@@ -16,74 +16,40 @@ class StaticPagesController extends Controller
        return redirect('/');
     }
 
+    // About
+    public function about(){
+        return view('about');
+    }
+
+    /*********************************/
+    /******* SERVICES SECTION ********/
+    /*********************************/
     public function webdev()
     {
-       return view('services/webdev');
+       return view('services.webdev');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+    public function graphicDesign(){
+        return view('services.graphic_design');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
+    public function branding(){
+        return view('services.branding');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+
+    public function meet(){
+        return view('partials.meet');
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
+    public function contact(){
+        return view('partials.contact');
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+    // SEND CONTACT MESSAGE
+    public function sendMessage(Request $request)
     {
-        //
+       // Send contact message 
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
 }

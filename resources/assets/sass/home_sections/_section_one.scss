@@ -27,15 +27,19 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: flex-start;
-
+    @include breakpoint(small up) {
+      align-items: center; 
+    }
     @include breakpoint(medium only) {
       text-align: center;
+    }
+    @include breakpoint(large up) {
+      align-items: flex-start;
     }
 
     h1, p {
       color: $white;
-      padding: 1rem;
+      padding: 0.5rem;
       padding-top: 0rem;
       padding-bottom: 0.1rem;
 
@@ -60,14 +64,23 @@
 
     //adelie
     h1{
+      line-height: 4rem;
       justify-content: center;
       align-items: center;
       font-family: $corporate_e;
       margin-bottom: 1rem;
-      font-size: 5rem;
       letter-spacing: -0.2rem;
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
+      @include breakpoint(medium only) {
+       margin-top: 2rem; 
+      }
+      @include breakpoint(small only) {
+        font-size: 5rem;
+      }
+      @include breakpoint(large up) {
+        font-size: 5rem;
+      }
     }
   }
 

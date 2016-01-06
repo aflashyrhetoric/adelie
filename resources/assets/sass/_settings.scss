@@ -18,6 +18,9 @@ html {
   height: 100%;
 }
 
+body {
+}
+
 // Foundation overrides
 .title-bar {
   background-color: $background-color;
@@ -43,7 +46,7 @@ html {
     }
   }
   padding: 0px;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.3rem;
 }
 
 // Adelie
@@ -69,13 +72,18 @@ $footer-color: #4C4C4C;
 // Footer
 footer{
 
-  min-height: 22rem;
+  @include breakpoint(small only) {
+    min-height: 0rem;
+  }
+  @include breakpoint(medium up) {
+    min-height: 16rem;
+  }
   border-top: 10px solid lighten($footer-color, 10);
   text-align: center;
 
   .footer-body {
     padding: 1rem;
-    min-height: 19rem;
+    min-height: 14rem;
   }
 
   // Left-side Footer
@@ -101,6 +109,7 @@ footer{
 
 
   .footer-end{
+    text-align: right;
     padding: 0.5rem;
     border-top: 1px solid $primary-color;
     background-color: #333333;

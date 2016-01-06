@@ -6,3 +6,10 @@ $('a#learn-more').click(function(){
     }, 800);
     return false;
 });
+
+$('#adelie-logo').hover(function(){
+  $(this).css('cursor', 'pointer');
+});
+$('#adelie-logo').click(function(){
+  window.location.href = '/';
+});

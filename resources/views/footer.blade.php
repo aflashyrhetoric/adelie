@@ -12,7 +12,7 @@
 <div class="hide-for-small-only
   medium-6
   large-6 columns footer-body">
-  <h2>CONTACT</h2>
+  <h2>Contact</h2>
   <hr class="mini-hr">
   <i class="fa fa-envelope"></i> 
   <span>Email: contact@adelieweb.com</span>
@@ -25,5 +25,5 @@
 </div>
 <div class="
   medium-12 columns footer-end">
-  <h4>ADELIE | COPYRIGHT 2016</h4>
+  <h4>adelie | copyright 2016</h4>
 </div>
