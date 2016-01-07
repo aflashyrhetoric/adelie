@@ -26,8 +26,8 @@
               >
             </ul>
           </li>
-          <li><a href="meet">MEET THE TEAM</a></li>
-          <li><a href="contact">CONTACT</a></li>
+          <li><a href="/meet">MEET THE TEAM</a></li>
+          <li><a href="/contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
