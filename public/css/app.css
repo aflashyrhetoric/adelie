@@ -3266,6 +3266,36 @@ footer {
 /*********************/
 /****** SERVICES *****/
 /*********************/
+.service-hero {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .service-hero .service-hero-inner h1, .service-hero .service-hero-inner h2, .service-hero .service-hero-inner p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 1rem; }
+  .service-hero .service-hero-inner a {
+    text-decoration: underline;
+    color: #5f78c3; }
+
+.webdev-hero {
+  background: url("../img/webdev.jpg") #DCDCDC no-repeat 70% 50%;
+  background-size: cover; }
+
+.services-nav li {
+  background-color: #3A539B; }
+  .services-nav li#current-service {
+    padding-right: 0.5rem; }
+  .services-nav li:not(#current-service) {
+    padding: .2rem;
+    padding-left: 0.5rem; }
+  .services-nav li .is-down-arrow > a::after {
+    border-color: #3A539B; }
+  .services-nav li a {
+    color: white; }
+  .services-nav li:hover {
+    background-color: #5f78c3; }
+
 @media screen and (min-width: 0em) and (max-width: 39.9375em) {
   .service-container {
     padding-top: 1rem;
@@ -3304,8 +3334,13 @@ footer {
   padding: 1rem; }
   @media screen and (min-width: 40em) {
     .service-container .boxed {
-      border: 1px solid gray;
+      border: 1px solid lightgray;
       box-shadow: 0px 3px 3px 0px gray; } }
+
+.meet-container {
+  padding: 4rem; }
+  .meet-container .meet-inner-container {
+    text-align: center; }
 
 /*********************************/
 /******* SECTION IMPORTS *********/
@@ -3323,101 +3358,112 @@ footer {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-
-@media screen and (min-width: 40em) {
-  .section-one {
-    background: url("../img/bg.jpg") #DCDCDC no-repeat 50% 90% fixed;
-    background-size: cover; } }
-
-@media screen and (min-width: 0em) and (max-width: 39.9375em) {
-  .section-one {
-    background-color: #3A539B; } }
-
-.section-one .inner-flex {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    .section-one .inner-flex {
-      text-align: center; } }
+  justify-content: center; }
   @media screen and (min-width: 64em) {
-    .section-one .inner-flex {
-      -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-      align-items: flex-start; } }
-  .section-one .inner-flex h1, .section-one .inner-flex p {
-    color: #ffffff;
-    padding: 0.5rem;
-    padding-top: 0rem;
-    padding-bottom: 0.1rem; }
-    @media screen and (min-width: 40em) {
-      .section-one .inner-flex h1, .section-one .inner-flex p {
-        background-color: rgba(0, 0, 0, 0.5); } }
-  .section-one .inner-flex p {
-    font-size: 1.4rem; }
-  .section-one .inner-flex a {
-    font-size: 1.2rem;
-    padding: 1rem;
-    font-weight: bold; }
-    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-      .section-one .inner-flex a {
-        margin-left: 1rem; } }
-  .section-one .inner-flex h1 {
-    line-height: 4rem;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    .outer-flex {
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; } }
+  @media screen and (min-width: 40em) {
+    .outer-flex {
+      background: url("../img/bg.jpg") #DCDCDC no-repeat 30% 0%;
+      background-size: cover; } }
+  @media screen and (min-width: 64em) {
+    .outer-flex {
+      background: url("../img/bg.jpg") #DCDCDC no-repeat 50% 90% fixed;
+      background-size: cover; } }
+
+.section-one {
+  background-color: #3A539B; }
+  .section-one .inner-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    font-family: "corporate-e", sans-serif;
-    margin-bottom: 1rem;
-    letter-spacing: -0.2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-      .section-one .inner-flex h1 {
-        margin-top: 2rem; } }
-    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-      .section-one .inner-flex h1 {
-        font-size: 5rem; } }
+    text-align: center; }
     @media screen and (min-width: 64em) {
-      .section-one .inner-flex h1 {
-        font-size: 5rem; } }
-
-.section-one a {
-  margin-top: 1rem;
-  color: white;
-  background-color: #334988; }
-  .section-one a:hover {
-    background-color: #253563; }
-
-@media screen and (min-width: 64em) {
-  .section-one {
-    height: 40rem; } }
+      .section-one .inner-flex {
+        margin-left: 130px; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .section-one .inner-flex {
+        text-align: center; } }
+    @media screen and (min-width: 64em) {
+      .section-one .inner-flex {
+        text-align: left;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start; } }
+    .section-one .inner-flex h1, .section-one .inner-flex p {
+      color: black;
+      padding: 1rem;
+      padding-left: 0px;
+      padding-top: 0rem;
+      padding-bottom: 0.1rem; }
+    .section-one .inner-flex p.adelie-description {
+      font-size: 1.8rem; }
+      @media screen and (min-width: 40em) {
+        .section-one .inner-flex p.adelie-description {
+          width: 630px; } }
+    .section-one .inner-flex a {
+      font-size: 1.2rem;
+      padding: 1rem;
+      font-weight: bold; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .section-one .inner-flex a {
+          margin-left: 1rem; } }
+    .section-one .inner-flex h1 {
+      line-height: 4rem;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "corporate-e", sans-serif;
+      margin-bottom: 1rem;
+      letter-spacing: -0.2rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        .section-one .inner-flex h1 {
+          margin-top: 2rem; } }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .section-one .inner-flex h1 {
+          font-size: 5rem; } }
+      @media screen and (min-width: 64em) {
+        .section-one .inner-flex h1 {
+          font-size: 5rem; } }
+  .section-one a {
+    margin-top: 1rem;
+    color: white;
+    background-color: #334988; }
+    .section-one a:hover {
+      background-color: #253563; }
+  @media screen and (min-width: 64em) {
+    .section-one {
+      height: 40rem; } }
 
 /*********************************/
 /******* Home: Section *******/
 /*********************************/
 .section-two {
+  background-color: #FFFFFF;
   margin-top: 0;
   max-width: 100%;
   width: 100%;
@@ -3455,7 +3501,9 @@ footer {
 .section-three {
   padding-top: 1rem;
   background-color: #3A539B;
-  box-shadow: 0px 3px 5px 0px black; }
+  box-shadow: 0px 3px 5px 0px black;
+  margin-bottom: 1rem;
+  z-index: 5; }
   .section-three .feature-description {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -3476,6 +3524,7 @@ footer {
 /******* Home: Section *******/
 /*********************************/
 .section-four {
+  z-index: 0;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-top: 0;
@@ -3485,7 +3534,7 @@ footer {
       background-color: #ffffff; } }
   @media screen and (min-width: 40em) {
     .section-four {
-      background: url("../img/desk.jpg") #DCDCDC no-repeat 70% 40% fixed;
+      background: url("../img/desk.jpg") #DCDCDC no-repeat 70% 90% fixed;
       background-size: cover; } }
   .section-four .columns {
     background-color: rgba(255, 255, 255, 0.7);

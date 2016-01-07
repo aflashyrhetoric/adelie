@@ -2,9 +2,8 @@
 @section('content')
 <div class="section-one outer-flex">
     <div class="inner-flex">
-        <h1>Hello!</h1>
-        <p>We are Adelie. A small, full-service creative studio based in Long Island, NY.</p>
-        <p>We aim to elevate small businesses by leveraging the power of the web.</p>
+        <h1>hello!</h1>
+        <p class="adelie-description">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p>
         <a href="#learn-more" class="button">LEARN MORE</a>
     </div>
 </div>

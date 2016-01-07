@@ -11,6 +11,8 @@ $feature-color: #4C4C4C;
   padding-top: 1rem;
   background-color: $primary-color;
   box-shadow: 0px 3px 5px 0px black;
+  margin-bottom: 1rem;
+  z-index: 5;
 
   .feature-description {
     margin-top: 1rem;

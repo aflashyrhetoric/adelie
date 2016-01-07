@@ -26,15 +26,22 @@ class StaticPagesController extends Controller
     /*********************************/
     public function webdev()
     {
-       return view('services.webdev');
+
+    $current_service = 'Web Development';
+    return view('services.webdev')->with('current_service', 
+        $current_service);
+
     }
 
     public function graphicDesign(){
-        return view('services.graphic_design');
+        $current_service = 'Graphic Design';
+        return view('services.graphic_design')->with('current_service', $current_service);
     }
 
     public function branding(){
-        return view('services.branding');
+        $current_service = 'Branding';
+        return view('services.branding')->with(
+            'current_service', $current_service);
     }
 
 

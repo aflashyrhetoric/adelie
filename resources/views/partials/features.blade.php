@@ -3,7 +3,7 @@
   medium-6 
   columns feature">
     <h4>Start To Finish</h4>
-    <p>From establishing a unique brand, to creating website mockups, and finally to deploying a full-fledged website all your own, we can help you with it all. From start to finish, we'll help you organize your thoughts and explore your options - all in one place.</p>
+    <p>From establishing a unique visual brand, to creating website mockups, and finally to deploying a full-fledged website all your own - we can help you with it all. From start to finish, we'll help you organize your thoughts and explore your options - all in one place.</p>
 </div>
 
 <div class="
@@ -12,7 +12,7 @@
   columns feature">
   <h4>Invested In Your Success</h4>
   <p>
-    At Adelie, we acknowledge the difference between "project completion" and "project success." Our goal isn't to spit out logos, websites, and photos at our clients. We'll work with you to provide <i>real</i> business value to our clients. 
+    At Adelie, we acknowledge the difference between "project completion" and "project success." Our goal isn't to spit out logos, websites, and photos then call it a done deal; we seek to equip our clients with the tools necessary to compete in today's design-minded digital era. 
   </p>
 </div>
 

@@ -6,11 +6,12 @@
 // 2 REM: 32px;
 
 .section-four {
+  z-index: 0;
   @include breakpoint(small only) {
     background-color: $white;
   }
   @include breakpoint(medium up) {
-    @include cover-bg('../img/desk.jpg', 70%, 40%);
+    @include cover-bg('../img/desk.jpg', 70%, 90%);
   }
   .columns{
     background-color: rgba(255,255,255,0.7);

@@ -9,47 +9,63 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
+  @include breakpoint(small up) {
+    justify-content: center;
+  }
+  @include breakpoint(large up) {
+    justify-content: flex-start;
+  }
+  @include breakpoint(medium up) {
+    @include cover-bg-nofixed('../img/bg.jpg', 30%, 0%);
+  }
+  @include breakpoint(large up) {
+    @include cover-bg('../img/bg.jpg', 50%, 90%);
+  }
 }
 
 .section-one {
-  //bg
-  @include breakpoint(medium up) {
-    @include cover-bg('../img/bg.jpg', 50%, 90%);
-  }
 
-  @include breakpoint(small only) {
+  @include breakpoint(small up) {
     background-color: $primary-color;
   }
   .inner-flex {
+    @include breakpoint(large up) {
+      margin-left: 130px;
+    }
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
     @include breakpoint(small up) {
       align-items: center; 
+      text-align: center;
     }
     @include breakpoint(medium only) {
       text-align: center;
     }
     @include breakpoint(large up) {
+      text-align: left;
       align-items: flex-start;
     }
 
     h1, p {
-      color: $white;
-      padding: 0.5rem;
+      color: black;
+      padding: 1rem;
+      padding-left: 0px;
       padding-top: 0rem;
       padding-bottom: 0.1rem;
 
       @include breakpoint(medium up) {
-        background-color: rgba(0,0,0,0.5);
+        // background-color: rgba(0,0,0,0.5);
       }
     }
 
-    p {
-      font-size: 1.4rem;
+    p.adelie-description {
+      font-size: 1.8rem;
+      @include breakpoint(medium up) {
+        width: 630px;
+      }
     }
 
     a {
@@ -74,15 +90,15 @@
       padding-bottom: 0.5rem;
       @include breakpoint(medium only) {
        margin-top: 2rem; 
-      }
-      @include breakpoint(small only) {
-        font-size: 5rem;
-      }
-      @include breakpoint(large up) {
-        font-size: 5rem;
-      }
+     }
+     @include breakpoint(small only) {
+      font-size: 5rem;
+    }
+    @include breakpoint(large up) {
+      font-size: 5rem;
     }
   }
+}
 
   // background-color :$primary-color;
 

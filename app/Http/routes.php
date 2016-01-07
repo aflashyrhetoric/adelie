@@ -21,5 +21,5 @@ Route::get('/services/webdev', 'StaticPagesController@webdev');
 Route::get('/services/graphic_design', 
   'StaticPagesController@graphicDesign');
 Route::get('/services/branding', 'StaticPagesController@branding');
-Route::get('/services/meet', 'StaticPagesController@meet');
-Route::get('/services/contact', 'StaticPagesController@contact');
+Route::get('/meet', 'StaticPagesController@meet');
+Route::get('/contact', 'StaticPagesController@contact');

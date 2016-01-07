@@ -21,15 +21,22 @@ elixir(function(mix) {
 
   // JS
   mix.scripts(
+    // Get this
     'jquery.min.js',
+    // And put it here
     'public/js/jquery.js',
+    // And look here for it
     'node_modules/jquery/dist/'
   ).scripts(
+    // Get these files 
     [
+    'foundation.js',
     '*.js'
     ],
+    // Put here
     'public/js/vendor.js',
-    'node_modules/foundation-sites/js/'
+    // Look here for it
+    'node_modules/foundation-sites/dist'
   ).scripts(
     ['app.js'],
     'public/js/app.js',

@@ -67,6 +67,14 @@ body {
   background-size: cover;
 }
 
+@mixin cover-bg-nofixed($img, $x-pos, $y-pos) {
+  background: url($img) #DCDCDC no-repeat $x-pos $y-pos;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 $footer-color: #4C4C4C;
 
 // Footer
