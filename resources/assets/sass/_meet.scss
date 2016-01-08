@@ -1,6 +1,68 @@
 .meet-container {
   padding: 4rem; 
-  .meet-inner-container {
+  .meet-header-container {
+    @include cover-bg('../img/pattern.png', 50%, 50%);
+    background-size: cover;
     text-align: center;
+    margin-bottom: 3rem;
+    h1{
+      font-size: 4em;
+    }
+  }
+
+  $lightgray: #ccc;
+  $branding-color: #9c3a52;
+
+  .boxed {
+    // border: 1px solid $lightgray;
+    // box-shadow: 0px 3px 4px 0px gray;
+    @include breakpoint(medium only) {
+      padding: 1.5rem;
+    }
+    @include breakpoint(large up) {
+      padding: 3rem;
+    }
+    padding-bottom: 1rem;
+    text-align: center;
+
+    img {
+      box-shadow: 0px 3px 4px 0px gray;
+      margin: auto;
+      border-radius: 90px;
+      border: 3px solid white;
+      margin-bottom: 2rem;
+    }
+
+    h2{
+      font-weight: bold;
+    }
+  }
+
+  $darkening-amount: 10;
+  .kevin {
+    // background-color: $primary-color;
+    h4 {
+      color: $primary-color;
+    }
+    hr {
+      border-color: $primary-color;
+    }
+  }
+  .yuna {
+    // background-color: $branding-color;
+    h4 {
+      color: $branding-color;
+    }
+    hr {
+      border-color: $branding-color;
+    }
+  }
+  .team-member {
+    h2,p{
+      color: #181818;
+    }
+    p{
+      text-align: justify;
+    }
   }
 }
