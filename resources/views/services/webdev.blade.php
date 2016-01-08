@@ -50,7 +50,7 @@
     <h4 id="whatsittake" class="anchor-item">2. What does it take to make a site?</h4>
     <hr>
     <p>We'll give you a glimpse into what we do here at Adelie. </p>
-    <p>Here are some of the steps required in creating a well-designed, modern website. These steps are necessary whether they're handled by you, an agency like us, or a DIY service platform (such as SquareSpace, Wix, etc)):</p>
+    <p>Here are some of the steps required in creating a well-designed, modern website. These steps are necessary whether they're handled by you, an agency like us, or a DIY service platform (such as SquareSpace, Wix, etc):</p>
     <ol>
       <li>Registering a domain name through a trusted registrar</li>
       <li>Finding a cost-effective web host & plan</li>
@@ -98,7 +98,7 @@
     <hr>
     <p>Web development is also an umbrella term of sorts, but it essentially refers to the practice of <em>programming</em> and <em>developing</em> websites. It is the implementation step where we turn all of our planning, preparation, and assets into a functional website.</p>
     <p>At Adelie, we use a variety of tools to build a variety of websites. Different tools are used depending on the deadline, budget, complexity, and flexibility required. </p>
-    <p> Due to the highly technical nature of web development, we figured most people wouldn't be interested. Still, if you want to learn more about our preferred tech stack, web hosts, registrars, etc, feel free to message us at contact@adelieweb.com, or by <a href="/contact">clicking here.</a></p>
+    <p>In the interest of brevity, we'll omit the technical details on this page, but if you want to learn more about our preferred tech stack, web hosts, registrars, etc, feel free to message us at contact@adelieweb.com, or by <a href="/contact">clicking here.</a></p>
     <a href="#top">(Back To Top)</a><br><br>
     <div class="boxed cta-box">
       <h2>Interested in web services?</h2>

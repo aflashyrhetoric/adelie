@@ -3377,6 +3377,14 @@ footer {
   .meet-container .team-member p {
     text-align: justify; }
 
+/*****************************/
+/******* Contact SCSS ********/
+/*****************************/
+.contact-container {
+  padding-top: 4rem; }
+  .contact-container .contact-header {
+    text-align: center; }
+
 /*********************************/
 /******* SECTION IMPORTS *********/
 /*********************************/

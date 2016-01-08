@@ -1,6 +1,6 @@
 <div class="
   small-12
-  medium-6
+  medium-6 
   columns service">
   <i class="fa fa-laptop fa-4x"></i>
   <h4>Web Design</h4>

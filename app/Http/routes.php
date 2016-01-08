@@ -22,4 +22,7 @@ Route::get('/services/graphic_design',
   'StaticPagesController@graphicDesign');
 Route::get('/services/branding', 'StaticPagesController@branding');
 Route::get('/meet', 'StaticPagesController@meet');
-Route::get('/contact', 'StaticPagesController@contact');
+
+// Contacts
+Route::get('/contact', 'ContactsController@newMessage');
+Route::post('/contact', 'ContactsController@sendMessage');
