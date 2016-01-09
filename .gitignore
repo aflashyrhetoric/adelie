@@ -3,7 +3,6 @@
 /bower_components
 /components
 /bootstrap
-/public
 Homestead.yaml
 Homestead.json
 .env
