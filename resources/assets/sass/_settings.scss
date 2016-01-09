@@ -86,17 +86,20 @@ footer{
   @include breakpoint(medium up) {
     min-height: 16rem;
   }
-  border-top: 10px solid lighten($footer-color, 10);
+  border-top: 3px solid lighten($footer-color, 10);
   text-align: center;
 
   .footer-body {
+    background-color: $footer-color;
     padding: 1rem;
     min-height: 14rem;
+    h2, span, i, ul li, ul li a {
+      color: $white;
+    }
   }
 
   // Left-side Footer
   .footer-body:nth-child(1){
-    background-color: $footer-color;
     .footer-logo {
       font-family: $corporate_e; 
       color: white;
@@ -105,14 +108,7 @@ footer{
 
   // Right-side Footer
   .footer-body:nth-child(2){
-    i {
-      color: $white;
-    }
-    h2, span {
-      color: $white;
-    }
-
-    background-color: $footer-color;
+    //
   }
 
 

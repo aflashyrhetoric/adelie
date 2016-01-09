@@ -12,11 +12,12 @@
 */
 
 Route::get('/', function () {
-  return view('index');
+  // return view('index');
+  return view('temp');
 });
 
 Route::get('/services', 'StaticPagesController@redirectToHome');
-Route::get('/services/about', 'StaticPagesController@about');
+Route::get('about', 'StaticPagesController@about');
 Route::get('/services/webdev', 'StaticPagesController@webdev');
 Route::get('/services/graphic_design', 
   'StaticPagesController@graphicDesign');

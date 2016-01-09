@@ -4,10 +4,12 @@
 
 .contact-container {
   padding-top: 4rem;
+  padding-bottom: 4rem;
   .contact-header {
+    h1 {
+      font-weight: bold;
+    }
     text-align: center;
   }
-
-
 }
 

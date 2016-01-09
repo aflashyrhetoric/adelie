@@ -3231,7 +3231,7 @@ html {
   letter-spacing: -0.05em; }
 
 footer {
-  border-top: 10px solid #666666;
+  border-top: 3px solid #666666;
   text-align: center; }
   @media screen and (min-width: 0em) and (max-width: 39.9375em) {
     footer {
@@ -3240,19 +3240,14 @@ footer {
     footer {
       min-height: 16rem; } }
   footer .footer-body {
+    background-color: #4C4C4C;
     padding: 1rem;
     min-height: 14rem; }
-  footer .footer-body:nth-child(1) {
-    background-color: #4C4C4C; }
-    footer .footer-body:nth-child(1) .footer-logo {
-      font-family: "corporate-e", sans-serif;
-      color: white; }
-  footer .footer-body:nth-child(2) {
-    background-color: #4C4C4C; }
-    footer .footer-body:nth-child(2) i {
+    footer .footer-body h2, footer .footer-body span, footer .footer-body i, footer .footer-body ul li, footer .footer-body ul li a {
       color: #ffffff; }
-    footer .footer-body:nth-child(2) h2, footer .footer-body:nth-child(2) span {
-      color: #ffffff; }
+  footer .footer-body:nth-child(1) .footer-logo {
+    font-family: "corporate-e", sans-serif;
+    color: white; }
   footer .footer-end {
     text-align: right;
     padding: 0.5rem;
@@ -3377,13 +3372,26 @@ footer {
   .meet-container .team-member p {
     text-align: justify; }
 
+/************************/
+/******* About SCSS *****/
+/************************/
+.about-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .about-container h1 {
+    font-family: "corporate-e", sans-serif;
+    letter-spacing: -3px; }
+
 /*****************************/
 /******* Contact SCSS ********/
 /*****************************/
 .contact-container {
-  padding-top: 4rem; }
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
   .contact-container .contact-header {
     text-align: center; }
+    .contact-container .contact-header h1 {
+      font-weight: bold; }
 
 /*********************************/
 /******* SECTION IMPORTS *********/

@@ -18,7 +18,7 @@ class StaticPagesController extends Controller
 
     // About
     public function about(){
-        return view('about');
+        return view('partials.about');
     }
 
     /*********************************/
@@ -44,19 +44,7 @@ class StaticPagesController extends Controller
             'current_service', $current_service);
     }
 
-
     public function meet(){
         return view('partials.meet');
     }
-
-    public function contact(){
-        return view('partials.contact');
-    }
-
-    // SEND CONTACT MESSAGE
-    public function sendMessage(Request $request)
-    {
-       // Send contact message 
-    }
-
 }
