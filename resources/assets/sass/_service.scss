@@ -9,7 +9,7 @@
   .service-hero-inner {
     h1, h2, p {
       display: inline-block;
-      background-color: rgba(0,0,0,0.2);
+      background-color: rgba(0,0,0,0.3);
       color: white;
       padding: 1rem;
     }
@@ -24,7 +24,17 @@
 
 .webdev-hero{
   @include breakpoint($medium-up) {
-    @include cover-bg-nofixed('../img/webdev.jpg', 70%, 50%);
+    @include cover-bg-nofixed('../img/webdev-bg.jpg', 70%, 50%);
+  }
+}
+.branding-hero{
+  @include breakpoint($medium-up) {
+    @include cover-bg('../img/branding-bg.jpg', 70%, 80%);
+  }
+}
+.graphicdesign-hero{
+  @include breakpoint($medium-up) {
+    @include cover-bg-nofixed('../img/graphicdesign-bg.jpg', 70%, 50%);
   }
 }
 

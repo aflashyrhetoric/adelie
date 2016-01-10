@@ -2,9 +2,9 @@
   small-12
   medium-6
   columns service">
-  <h4>Visual Branding</h4>
+  <h4>Graphic Design</h4>
   <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt neque ea inventore odit, quisquam aperiam earum est. Voluptatibus qui, aliquid odio, nemo excepturi magnam! Rerum amet sequi aut labore, blanditiis dolorem, eaque. Facilis maxime odit voluptates sint, atque quidem consectetur, voluptas, quia assumenda, nobis incidunt.
+  Graphic design is the work of visual communication. Through the thoughtful composition of type, image, and color you can expand your network, promote your business, express your ideas, and more. Adelie will help you craft beautiful visuals for your print and web needs.
   </p>
 </div>
 <div class="

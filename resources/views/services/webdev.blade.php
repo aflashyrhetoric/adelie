@@ -2,7 +2,7 @@
 @section('content')
 <div class="webdev-hero service-hero">
   <div class="service-hero-inner small-12 small-centered
-    medium-8 medium-offset-1
+    medium-7 medium-offset-1
     columns">
     <h2><strong>Services</strong></h2>
     <h2>/</h2>
@@ -21,8 +21,9 @@
     <!--Top Tag -->
     <a id="top"></a>
     @include('services/_dropdown')
-    <br><hr>
+    <br>
     <h2>Table Of Contents</h2>
+    <hr>
     <ol>
       <li><a href="#introduction">Introduction</a></li>
       <li><a href="#whatsittake">What does it take to make a site?</a></li>

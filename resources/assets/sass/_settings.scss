@@ -93,8 +93,11 @@ footer{
     background-color: $footer-color;
     padding: 1rem;
     min-height: 14rem;
-    h2, span, i, ul li, ul li a {
+    h2, span, i, ul li, ul li a, span a {
       color: $white;
+      &:visited{
+        color: $white;
+      }
     }
   }
 
@@ -106,7 +109,7 @@ footer{
     }
   }
 
-  // Right-side Footer
+  // Middle-side Footer
   .footer-body:nth-child(2){
     //
   }

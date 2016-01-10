@@ -12,8 +12,8 @@
 */
 
 Route::get('/', function () {
-  // return view('index');
-  return view('temp');
+  return view('index');
+  // return view('temp');
 });
 
 Route::get('/services', 'StaticPagesController@redirectToHome');

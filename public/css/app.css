@@ -3243,8 +3243,10 @@ footer {
     background-color: #4C4C4C;
     padding: 1rem;
     min-height: 14rem; }
-    footer .footer-body h2, footer .footer-body span, footer .footer-body i, footer .footer-body ul li, footer .footer-body ul li a {
+    footer .footer-body h2, footer .footer-body span, footer .footer-body i, footer .footer-body ul li, footer .footer-body ul li a, footer .footer-body span a {
       color: #ffffff; }
+      footer .footer-body h2:visited, footer .footer-body span:visited, footer .footer-body i:visited, footer .footer-body ul li:visited, footer .footer-body ul li a:visited, footer .footer-body span a:visited {
+        color: #ffffff; }
   footer .footer-body:nth-child(1) .footer-logo {
     font-family: "corporate-e", sans-serif;
     color: white; }
@@ -3266,7 +3268,7 @@ footer {
   padding-bottom: 7rem; }
   .service-hero .service-hero-inner h1, .service-hero .service-hero-inner h2, .service-hero .service-hero-inner p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 1rem; }
   .service-hero .service-hero-inner a {
@@ -3274,7 +3276,15 @@ footer {
     color: #5f78c3; }
 
 .webdev-hero {
-  background: url("../img/webdev.jpg") #DCDCDC no-repeat 70% 50%;
+  background: url("../img/webdev-bg.jpg") #DCDCDC no-repeat 70% 50%;
+  background-size: cover; }
+
+.branding-hero {
+  background: url("../img/branding-bg.jpg") #DCDCDC no-repeat 70% 80% fixed;
+  background-size: cover; }
+
+.graphicdesign-hero {
+  background: url("../img/graphicdesign-bg.jpg") #DCDCDC no-repeat 70% 50%;
   background-size: cover; }
 
 .services-nav li {
@@ -3335,13 +3345,13 @@ footer {
 .meet-container {
   padding: 4rem; }
   .meet-container .meet-header-container {
-    background: url("../img/pattern.png") #DCDCDC no-repeat 50% 50% fixed;
-    background-size: cover;
     background-size: cover;
     text-align: center;
     margin-bottom: 3rem; }
     .meet-container .meet-header-container h1 {
-      font-size: 4em; }
+      font-size: 5em; }
+    .meet-container .meet-header-container h2 {
+      font-size: 1.5em; }
   .meet-container .boxed {
     padding-bottom: 1rem;
     text-align: center; }
@@ -3354,7 +3364,8 @@ footer {
     .meet-container .boxed img {
       box-shadow: 0px 3px 4px 0px gray;
       margin: auto;
-      border-radius: 90px;
+      max-width: 16rem;
+      border-radius: 50%;
       border: 3px solid white;
       margin-bottom: 2rem; }
     .meet-container .boxed h2 {
