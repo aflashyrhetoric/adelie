@@ -24,7 +24,7 @@
     <p>I believe in bold designs that don't sacrifice functionality. I believe that honest conversations are the best way to sift through tons of technical details to create a great final product. So, let's talk. Let's build something great.</p>
     <p>If you're interested, please don't hesitate to contact me at <a href="mailto:koh@adelieweb.com">koh@adelieweb.com.</a></p>
     <hr>
-    <a class="button" href="/services/webdev">Read about our web development services.</a>
+    <a class="button" href="/services/webdev">Read More About Web Services</a>
   </div>
   <div class="yuna team-member small-12 medium-6 large-5 large-offset-1 columns boxed">
     <img src="../img/yuna_bw.jpg" alt="yuna">
@@ -39,8 +39,8 @@
     <p>And yes, sometimes I do make it to the gym… for Zumba. </p>
     <p>You can email me at <a href="mailto:vanessa@adelieweb.com">vanessa@adelieweb.com.</a></p>
     <hr>
-    <a class="button" href="/services/graphic_design">To learn more about our graphic design services, click here!</a>
-    <a class="button" href="/services/branding">To learn more about our web branding services, click here!</a>
+    <a class="button" href="/services/graphic_design">Read More About Graphic Design Services</a>
+    <a class="button" href="/services/branding">Read More About Branding Services</a>
   </div>
 </div>
 @endsection

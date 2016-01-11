@@ -13,7 +13,7 @@
   <h2>links</h2>
   <hr class="mini-hr">
   <ul class="lstn">
-    <li><a href="/home" class="footer-links">Home</a></li>
+    <li><a href="/" class="footer-links">Home</a></li>
     <li><a href="/about" class="footer-links">About Adelie</a></li>
     <li><a href="/meet" class="footer-links">Meet The Adelie Team</a></li>
     <li><a href="/contact" class="footer-links">Contact Us</a></li>
