@@ -1,13 +1,16 @@
 @extends('app')
 @section('content')
-<div class="branding-hero service-hero">
-  <div class="service-hero-inner small-12 small-centered
+<div class="branding-hero service-hero hide-for-small-only">
+  <div class="service-hero-inner hide-for-small-only small-12 small-centered
     medium-5 medium-offset-1
     columns">
     <h2><strong>Services</strong></h2>
     <h2>/</h2>
     <h2> {{$current_service }} </h2>
   </div>
+</div>
+<div class="small-hero show-for-small-only">
+  <h1>{{$current_service}}</h1>
 </div>
 <div class="row service-container large-uncollapse">
   <div class="

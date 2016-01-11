@@ -38,5 +38,5 @@
 </div>
 <div class="
   medium-12 columns footer-end">
-  <h4>adelie | copyright 2016</h4>
+  <h4>made with <i class="fa fa-heart"></i> by adelie | copyright 2016</h4>
 </div>

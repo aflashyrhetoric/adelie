@@ -5,9 +5,47 @@
 .about-container {
   padding-top: 4rem;
   padding-bottom: 4rem;
+
+  .mission-statement {
+    padding-top:4rem;
+    padding-bottom:4rem;
+    h2{
+      font-weight: bold;
+      font-family: $corporate_e;
+    }
+  }
+
+  .about-subheader{
+    padding: 3rem;
+    h4{
+
+    }
+  }
   
-  h1 {
-    font-family: $corporate_e;
-    letter-spacing: -3px;
+  .logo{
+    width: 250px;
+    margin: auto;
+    h1 {
+      font-family: $corporate_e;
+      letter-spacing: -3px;
+      font-size: 4rem;
+    }
+  }
+
+  span.about-highlight {
+    color: $primary-color;
+  }
+
+  .reason {
+    text-align: center;
+
+    h4 {
+      font-weight: bold;
+    }
+    i {
+      color: $primary-color;
+      padding: 1rem;
+    }
+
   }
 }

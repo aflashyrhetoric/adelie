@@ -2,7 +2,6 @@
 /* Custom SCSS For the app.
 /*************************/
 
-// Utility Classes
 .section {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -35,8 +34,18 @@ hr.mini-hr {
   margin-bottom: 1.5rem;
 }
 
+hr.md-hr {
+  max-width: 450px !important;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
 ul.lstn {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.tac{
+  text-align: center;
 }
