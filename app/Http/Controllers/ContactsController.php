@@ -29,7 +29,6 @@ class ContactsController extends Controller
                 'email' => $request->get('email'),
                 'user_message' => $request->get('message')
                 ), function($message){
-
                 $message->from('adelieweb@gmail.com', 'New Message');
                 $message->to('contact@adelieweb.com')->subject('ADELIE | New Message');
             });
