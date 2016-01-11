@@ -14,7 +14,7 @@
     <div class="small-12 medium-4 reason columns">
       <i class="fa fa-4x fa-question"></i>
       <h4>What?</h4>
-      <p>At Adelie, we offer <a href="/services/webdev">web design & development</a>, <a href="/services/graphic_design">graphic design</a>, and <a href="/services/branding">branding</a> services. We'll work with you with find a solution that suits your budget, timeline, and specific requirements.</p>
+      <p>At Adelie, we offer <a href="/services/webdev">web design & development</a>, <a href="/services/graphic_design">graphic design</a>, and <a href="/services/branding">branding</a> services. We'll work with you to find a solution that suits your budget, timeline, and specific requirements.</p>
     </div>
     <div class="small-12 medium-4 reason columns end">
       <i class="fa fa-4x fa-map-marker"></i>

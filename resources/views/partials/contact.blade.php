@@ -14,18 +14,18 @@
         @endforeach
       </ul>
 
-      @if(Session::has('message'))
-        <p>{{ Session::get('message') }}</p>
+      @if(Session::has('flash_message'))
+        <p>{{ Session::get('flash_message') }}</p>
        @endif 
     </div>
     <!-- Form -->
     {!! Form::open(array('url' => '/contact')) !!}
-    {!! Form::label('contactname', 'Name') !!}
-    {!! Form::text('contactname') !!}
-    {!! Form::label('contactemail', 'Email Address') !!}
-    {!! Form::text('contactemail') !!}
-    {!! Form::label('contactmessage', 'Message') !!}
-    {!! Form::textarea('contactmessage') !!}
+    {!! Form::label('name', 'Name') !!}
+    {!! Form::text('name') !!}
+    {!! Form::label('email', 'Email Address') !!}
+    {!! Form::text('email') !!}
+    {!! Form::label('message', 'Message') !!}
+    {!! Form::textarea('message') !!}
     {!! Form::submit('Send Message', array('class' => 'button')) !!}
     {!! Form::close() !!}
   </div>

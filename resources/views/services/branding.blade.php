@@ -67,9 +67,8 @@
     </ul>
     <p>* As needed, to be detailed further on a case-by-case basis in your contract.</p>
     <p>We are happy to work with you to come up with the best package of visual brand components that meet your needs, timeline, and budget.</p>
-    <p><a href="/contact">To request a quote, click here.</a></p>
-    <p>If there is something you need that is not listed above, <a href="/contact">please let us know.</a> Chances are we've designed it before. But if not, we are happy to accept the challenge or recommend the next best move.</p>
-    <p><em>* If you need more than just a logo design, please <a href="/services/branding">see our visual branding section.</a></em></p>
+    <p><a class="button" href="/contact">To request a quote, click here.</a></p>
+
   </div>
   <hr class="show-for-small-only">
   <!-- Sidebar -->

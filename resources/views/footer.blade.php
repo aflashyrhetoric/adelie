@@ -10,7 +10,7 @@
   </ul>
 </div>
 <div class="small-12 medium-4 footer-body columns">
-  <h2>links</h2>
+  <h2>site map</h2>
   <hr class="mini-hr">
   <ul class="lstn">
     <li><a href="/" class="footer-links">Home</a></li>
@@ -22,7 +22,7 @@
 <div class="hide-for-small-only
   medium-4
   columns footer-body">
-  <h2>social</h2>
+  <h2>links</h2>
   <hr class="mini-hr">
     <i class="fa fa-envelope fa-inverse"></i>
   <span>
