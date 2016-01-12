@@ -3221,6 +3221,12 @@ html {
     .top-bar ul.submenu li:hover {
       background-color: #4c69bc !important;
       position: relative; }
+  .top-bar .small-nav {
+    padding-left: 2rem; }
+    .top-bar .small-nav li {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid #304581; }
 
 .navbar-logo {
   font-weight: normal;
@@ -3274,8 +3280,6 @@ footer {
   text-align: center;
   padding-bottom: 1.0rem;
   padding-top: 2rem; }
-  .small-hero h1 {
-    font-size: 2rem; }
 
 .service-hero {
   padding-top: 7rem;
@@ -3364,6 +3368,11 @@ footer {
     margin-bottom: 3rem; }
     .meet-container .meet-header-container h1 {
       font-size: 5em; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .meet-container .meet-header-container h1 {
+          font-size: 3em;
+          text-align: center;
+          display: inline-block; } }
     .meet-container .meet-header-container h2 {
       font-size: 1.5em; }
   .meet-container .boxed {
@@ -3392,10 +3401,12 @@ footer {
     color: #9c3a52; }
   .meet-container .yuna hr {
     border-color: #9c3a52; }
-  .meet-container .team-member h2, .meet-container .team-member p {
-    color: #181818; }
-  .meet-container .team-member p {
-    text-align: justify; }
+  .meet-container .team-member {
+    padding-left: 0px; }
+    .meet-container .team-member h2, .meet-container .team-member p {
+      color: #181818; }
+    .meet-container .team-member p {
+      text-align: justify; }
 
 /************************/
 /******* About SCSS *****/

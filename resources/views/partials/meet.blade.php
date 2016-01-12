@@ -28,7 +28,7 @@
   </div>
   <div class="yuna team-member small-12 medium-6 large-5 large-offset-1 columns boxed">
     <img src="../img/yuna_bw.jpg" alt="yuna">
-    <h2>vanessa</h2>
+    <h2>yuna</h2>
     <h4>design & brand management</h4>
     <hr>
     <p> Born and raised in Long Island, New York to small business owners (an interior design & re-upholstery shop), I have developed a real appreciation for the time and effort it takes to making a dent in the community through your work. </p>
@@ -37,7 +37,7 @@
     <p>It brings me joy to work with clients that are grinding hard to do what they love! I love meeting new people, hearing new stories, and collaborating with new minds to churn out beautiful things! It is super exciting to be able to play a small part in anyone’s success with my design work. </p>
     <p>When I’m not working on projects, I am seriously contemplating going to the gym, working on some modern calligraphy projects, maintaining my Etsy store, or looking for new DIY projects to try. But mostly, I love making beautiful things and learning new ways to make more beautiful things. </p>
     <p>And yes, sometimes I do make it to the gym… for Zumba. </p>
-    <p>You can email me at <a href="mailto:vanessa@adelieweb.com">vanessa@adelieweb.com.</a></p>
+    <p>If you're interested, please don't hesitate to contact me at <a href="mailto:vanessa@adelieweb.com">vanessa@adelieweb.com.</a></p>
     <hr>
     <a class="button" href="/services/graphic_design">Read More About Graphic Design Services</a>
     <a class="button" href="/services/branding">Read More About Branding Services</a>

@@ -80,14 +80,14 @@
     <h4>Getting started is easy.</h4>
     <hr>
     <ol>
-      <li>You fill out our <a href="https://adelie.typeform.com/to/uO6UfN">Visual Branding Questionnaire.</a></li>
-      <li>We assess your specific needs regarding visual brand components, budget, etc. and send you a project proposal including a detailed quote. </li>
-      <li>You will have the chance to review our proposal to confirm we’re on the right track. </li>
-      <li>Once the proposal is accepted, we will send you a contract detailing the timeline of the whole project including estimated delivery dates for proofs and payment schedule(s). </li>
-      <li>We both sign a contract that protects both parties.</li>
-      <li>Once the agreed upon down payment is received, we will begin the design process!</li>
-      <li>Through the rounds of proofs, you will have regular opportunities to offer constructive feedback so we can both track with the direction of the project. </li>
-      <li>Once you are satisfied with your visual brand components, the final kit will be delivered electronically.</li>
+      <li><strong>You</strong> fill out our <a href="https://adelie.typeform.com/to/uO6UfN">Visual Branding Questionnaire.</a></li>
+      <li><strong>We</strong> assess your specific needs regarding visual brand components, budget, etc. and send you a project proposal including a detailed quote. </li>
+      <li><strong>You</strong> will have the chance to review our proposal to confirm we’re on the right track. </li>
+      <li>Once the proposal is accepted, <strong>we</strong> will send you a contract detailing the timeline of the whole project including estimated delivery dates for proofs and payment schedule(s). </li>
+      <li><strong>We</strong> both sign a contract that protects both parties.</li>
+      <li>Once the agreed upon down payment is received, <strong>we</strong> will begin the design process!</li>
+      <li>Through the rounds of proofs, <strong>you</strong> will have regular opportunities to offer constructive feedback so we can both track with the direction of the project. </li>
+      <li>Once <strong>you</strong> are satisfied with your visual brand components, the final kit will be delivered electronically.</li>
       <li><strong>Congratulations! You are finished!</strong></li>
       <li><em>We're flexible! At any time during this process we are happy to work with you to make this as smooth an experience as possible. We sincerely appreciate your feedback.</em> </li>
     </ol>

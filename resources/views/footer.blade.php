@@ -24,14 +24,16 @@
   columns footer-body">
   <h2>links</h2>
   <hr class="mini-hr">
-    <i class="fa fa-envelope fa-inverse"></i>
+  <i class="fa fa-envelope fa-inverse"></i>
   <span>
     <a href="mailto:contact@adelieweb.com"> | contact@adelieweb.com</a>
   </span>
   <br>
-    <i class="fa fa-facebook"></i>
+  <i class="fa fa-facebook"></i>
   <span>| facebook.com/adelie</span>
   <br>
+  <i class="fa fa-twitter"></i>
+  <span>| twitter.com/adelieweb</span>
   {{--   <i class="fa fa-envelope-o"></i>
   <span>contact@adelieweb.com</span>
   --}}

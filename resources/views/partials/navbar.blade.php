@@ -15,11 +15,26 @@
         </ul>
       </div>
       <div class="top-bar-right">
-        <ul class="dropdown menu" data-dropdown-menu>
+        <ul class="dropdown menu hide-for-small-only show-for-medium-up" data-dropdown-menu>
           <li><a href="/about">ABOUT</a></li>
           <li class="has-submenu">
             <a href="#">SERVICES</a>
             <ul class="submenu menu vertical" data-submenu>
+              <li><a href="/services/webdev">WEB DEVELOPMENT</a></li>
+              <li><a href="/services/graphic_design">GRAPHIC DESIGN</a></li>
+              <li><a href="/services/branding">BRANDING</a></li
+              >
+            </ul>
+          </li>
+          <li><a href="/meet">MEET THE TEAM</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+        </ul>
+        <!--Small menu -->
+        <ul class="small-nav lstn show-for-small-only" data-drilldown>
+          <li><a href="/about">ABOUT</a></li>
+          <li class="has-submenu">
+            <a href="#">SERVICES +</a>
+            <ul class="submenu vertical" data-submenu>
               <li><a href="/services/webdev">WEB DEVELOPMENT</a></li>
               <li><a href="/services/graphic_design">GRAPHIC DESIGN</a></li>
               <li><a href="/services/branding">BRANDING</a></li

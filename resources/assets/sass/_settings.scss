@@ -47,6 +47,15 @@ body {
   }
   padding: 0px;
   padding-bottom: 0.3rem;
+
+  .small-nav {
+    padding-left: 2rem;
+    li {
+      padding-top: 3px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid darken($primary-color, 7);
+    }
+  }
 }
 
 // Adelie

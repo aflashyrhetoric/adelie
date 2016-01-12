@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
     <title>Adelie</title>
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://use.typekit.net/ghk7jiq.js"></script>
@@ -10,8 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
-    @include('partials.navbar')
     <div id="site-container" class="container">
+      @include('partials.navbar')
       @yield('content')
       <!--Footer -->
       <footer>
