@@ -9,7 +9,7 @@
     <div class="small-12 medium-4 reason columns">
       <i class="fa fa-4x fa-users"></i>
       <h4>Who?</h4>
-      <p>We are a small, full-service agency. Co-founded by Kevin and Vanessa, a dynamic duo with a heart for endeavoring small businesses. To read more about us, please visit <a href="/meet">here!</a></p>
+      <p>We are a small, full-service agency. Co-founded by Kevin and Yuna, a dynamic duo with a heart for endeavoring small businesses. To read more about us, please visit <a href="/meet">here!</a></p>
     </div>
     <div class="small-12 medium-4 reason columns">
       <i class="fa fa-4x fa-question"></i>

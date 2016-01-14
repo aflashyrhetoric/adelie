@@ -37,7 +37,7 @@
     <p>It brings me joy to work with clients that are grinding hard to do what they love! I love meeting new people, hearing new stories, and collaborating with new minds to churn out beautiful things! It is super exciting to be able to play a small part in anyone’s success with my design work. </p>
     <p>When I’m not working on projects, I am seriously contemplating going to the gym, working on some modern calligraphy projects, maintaining my Etsy store, or looking for new DIY projects to try. But mostly, I love making beautiful things and learning new ways to make more beautiful things. </p>
     <p>And yes, sometimes I do make it to the gym… for Zumba. </p>
-    <p>If you're interested, please don't hesitate to contact me at <a href="mailto:vanessa@adelieweb.com">vanessa@adelieweb.com.</a></p>
+    <p>If you're interested, please don't hesitate to contact me at <a href="mailto:yuna@adelieweb.com">yuna@adelieweb.com.</a></p>
     <hr>
     <a class="button" href="/services/graphic_design">Read More About Graphic Design Services</a>
     <a class="button" href="/services/branding">Read More About Branding Services</a>

@@ -30,7 +30,7 @@
   </span>
   <br>
   <i class="fa fa-facebook"></i>
-  <span>| facebook.com/adelie</span>
+  <span>| facebook.com/adelieweb</span>
   <br>
   <i class="fa fa-twitter"></i>
   <span>| twitter.com/adelieweb</span>

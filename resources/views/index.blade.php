@@ -21,7 +21,7 @@
             <hr class="mini-hr">
         </div>
         <div class="features">
-            <h3 class="service-header">BRANDING SERVICES</h3>
+            <h3 class="service-header">DESIGN SERVICES</h3>
             <p class="service-subheader">
                 Establishing and marketing a cohesive brand identity is no small undertaking. Today's digital era demands consistency and a unique voice. We'll help you craft a visual identity that gracefully combines your brand with modern design trends to leave a striking impression.
             </p>
