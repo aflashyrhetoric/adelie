@@ -1238,12 +1238,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #3A539B;
+  color: #393939;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #324785; }
+    color: #313131; }
   a img {
     border: 0; }
 
@@ -1444,12 +1444,12 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background: #3A539B;
+  background: #393939;
   color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background: #314784;
+    background: #303030;
     color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1463,10 +1463,10 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background: #3A539B;
+    background: #393939;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
-      background: #2e427c;
+      background: #2e2e2e;
       color: #fff; }
   .button.secondary {
     background: #777;
@@ -1493,19 +1493,19 @@ kbd {
       background: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #3A539B;
-    color: #3A539B; }
+    border: 1px solid #393939;
+    color: #393939; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #1d2a4e;
-      color: #1d2a4e; }
+      border-color: #1d1d1d;
+      color: #1d1d1d; }
     .button.hollow.primary {
-      border: 1px solid #3A539B;
-      color: #3A539B; }
+      border: 1px solid #393939;
+      color: #393939; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #1d2a4e;
-        color: #1d2a4e; }
+        border-color: #1d1d1d;
+        color: #1d1d1d; }
     .button.hollow.secondary {
       border: 1px solid #777;
       color: #777; }
@@ -1856,7 +1856,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #3A539B;
+  color: #393939;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
@@ -1885,7 +1885,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #3A539B transparent transparent;
+    border-color: #393939 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 50%;
@@ -1905,7 +1905,7 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #3A539B;
+  background: #393939;
   color: #fefefe; }
   .badge.secondary {
     background: #777;
@@ -1942,7 +1942,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #3A539B; }
+    color: #393939; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -1984,10 +1984,10 @@ select {
   .button-group.expanded .button:nth-last-child(6):first-child ~ .button {
     width: 16.6666666667%; }
   .button-group.primary .button {
-    background: #3A539B;
+    background: #393939;
     color: #fff; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background: #2e427c;
+      background: #2e2e2e;
       color: #fff; }
   .button-group.secondary .button {
     background: #777;
@@ -2035,7 +2035,7 @@ select {
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #dfe4f3; }
+    background-color: #e1e1e1; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
@@ -2099,7 +2099,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #3A539B;
+    border-color: transparent transparent transparent #393939;
     border-left-style: solid;
     position: absolute;
     top: 50%;
@@ -2112,7 +2112,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #3A539B transparent transparent;
+  border-color: transparent #393939 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-right: 0.75rem;
@@ -2170,7 +2170,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #3A539B transparent transparent;
+    border-color: transparent #393939 transparent transparent;
     border-right-style: solid;
     float: left;
     margin-left: 0;
@@ -2181,7 +2181,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #3A539B;
+    border-color: transparent transparent transparent #393939;
     border-left-style: solid; }
   .dropdown.menu .is-dropdown-submenu-parent.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -2202,7 +2202,7 @@ select {
   left: 100%;
   min-width: 200px;
   z-index: 1;
-  background: #3A539B;
+  background: #393939;
   border: 1px solid #cacaca; }
   .dropdown.menu .submenu > li {
     width: 100%; }
@@ -2259,7 +2259,7 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #3A539B;
+  background: #393939;
   color: #fefefe; }
   .label.secondary {
     background: #777;
@@ -2583,7 +2583,7 @@ body {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #3A539B;
+    background: #393939;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -2615,7 +2615,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #3A539B; }
+    background-color: #393939; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -2630,7 +2630,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #3A539B;
+  background-color: #393939;
   border-radius: 0; }
   .progress-meter .progress-meter-text {
     position: absolute;
@@ -2681,7 +2681,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #3A539B;
+  background-color: #393939;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -2689,7 +2689,7 @@ body {
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #314784; }
+    background-color: #303030; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
@@ -2853,7 +2853,7 @@ body.is-reveal-open {
     transform: translate3d(0, 0, 0);
     border-radius: 0; }
   input:checked ~ .switch-paddle {
-    background: #3A539B; }
+    background: #393939; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -2985,11 +2985,11 @@ table.hover tr:nth-of-type(even):hover {
     float: none;
     display: block; }
   .tabs.primary {
-    background: #3A539B; }
+    background: #393939; }
     .tabs.primary > li > a {
       color: #fefefe; }
       .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-        background: #374f93; }
+        background: #434343; }
 
 .tabs-title {
   float: left; }
@@ -2998,7 +2998,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #3A539B; }
+    color: #393939; }
     .tabs-title > a:hover {
       background: #fefefe; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
@@ -3029,7 +3029,7 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(58, 83, 155, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(57, 57, 57, 0.5); }
 
 .title-bar {
   background: #0a0a0a;
@@ -3205,7 +3205,8 @@ html {
 
 .top-bar {
   top: 0;
-  background-color: #3A539B;
+  background-color: #292929;
+  box-shadow: 0px 3px 3px 0px #101010;
   padding: 0px;
   padding-bottom: 0.3rem; }
   .top-bar ul {
@@ -3227,6 +3228,9 @@ html {
       padding-top: 3px;
       padding-bottom: 3px;
       border-bottom: 1px solid #304581; }
+
+.button {
+  background-color: #252525; }
 
 .navbar-logo {
   font-weight: normal;
@@ -3270,7 +3274,7 @@ footer {
       color: #3A539B; }
 
 .thankyou {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem; }
 
 /*********************/
@@ -3291,7 +3295,7 @@ footer {
     padding: 1rem; }
   .service-hero .service-hero-inner a {
     text-decoration: underline;
-    color: #5f78c3; }
+    color: #4f4f4f; }
 
 .webdev-hero {
   background: url("../img/webdev-bg.jpg") #DCDCDC no-repeat 70% 50%;
@@ -3306,18 +3310,18 @@ footer {
   background-size: cover; }
 
 .services-nav li {
-  background-color: #3A539B; }
+  background-color: #292929; }
   .services-nav li#current-service {
     padding-right: 0.5rem; }
   .services-nav li:not(#current-service) {
     padding: .2rem;
     padding-left: 0.5rem; }
   .services-nav li .is-down-arrow > a::after {
-    border-color: #3A539B; }
+    border-color: #292929; }
   .services-nav li a {
     color: white; }
   .services-nav li:hover {
-    background-color: #5f78c3; }
+    background-color: #4f4f4f; }
 
 @media screen and (min-width: 0em) and (max-width: 39.9375em) {
   .service-container {
@@ -3339,14 +3343,14 @@ footer {
   font-weight: bold; }
 
 .service-container h2, .service-container h4 {
-  color: #3A539B; }
+  color: #292929; }
 
 @media screen and (min-width: 40em) {
   .service-container .webdev-process {
     margin-bottom: 3rem; } }
 
 .service-container .webdev-process strong, .service-container .webdev-process b, .service-container .webdev-process li.success {
-  color: #3A539B; }
+  color: #292929; }
 
 .service-container .cta-box {
   text-align: center; }
@@ -3394,9 +3398,9 @@ footer {
     .meet-container .boxed h2 {
       font-weight: bold; }
   .meet-container .kevin h4 {
-    color: #3A539B; }
+    color: #292929; }
   .meet-container .kevin hr {
-    border-color: #3A539B; }
+    border-color: #292929; }
   .meet-container .yuna h4 {
     color: #9c3a52; }
   .meet-container .yuna hr {
@@ -3430,13 +3434,13 @@ footer {
       letter-spacing: -3px;
       font-size: 4rem; }
   .about-container span.about-highlight {
-    color: #3A539B; }
+    color: #292929; }
   .about-container .reason {
     text-align: center; }
     .about-container .reason h4 {
       font-weight: bold; }
     .about-container .reason i {
-      color: #3A539B;
+      color: #292929;
       padding: 1rem; }
 
 /*****************************/
@@ -3483,11 +3487,11 @@ footer {
       background-size: cover; } }
   @media screen and (min-width: 64em) {
     .outer-flex {
-      background: url("../img/bg.jpg") #DCDCDC no-repeat 50% 90% fixed;
+      background: url("../img/bg.jpg") #DCDCDC no-repeat 0% 0%;
       background-size: cover; } }
 
 .section-one {
-  background-color: #3A539B; }
+  background-color: #292929; }
   .section-one .inner-flex {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3560,9 +3564,9 @@ footer {
   .section-one a {
     margin-top: 1rem;
     color: white;
-    background-color: #334988; }
+    background-color: #1c1c1c; }
     .section-one a:hover {
-      background-color: #253563; }
+      background-color: #030303; }
   @media screen and (min-width: 64em) {
     .section-one {
       height: 40rem; } }
@@ -3576,31 +3580,48 @@ footer {
   max-width: 100%;
   width: 100%;
   padding-top: 1rem;
-  border-top: 5px solid #3A539B; }
+  border-top: 5px solid #292929; }
   .section-two i {
-    color: #3A539B;
+    color: #292929;
     padding-bottom: 1rem; }
+  .section-two .web-services i {
+    color: white; }
+  .section-two .web-services h3, .section-two .web-services h4 {
+    color: #1e2b51; }
+  .section-two .web-services .button {
+    background-color: #1e2b51; }
+    .section-two .web-services .button:hover {
+      background-color: #10172c; }
+  .section-two .branding-services i {
+    color: white; }
+  .section-two .branding-services h3, .section-two .branding-services h4 {
+    color: #e6bcc6; }
+  .section-two .branding-services .button {
+    background-color: #e6bcc6;
+    color: #252525; }
+    .section-two .branding-services .button:hover {
+      background-color: #d897a7; }
   .section-two .service-description {
-    color: #4C4C4C;
+    color: #FFFFFF;
     padding: 1rem; }
     .section-two .service-description h4 {
       font-weight: bold; }
   .section-two .service-header {
     font-weight: bold;
-    color: #4C4C4C;
+    color: #FFFFFF;
     margin: 2rem; }
   .section-two .service-subheader {
     margin: 2rem;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    color: #fff; }
 
 .services-list .service {
   color: white;
   padding: 10px; }
   .services-list .service h4 {
-    color: #4C4C4C;
     font-weight: bold; }
   .services-list .service p {
-    color: #4C4C4C;
+    color: #FFFFFF;
     font-size: 1rem; }
 
 /*********************************/
@@ -3608,21 +3629,21 @@ footer {
 /*********************************/
 .section-three {
   padding-top: 1rem;
-  background-color: #3A539B;
   box-shadow: 0px 3px 5px 0px black;
   margin-bottom: 1rem;
   z-index: 5; }
-  .section-three .feature-description {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    padding: 0.5rem;
-    font-size: 3rem;
-    color: #ffffff;
-    background-color: #2c3f76;
-    box-shadow: 0px 3px 5px 0px black; }
+
+.features-list .feature-description {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  font-size: 3rem;
+  color: #ffffff;
+  background-color: #292929;
+  box-shadow: 0px 3px 5px 0px black; }
 
 .features-list .feature {
-  color: white; }
+  color: #252525; }
   .features-list .feature h4 {
     font-weight: bold; }
   .features-list .feature p {
@@ -3650,6 +3671,9 @@ footer {
     border: 1px solid black;
     padding: 2rem; }
 
+.mbn {
+  margin-bottom: 0 !important; }
+
 hr.mini-hr {
   max-width: 300px !important;
   margin-top: 0.5rem;
@@ -3667,5 +3691,11 @@ ul.lstn {
 
 .tac {
   text-align: center; }
+
+.web-blue {
+  background-color: #3A539B; }
+
+.branding-red {
+  background-color: #9c3a52; }
 
 /*# sourceMappingURL=app.css.map */

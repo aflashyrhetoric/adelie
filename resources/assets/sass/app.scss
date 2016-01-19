@@ -28,18 +28,24 @@
         'home_sections/_section_four';
 
 // Utility Classes
+
+// Margins
+
+.mbn {
+  margin-bottom: 0 !important;
+}
+
+// Horizontal Rules
 hr.mini-hr {
   max-width: 300px !important;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
-
 hr.md-hr {
   max-width: 450px !important;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
-
 ul.lstn {
   list-style-type: none;
   padding: 0;
@@ -48,4 +54,12 @@ ul.lstn {
 
 .tac{
   text-align: center;
+}
+
+// Colors
+.web-blue {
+  background-color: $web-blue;
+}
+.branding-red{
+  background-color: $branding-red;
 }

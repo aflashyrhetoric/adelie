@@ -7,7 +7,9 @@ $corporate_e: 'corporate-e', sans-serif;
 $raleway: 'raleway', sans-serif;
 
 // Colors
-$primary-color: #3A539B;
+$web-blue: #3A539B;
+$branding-red: #9c3a52;
+$primary-color: #292929;
 $background-color: #272727;
 $white: #ffffff;
 $darkgray: #252525;
@@ -29,6 +31,7 @@ body {
 .top-bar {
   top: 0;
   background-color: $primary-color;
+  box-shadow: 0px 3px 3px 0px darken($primary-color, 10);
   ul { background-color: transparent;}
   ul li a {
     font-family: $raleway;
@@ -38,10 +41,10 @@ body {
   }
 
   ul.submenu {
-    background-color: $primary-color !important;
+    background-color: $web-blue !important;
     border: 0px !important;
     li:hover {
-      background-color: lighten($primary-color, 10%) !important;
+      background-color: lighten($web-blue, 10%) !important;
       position: relative;
     }
   }
@@ -53,9 +56,13 @@ body {
     li {
       padding-top: 3px;
       padding-bottom: 3px;
-      border-bottom: 1px solid darken($primary-color, 7);
+      border-bottom: 1px solid darken($web-blue, 7);
     }
   }
+}
+
+.button {
+  background-color: $darkgray;
 }
 
 // Adelie
@@ -127,7 +134,7 @@ footer{
   .footer-end{
     text-align: right;
     padding: 0.5rem;
-    border-top: 1px solid $primary-color;
+    border-top: 1px solid $web-blue;
     background-color: #333333;
     h4 {
       margin-bottom: 0px;
@@ -136,12 +143,12 @@ footer{
     }
     i {
       font-size: 1.3rem;
-      color: $primary-color;
+      color: $web-blue;
     }
   }
 }
 
 .thankyou {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 6rem;
 }

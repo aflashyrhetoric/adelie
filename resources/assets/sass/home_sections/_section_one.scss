@@ -20,7 +20,7 @@
     @include cover-bg-nofixed('../img/bg.jpg', 30%, 0%);
   }
   @include breakpoint(large up) {
-    @include cover-bg('../img/bg.jpg', 50%, 90%);
+    @include cover-bg-nofixed('../img/bg.jpg', 0%, 0%);
   }
 }
 
@@ -114,6 +114,7 @@
 
   @include breakpoint(medium up) {
   }
+  // adjustment for topbar margin stuff
   @include breakpoint(large up) {
     height: 40rem;
   }

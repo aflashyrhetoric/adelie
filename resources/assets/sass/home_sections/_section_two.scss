@@ -5,7 +5,8 @@
 // 1 REM: 16px;
 // 2 REM: 32px;
 
-$service-color: #4C4C4C;
+$service-color: #FFFFFF;
+
 
 .section-two {
   background-color: #FFFFFF;
@@ -14,9 +15,43 @@ $service-color: #4C4C4C;
     padding-bottom: 1rem;
   }
 
-  $branding-red: #9c3a52;
-  // SPECIAL BRANDING COLOR
-  i.branding-red, h4.branding-red {
+
+  .web-services{
+    i {
+      // color: $web-blue;
+      color: white;
+    }
+
+    h3, h4 {
+      color: darken($web-blue, 20);
+    }
+
+    .button {
+      background-color: darken($web-blue, 20);
+      &:hover{
+        background-color: darken($web-blue, 30); 
+      }
+    }
+    
+  }
+
+  .branding-services{
+    i {
+      // color: $branding-blue;
+      color: white;
+    }
+
+    h3, h4{
+      color: lighten($branding-red, 40);
+    }
+
+    .button {
+      background-color: lighten($branding-red, 40);
+      color: $darkgray;
+      &:hover{
+        background-color: lighten($branding-red, 30); 
+      }
+    }
   }
 
 
@@ -45,6 +80,7 @@ $service-color: #4C4C4C;
   .service-subheader{
     margin: 2rem;
     font-size: 1.3rem;
+    color: #fff;
   }
 }
 
@@ -55,8 +91,6 @@ $service-color: #4C4C4C;
     color: white;
     padding: 10px;
     h4 {
-      // color: $primary-color;
-      color: $service-color;
       font-weight: bold;
     }
     p{
