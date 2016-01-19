@@ -7,6 +7,7 @@
 
 .section-four {
   z-index: 0;
+  box-shadow: 0px -3px 5px 0px gray;
   @include breakpoint(small only) {
     background-color: $white;
   }
@@ -18,6 +19,23 @@
     box-shadow: 0px 3px 3px 0px black;
     border: 1px solid black;
     padding: 2rem;
+  }
+
+  .cta {
+  
+    @include breakpoint(medium up) {
+      width: 40%;
+      margin: auto;
+      padding: 1.5rem;
+      background-color: #fff;
+      border: 5px solid $web-blue;
+    }
+
+    i {
+      color: $web-blue;
+    }
+
+    box-shadow: 0px 3px 3px 0px $darkgray;
   }
   padding-top: 3rem;
   padding-bottom: 3rem;

@@ -46,10 +46,25 @@ hr.md-hr {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
+hr.fancy-hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+// List-related
 ul.lstn {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+// Text-related
+.no-cursor {
+  &:hover {
+    cursor: default;
+  }
 }
 
 .tac{

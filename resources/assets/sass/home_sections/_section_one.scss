@@ -16,11 +16,17 @@
   @include breakpoint(large up) {
     justify-content: flex-start;
   }
-  @include breakpoint(medium up) {
+  @include breakpoint(medium only) {
     @include cover-bg-nofixed('../img/bg.jpg', 30%, 0%);
   }
-  @include breakpoint(large up) {
-    @include cover-bg-nofixed('../img/bg.jpg', 0%, 0%);
+  @include breakpoint(large only) {
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0% 10%;
+  }
+  @include breakpoint(xlarge up) {
+    @include cover-bg-nofixed('../img/bg.jpg', 50%, 05%);
   }
 }
 
@@ -50,14 +56,22 @@
     }
 
     h1, p {
+
       color: black;
+      @include breakpoint(small only) {
+        color: white;
+
+      }
+
       padding: 1rem;
       padding-left: 0px;
       padding-top: 0rem;
       padding-bottom: 0.1rem;
 
-      @include breakpoint(medium up) {
-        // background-color: rgba(0,0,0,0.5);
+      @include breakpoint(medium only) {
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        padding: 0.5rem;
       }
     }
 
@@ -86,13 +100,12 @@
       font-family: $corporate_e;
       margin-bottom: 1rem;
       letter-spacing: -0.2rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
       @include breakpoint(medium only) {
        margin-top: 2rem; 
      }
      @include breakpoint(small only) {
       font-size: 5rem;
+      padding: 0.3rem 1rem;
     }
     @include breakpoint(large up) {
       font-size: 5rem;
@@ -116,6 +129,6 @@
   }
   // adjustment for topbar margin stuff
   @include breakpoint(large up) {
-    height: 40rem;
+    height: 35rem;
   }
 }

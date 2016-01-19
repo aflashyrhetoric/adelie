@@ -3,9 +3,14 @@
 /************************/
 
 .about-container {
+@include breakpoint(small only) {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+@include breakpoint(medium up) {
   padding-top: 4rem;
   padding-bottom: 4rem;
-
+}
   .mission-statement {
     padding-top:4rem;
     padding-bottom:4rem;
@@ -33,7 +38,7 @@
   }
 
   span.about-highlight {
-    color: $primary-color;
+    color: $web-blue;
   }
 
   .reason {
@@ -43,9 +48,11 @@
       font-weight: bold;
     }
     i {
-      color: $primary-color;
+      color: $web-blue;
       padding: 1rem;
     }
-
+  }
+  a.about-button {
+    background-color: $web-blue;
   }
 }

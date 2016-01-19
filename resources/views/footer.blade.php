@@ -40,5 +40,6 @@
 </div>
 <div class="
   medium-12 columns footer-end">
-  <h4>made with <i class="fa fa-heart"></i> by adelie | copyright 2016</h4>
+  <h4 class="hide-for-small-only">made with <i class="fa fa-heart"></i> by adelie | copyright 2016</h4>
+  <h4 class="show-for-small-only tac">made with <i class="fa fa-heart"></i> by adelie. <br> copyright 2016</h4>
 </div>

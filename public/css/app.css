@@ -3216,6 +3216,9 @@ html {
     padding: 0;
     font-size: 1rem;
     margin-top: 0.5rem; }
+  @media screen and (min-width: 40em) {
+    .top-bar .small-nav {
+      display: none; } }
   .top-bar ul.submenu {
     background-color: #292929 !important;
     border: 0px !important; }
@@ -3243,16 +3246,15 @@ html {
 footer {
   border-top: 3px solid #666666;
   text-align: center; }
-  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-    footer {
-      min-height: 0rem; } }
-  @media screen and (min-width: 40em) {
-    footer {
-      min-height: 16rem; } }
   footer .footer-body {
     background-color: #4C4C4C;
-    padding: 1rem;
-    min-height: 14rem; }
+    padding: 1rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      footer .footer-body {
+        min-height: 0rem; } }
+    @media screen and (min-width: 40em) {
+      footer .footer-body {
+        min-height: 16rem; } }
     footer .footer-body h2, footer .footer-body span, footer .footer-body i, footer .footer-body ul li, footer .footer-body ul li a, footer .footer-body span a {
       color: #ffffff; }
       footer .footer-body h2:visited, footer .footer-body span:visited, footer .footer-body i:visited, footer .footer-body ul li:visited, footer .footer-body ul li a:visited, footer .footer-body span a:visited {
@@ -3261,11 +3263,17 @@ footer {
     font-family: "corporate-e", sans-serif;
     color: white; }
   footer .footer-end {
-    text-align: right;
-    padding: 0.5rem;
     border-top: 1px solid #3A539B;
     background-color: #333333; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      footer .footer-end {
+        text-align: center;
+        padding: 0.8rem 1rem; } }
+    @media screen and (min-width: 40em) {
+      footer .footer-end {
+        text-align: right; } }
     footer .footer-end h4 {
+      padding: 1rem;
       margin-bottom: 0px;
       color: white;
       font-family: "raleway", sans-serif; }
@@ -3364,84 +3372,111 @@ footer {
       border: 1px solid lightgray;
       box-shadow: 0px 3px 3px 0px gray; } }
 
-.meet-container {
-  padding: 4rem; }
-  .meet-container .meet-header-container {
-    background-size: cover;
-    text-align: center;
-    margin-bottom: 3rem; }
-    .meet-container .meet-header-container h1 {
-      font-size: 5em; }
-      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-        .meet-container .meet-header-container h1 {
-          font-size: 3em;
-          text-align: center;
-          display: inline-block; } }
-    .meet-container .meet-header-container h2 {
-      font-size: 1.5em; }
-  .meet-container .boxed {
-    padding-bottom: 1rem;
-    text-align: center; }
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-      .meet-container .boxed {
-        padding: 1.5rem; } }
-    @media screen and (min-width: 64em) {
-      .meet-container .boxed {
-        padding: 3rem; } }
-    .meet-container .boxed img {
-      box-shadow: 0px 3px 4px 0px gray;
-      margin: auto;
-      max-width: 13rem;
-      border-radius: 50%;
-      border: 3px solid white;
-      margin-bottom: 2rem; }
-    .meet-container .boxed h2 {
-      font-weight: bold; }
-  .meet-container .kevin h4 {
-    color: #292929; }
-  .meet-container .kevin hr {
-    border-color: #292929; }
-  .meet-container .yuna h4 {
-    color: #9c3a52; }
-  .meet-container .yuna hr {
-    border-color: #9c3a52; }
-  .meet-container .team-member {
-    padding-left: 0px; }
-    .meet-container .team-member h2, .meet-container .team-member p {
-      color: #181818; }
-    .meet-container .team-member p {
-      text-align: justify; }
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .meet-container {
+    padding: 1rem;
+    padding-top: 2rem; } }
+
+@media screen and (min-width: 40em) {
+  .meet-container {
+    padding: 4rem; } }
+
+.meet-container .meet-header-container {
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 3rem; }
+  .meet-container .meet-header-container h1 {
+    font-size: 5rem; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .meet-container .meet-header-container h1 {
+        font-size: 3em;
+        text-align: center;
+        display: inline-block; } }
+  .meet-container .meet-header-container h2 {
+    font-size: 1.5em; }
+
+.meet-container .boxed {
+  padding-bottom: 1rem;
+  text-align: center; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .meet-container .boxed {
+      padding: 1.5rem; } }
+  @media screen and (min-width: 64em) {
+    .meet-container .boxed {
+      padding: 3rem; } }
+  .meet-container .boxed img {
+    box-shadow: 0px 3px 4px 0px gray;
+    margin: auto;
+    max-width: 13rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 2rem; }
+  .meet-container .boxed h2 {
+    font-weight: bold; }
+
+.meet-container .kevin h4 {
+  color: #3A539B; }
+
+.meet-container .kevin hr {
+  border-color: #3A539B; }
+
+.meet-container .yuna h4 {
+  color: #9c3a52; }
+
+.meet-container .yuna hr {
+  border-color: #9c3a52; }
+
+.meet-container .team-member {
+  padding-left: 0px; }
+  .meet-container .team-member h2, .meet-container .team-member p {
+    color: #181818; }
+  .meet-container .team-member p {
+    text-align: justify; }
 
 /************************/
 /******* About SCSS *****/
 /************************/
-.about-container {
+@media screen and (min-width: 0em) and (max-width: 39.9375em) {
+  .about-container {
+    padding-top: 0rem;
+    padding-bottom: 2rem; } }
+
+@media screen and (min-width: 40em) {
+  .about-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem; } }
+
+.about-container .mission-statement {
   padding-top: 4rem;
   padding-bottom: 4rem; }
-  .about-container .mission-statement {
-    padding-top: 4rem;
-    padding-bottom: 4rem; }
-    .about-container .mission-statement h2 {
-      font-weight: bold;
-      font-family: "corporate-e", sans-serif; }
-  .about-container .about-subheader {
-    padding: 3rem; }
-  .about-container .logo {
-    width: 250px;
-    margin: auto; }
-    .about-container .logo h1 {
-      font-family: "corporate-e", sans-serif;
-      letter-spacing: -3px;
-      font-size: 4rem; }
-  .about-container span.about-highlight {
-    color: #292929; }
-  .about-container .reason {
-    text-align: center; }
-    .about-container .reason h4 {
-      font-weight: bold; }
-    .about-container .reason i {
-      color: #292929;
-      padding: 1rem; }
+  .about-container .mission-statement h2 {
+    font-weight: bold;
+    font-family: "corporate-e", sans-serif; }
+
+.about-container .about-subheader {
+  padding: 3rem; }
+
+.about-container .logo {
+  width: 250px;
+  margin: auto; }
+  .about-container .logo h1 {
+    font-family: "corporate-e", sans-serif;
+    letter-spacing: -3px;
+    font-size: 4rem; }
+
+.about-container span.about-highlight {
+  color: #3A539B; }
+
+.about-container .reason {
+  text-align: center; }
+  .about-container .reason h4 {
+    font-weight: bold; }
+  .about-container .reason i {
+    color: #3A539B;
+    padding: 1rem; }
+
+.about-container a.about-button {
+  background-color: #3A539B; }
 
 /*****************************/
 /******* Contact SCSS ********/
@@ -3452,7 +3487,10 @@ footer {
   .contact-container .contact-header {
     text-align: center; }
     .contact-container .contact-header h1 {
-      font-weight: bold; }
+      font-weight: bold;
+      color: #3A539B; }
+  .contact-container input[type=submit] {
+    background-color: #3A539B; }
 
 /*********************************/
 /******* SECTION IMPORTS *********/
@@ -3481,13 +3519,19 @@ footer {
       -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
       justify-content: flex-start; } }
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .outer-flex {
       background: url("../img/bg.jpg") #DCDCDC no-repeat 30% 0%;
       background-size: cover; } }
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 64em) and (max-width: 74.9375em) {
     .outer-flex {
-      background: url("../img/bg.jpg") #DCDCDC no-repeat 0% 0%;
+      background: url("../img/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 0% 10%; } }
+  @media screen and (min-width: 75em) {
+    .outer-flex {
+      background: url("../img/bg.jpg") #DCDCDC no-repeat 50% 5%;
       background-size: cover; } }
 
 .section-one {
@@ -3527,6 +3571,14 @@ footer {
       padding-left: 0px;
       padding-top: 0rem;
       padding-bottom: 0.1rem; }
+      @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+        .section-one .inner-flex h1, .section-one .inner-flex p {
+          color: white; } }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        .section-one .inner-flex h1, .section-one .inner-flex p {
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          padding: 0.5rem; } }
     .section-one .inner-flex p.adelie-description {
       font-size: 1.8rem; }
       @media screen and (min-width: 40em) {
@@ -3549,15 +3601,14 @@ footer {
       align-items: center;
       font-family: "corporate-e", sans-serif;
       margin-bottom: 1rem;
-      letter-spacing: -0.2rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem; }
+      letter-spacing: -0.2rem; }
       @media screen and (min-width: 40em) and (max-width: 63.9375em) {
         .section-one .inner-flex h1 {
           margin-top: 2rem; } }
       @media screen and (min-width: 0em) and (max-width: 39.9375em) {
         .section-one .inner-flex h1 {
-          font-size: 5rem; } }
+          font-size: 5rem;
+          padding: 0.3rem 1rem; } }
       @media screen and (min-width: 64em) {
         .section-one .inner-flex h1 {
           font-size: 5rem; } }
@@ -3569,11 +3620,14 @@ footer {
       background-color: #030303; }
   @media screen and (min-width: 64em) {
     .section-one {
-      height: 40rem; } }
+      height: 35rem; } }
 
 /*********************************/
 /******* Home: Section *******/
 /*********************************/
+.branding-section {
+  box-shadow: 0px 3px 3px 0px gray; }
+
 .section-two {
   background-color: #FFFFFF;
   margin-top: 0;
@@ -3584,23 +3638,20 @@ footer {
   .section-two i {
     color: #292929;
     padding-bottom: 1rem; }
-  .section-two .web-services i {
-    color: white; }
   .section-two .web-services h3, .section-two .web-services h4 {
-    color: #1e2b51; }
-  .section-two .web-services .button {
-    background-color: #1e2b51; }
-    .section-two .web-services .button:hover {
-      background-color: #10172c; }
-  .section-two .branding-services i {
     color: white; }
+  .section-two .web-services .button {
+    color: white;
+    background-color: #293b6e; }
+    .section-two .web-services .button:hover {
+      background-color: #1e2b51; }
   .section-two .branding-services h3, .section-two .branding-services h4 {
-    color: #e6bcc6; }
+    color: white; }
   .section-two .branding-services .button {
-    background-color: #e6bcc6;
-    color: #252525; }
+    background-color: #772c3e;
+    color: white; }
     .section-two .branding-services .button:hover {
-      background-color: #d897a7; }
+      background-color: #521e2b; }
   .section-two .service-description {
     color: #FFFFFF;
     padding: 1rem; }
@@ -3611,41 +3662,42 @@ footer {
     color: #FFFFFF;
     margin: 2rem; }
   .section-two .service-subheader {
-    margin: 2rem;
+    margin: 2rem 0.3rem;
     font-size: 1.3rem;
-    color: #fff; }
+    color: #fff;
+    margin-bottom: 2rem; }
 
-.services-list .service {
-  color: white;
-  padding: 10px; }
-  .services-list .service h4 {
-    font-weight: bold; }
-  .services-list .service p {
-    color: #FFFFFF;
-    font-size: 1rem; }
+.services-list {
+  padding-bottom: 2rem; }
+  .services-list i {
+    color: white; }
+  .services-list .service {
+    color: white;
+    padding: 10px; }
+    .services-list .service h4 {
+      font-weight: bold; }
+    .services-list .service p {
+      color: #FFFFFF;
+      font-size: 1rem; }
 
 /*********************************/
 /******* Home: Section *******/
 /*********************************/
 .section-three {
-  padding-top: 1rem;
-  box-shadow: 0px 3px 5px 0px black;
-  margin-bottom: 1rem;
-  z-index: 5; }
+  padding: 1rem; }
 
 .features-list .feature-description {
   margin-top: 1rem;
   margin-bottom: 2rem;
   padding: 0.5rem;
-  font-size: 3rem;
-  color: #ffffff;
-  background-color: #292929;
-  box-shadow: 0px 3px 5px 0px black; }
+  font-weight: bold;
+  color: #252525; }
 
 .features-list .feature {
   color: #252525; }
-  .features-list .feature h4 {
-    font-weight: bold; }
+  @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+    .features-list .feature h4 {
+      font-weight: bold; } }
   .features-list .feature p {
     font-size: 1rem; }
 
@@ -3654,6 +3706,7 @@ footer {
 /*********************************/
 .section-four {
   z-index: 0;
+  box-shadow: 0px -3px 5px 0px gray;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-top: 0;
@@ -3670,6 +3723,17 @@ footer {
     box-shadow: 0px 3px 3px 0px black;
     border: 1px solid black;
     padding: 2rem; }
+  .section-four .cta {
+    box-shadow: 0px 3px 3px 0px #252525; }
+    @media screen and (min-width: 40em) {
+      .section-four .cta {
+        width: 40%;
+        margin: auto;
+        padding: 1.5rem;
+        background-color: #fff;
+        border: 5px solid #3A539B; } }
+    .section-four .cta i {
+      color: #3A539B; }
 
 .mbn {
   margin-bottom: 0 !important; }
@@ -3684,10 +3748,19 @@ hr.md-hr {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem; }
 
+hr.fancy-hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+
 ul.lstn {
   list-style-type: none;
   padding: 0;
   margin: 0; }
+
+.no-cursor:hover {
+  cursor: default; }
 
 .tac {
   text-align: center; }

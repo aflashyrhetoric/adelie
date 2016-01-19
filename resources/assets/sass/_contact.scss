@@ -8,8 +8,12 @@
   .contact-header {
     h1 {
       font-weight: bold;
+      color: $web-blue;
     }
     text-align: center;
+  }
+  input[type=submit]{
+    background-color: $web-blue;
   }
 }
 

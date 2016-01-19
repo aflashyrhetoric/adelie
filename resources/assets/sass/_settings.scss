@@ -2,6 +2,9 @@
 /* Site-Wide Configs & Settings */
 /********************************/
 
+// Foundation configuration
+$include-xl-html-grid-classes: true;
+
 // Fonts
 $corporate_e: 'corporate-e', sans-serif;
 $raleway: 'raleway', sans-serif;
@@ -38,6 +41,13 @@ body {
     padding: 0;
     font-size: 1rem;
     margin-top: 0.5rem;
+  }
+
+  .small-nav {
+    @include breakpoint(medium up) {
+      display: none;
+      
+    }
   }
 
   ul.submenu {
@@ -95,20 +105,18 @@ $footer-color: #4C4C4C;
 
 // Footer
 footer{
-
-  @include breakpoint(small only) {
-    min-height: 0rem;
-  }
-  @include breakpoint(medium up) {
-    min-height: 16rem;
-  }
   border-top: 3px solid lighten($footer-color, 10);
   text-align: center;
 
   .footer-body {
     background-color: $footer-color;
     padding: 1rem;
-    min-height: 14rem;
+    @include breakpoint(small only) {
+      min-height: 0rem;
+    }
+    @include breakpoint(medium up) {
+      min-height: 16rem;
+    }
     h2, span, i, ul li, ul li a, span a {
       color: $white;
       &:visited{
@@ -132,11 +140,17 @@ footer{
 
 
   .footer-end{
-    text-align: right;
-    padding: 0.5rem;
+    @include breakpoint(small only) {
+      text-align: center;
+      padding: 0.8rem 1rem;
+    }
+    @include breakpoint(medium up) {
+      text-align: right;
+    }
     border-top: 1px solid $web-blue;
     background-color: #333333;
     h4 {
+      padding: 1rem;
       margin-bottom: 0px;
       color: white;
       font-family: $raleway;

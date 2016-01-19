@@ -7,6 +7,7 @@
   <p>
     Graphic design is the work of visual communication. Through the thoughtful composition of type, image, and color you can expand your network, promote your business, express your ideas, and more. Adelie will help you craft beautiful visuals for your print and web needs.
   </p>
+  <br>
     <a class="button branding-red" href="/services/graphic_design">Learn More</a>
 </div>
 <div class="

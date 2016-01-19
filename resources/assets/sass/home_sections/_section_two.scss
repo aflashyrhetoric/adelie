@@ -7,53 +7,13 @@
 
 $service-color: #FFFFFF;
 
+// Quirky sections
+.branding-section {
+  box-shadow: 0px 3px 3px 0px gray;
+}
 
 .section-two {
   background-color: #FFFFFF;
-  i {
-    color: $primary-color;
-    padding-bottom: 1rem;
-  }
-
-
-  .web-services{
-    i {
-      // color: $web-blue;
-      color: white;
-    }
-
-    h3, h4 {
-      color: darken($web-blue, 20);
-    }
-
-    .button {
-      background-color: darken($web-blue, 20);
-      &:hover{
-        background-color: darken($web-blue, 30); 
-      }
-    }
-    
-  }
-
-  .branding-services{
-    i {
-      // color: $branding-blue;
-      color: white;
-    }
-
-    h3, h4{
-      color: lighten($branding-red, 40);
-    }
-
-    .button {
-      background-color: lighten($branding-red, 40);
-      color: $darkgray;
-      &:hover{
-        background-color: lighten($branding-red, 30); 
-      }
-    }
-  }
-
 
   // Margin 
   margin-top: 0;
@@ -61,6 +21,42 @@ $service-color: #FFFFFF;
   width: 100%;
   padding-top: 1rem;
   border-top: 5px solid $primary-color;
+  i {
+    color: $primary-color;
+    padding-bottom: 1rem;
+  }
+  .web-services{
+    i {
+    }
+    h3, h4 {
+      color: white;
+    }
+
+    .button {
+      color: white;
+      background-color: darken($web-blue, 12); 
+      &:hover{
+        background-color: darken($web-blue, 20); 
+      }
+    }
+    
+  }
+
+  .branding-services{
+    h3, h4{
+      // color: lighten($branding-red, 40);
+      color: white;
+    }
+
+    .button {
+      background-color: darken($branding-red, 10); 
+      color: white;
+      &:hover{
+        background-color: darken($branding-red, 20); 
+      }
+    }
+  }
+
 
   // WHY ADELIE?
   .service-description {
@@ -78,15 +74,19 @@ $service-color: #FFFFFF;
   }
 
   .service-subheader{
-    margin: 2rem;
+    margin: 2rem 0.3rem;
     font-size: 1.3rem;
     color: #fff;
+    margin-bottom: 2rem;
   }
 }
 
 .services-list{
-  // background-color: $primary-color;
-  // WEB DESIGN, WEB DEV
+  padding-bottom: 2rem;
+  i {
+    color: white;
+  }
+
   .service {
     color: white;
     padding: 10px;

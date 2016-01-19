@@ -2,15 +2,15 @@
 @section('content')
 <div class="section-one outer-flex">
     <div class="inner-flex">
-        <h1>hello!</h1>
-        <p class="adelie-description">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p>
-        <a href="#learn-more" class="button">LEARN MORE</a>
+        <h1 class="no-cursor">hello!</h1><br>
+        <p class="adelie-description no-cursor">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p><br>
+        <a id="learn-more" class="button">LEARN MORE</a>
     </div>
 </div>
 <!--
 * Services
 -->
-<div id="learn-more" class="row section section-two services-list web-blue mbn">
+<div id="services" class="row section section-two services-list web-blue mbn">
     <div class="small-12 medium-10 large-8 small-centered columns">
         <div class="web-services">
             <h3 class="service-header">WEB SERVICES</h3>
@@ -21,7 +21,7 @@
         </div>
     </div>
 </div>
-<div id="learn-more" class="row section section-two services-list branding-red mbn">
+<div id="learn-more" class="row section section-two services-list branding-section branding-red mbn">
     <div class="small-12 medium-10 large-8 small-centered columns">
         <div class="branding-services">
             <h3 class="service-header">BRANDING SERVICES</h3>
@@ -36,8 +36,8 @@
 * Features
 -->
 <div class="row section section-three features-list">
-    <div class="small-12 medium-10 large-8 small-centered columns">
-        <h4 class="feature-description">Why Adelie?</h4>
+    <div class="small-12 medium-10 large-12 small-centered columns">
+        <h3 class="feature-description">WHY ADELIE?</h3>
         @include('partials/features')
     </div>
 </div>
@@ -52,6 +52,7 @@
         ">
 
         <div class="cta">
+            <i class="fa fa-5x fa-check"></i>
             <h1>Ready to begin?</h1>
             <h4>Let's build something great.</h4>
             <hr class="mini-hr">

@@ -7,8 +7,10 @@
     <!-- Facebook Open Graph Tags -->
     <meta property="og:url"                content="http:/www.adelieweb.com" />
     <meta property="og:title"                content="Adelie" />
-    <meta property="og:description"        content="A small, full-service creative studio based on Long Island, NY." />
-    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+    <meta property="og:description"        content="A full-service web development & visual branding studio based on Long Island, NY." />
+    <meta property="og:image"              content="http://i.imgur.com/9L74AFD.png" />
+    <meta property="fb:app_id" content="890969767676683">
+
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://use.typekit.net/ghk7jiq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
