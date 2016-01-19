@@ -48,13 +48,16 @@
         large-12
         tac 
         columns
-        section-four cta
+        section-four
         ">
-        <h1>Ready to begin?</h1>
-        <h4>Let's build something great.</h4>
-        <hr class="mini-hr">
-        <a class="button" href="contact">Request A Quote</a>
-        <br>
-        <a href="meet">Or, click here to meet the team!</a>
+
+        <div class="cta">
+            <h1>Ready to begin?</h1>
+            <h4>Let's build something great.</h4>
+            <hr class="mini-hr">
+            <a class="button" href="contact">Request A Quote</a>
+            <br>
+            <a href="meet">Or, click here to meet the team!</a>
+        </div>
     </div>
 @endsection
