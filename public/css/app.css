@@ -3217,6 +3217,9 @@ html {
     font-size: 1rem;
     margin-top: 0.5rem; }
   @media screen and (min-width: 40em) {
+    .top-bar .top-bar-right .is-drilldown {
+      display: none; } }
+  @media screen and (min-width: 40em) {
     .top-bar .small-nav {
       display: none; } }
   .top-bar ul.submenu {

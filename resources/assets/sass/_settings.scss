@@ -43,10 +43,17 @@ body {
     margin-top: 0.5rem;
   }
 
+  .top-bar-right {
+    .is-drilldown {
+      @include breakpoint(medium up) {
+        display: none;
+      }
+    }
+  }
+
   .small-nav {
     @include breakpoint(medium up) {
       display: none;
-      
     }
   }
 
