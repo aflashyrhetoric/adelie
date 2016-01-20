@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/css/app.css">
     <script src="https://use.typekit.net/ghk7jiq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--CDN for Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
     <!--CDN for Font-Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>

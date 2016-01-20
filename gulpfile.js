@@ -48,5 +48,10 @@ elixir(function(mix) {
     'resources/assets/img/**', 
     'public/img/'
   );
+
+  mix.copy(
+    'resources/assets/img/favicon.ico',
+    'public/'
+  );
 });
 

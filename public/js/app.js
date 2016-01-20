@@ -1,16 +1,16 @@
 // Script For Smooth Scrolling
-$("#learn-more").click(function() {
+$('a#learn-more').click(function(){
     $('html, body').animate({
-        scrollTop: $("#services").offset().top-50
-    }, 1000);
+        scrollTop: $('#services').offset().top-50
+    }, 1200);
 });
 
-// Disables text cursor on mouseover
+// Disables mouse text cursor on hover
 $('#adelie-logo').hover(function(){
   $(this).css('cursor', 'pointer');
 });
 
-// Makes logo clickable link to homepage
+// Creates logo link
 $('#adelie-logo').click(function(){
   window.location.href = '/';
 });

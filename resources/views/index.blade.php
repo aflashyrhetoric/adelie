@@ -2,9 +2,9 @@
 @section('content')
 <div class="section-one outer-flex">
     <div class="inner-flex">
-        <h1 class="no-cursor">hello!</h1><br>
-        <p class="adelie-description no-cursor">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p><br>
-        <a id="learn-more" class="button">LEARN MORE</a>
+        <h1 class="animated fadeInDown no-cursor">hello!</h1>
+        <p class="animated fadeIn adelie-description no-cursor">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p>
+        <a id="learn-more" class="animated fadeIn button">LEARN MORE</a>
     </div>
 </div>
 <!--
