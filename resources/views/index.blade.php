@@ -4,7 +4,8 @@
     <div class="inner-flex">
         <h1 class="animated fadeInDown no-cursor">hello!</h1>
         <p class="animated fadeIn adelie-description no-cursor">We are Adelie. <br class="show-for-small-only">A small, full-service creative studio based in Long Island, NY.</p>
-        <a id="learn-more" class="animated fadeIn button">LEARN MORE</a>
+        <a id="learn-more" class="animated fadeIn button">LEARN MORE <i id="down-arrow" class="v-h fa fa-arrow-down animated"></i></a>
+
     </div>
 </div>
 <!--
@@ -51,12 +52,12 @@
         section-four
         ">
 
-        <div class="cta">
+        <div id="cta" class="cta">
             <i class="fa fa-5x fa-check"></i>
             <h1>Ready to begin?</h1>
             <h4>Let's build something great.</h4>
             <hr class="mini-hr">
-            <a class="button" href="contact">Request A Quote</a>
+            <a id="request-quote" class="animated button" href="contact">Request A Quote</a>
             <br>
             <a href="meet">Or, click here to meet the team!</a>
         </div>

@@ -10,32 +10,75 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+
+  // Mobile 0 -640
   @include breakpoint(small up) {
     justify-content: center;
+    background: url('../img/pattern.png');
+    background-repeat: repeat;
   }
+
+  // Tablet 640 - 1024
+  @include breakpoint(medium only) {
+    @include cover-bg-nofixed('../img/bg-tablet.png', 0%, 50%);
+    background-color: $web-blue;
+    background-position: center top;
+    background-size: 1024px 768px;
+  }
+
+  // Laptop 1024 - 1440
+  @include breakpoint(large only) {
+    background: url('../img/bg-desktop.png');
+    background-color: $web-blue;
+    background-size: 1440px 1080px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
   @include breakpoint(large up) {
     justify-content: flex-start;
   }
-  @include breakpoint(medium only) {
-    @include cover-bg-nofixed('../img/bg.jpg', 30%, 0%);
-  }
-  @include breakpoint(large only) {
-    background: url('../img/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 0% 10%;
-  }
+
+  // Desktop 1440 - 1920
   @include breakpoint(xlarge up) {
-    @include cover-bg-nofixed('../img/bg.jpg', 50%, 05%);
+    @include cover-bg('../img/bg-desktop.png', 0%, 20%);
+    box-shadow: 0px -3px 3px 0px black;
+    background-color: $web-blue;
+    background-size: 1440px 1080px;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+    // Desktop 1920+
+  @include breakpoint(xxlarge up) {
+    @include cover-bg('../img/bg-desktop.png', 0%, 20%);
+    background-color: $web-blue;
+    background-size: 1920px 1440px;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
 }
 
 .section-one {
-
   @include breakpoint(small up) {
-    background-color: $primary-color;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: $web-blue;
   }
   .inner-flex {
+    @include breakpoint(small up) {
+      align-items: center; 
+      text-align: center;
+    }
+    @include breakpoint(medium only) {
+      text-align: center;
+      h1 {
+        padding: 1rem;
+        padding-left: 0px;
+        padding-top: 0rem;
+        padding-bottom: 0.1rem;
+      }
+    }
     @include breakpoint(large up) {
       margin-left: 130px;
     }
@@ -43,35 +86,33 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
-    @include breakpoint(small up) {
-      align-items: center; 
-      text-align: center;
-    }
-    @include breakpoint(medium only) {
-      text-align: center;
-    }
     @include breakpoint(large up) {
       text-align: left;
       align-items: flex-start;
     }
 
-    h1, p {
+    /*********************************/
+    /******* TYPOGRAPHY CODE *********/
+    /*********************************/
 
+    h1, p {
       color: black;
+      padding: 1rem;
       @include breakpoint(small only) {
         color: white;
-
       }
 
-      padding: 1rem;
-      padding-left: 0px;
-      padding-top: 0rem;
-      padding-bottom: 0.1rem;
-
-      @include breakpoint(medium only) {
-        background-color: rgba(0,0,0,0.5);
+      @include breakpoint(medium up) {
+        background-color: rgba(0,0,0,0.7);
         color: white;
-        padding: 0.5rem;
+      }
+    }
+
+    a#learn-more {
+      box-shadow: 0px 3px 3px 0px black;
+      &:hover{
+        color: black;
+        background-color: #D6D6D6;
       }
     }
 
@@ -88,7 +129,7 @@
       font-weight: bold;
       
       @include breakpoint(small only) {
-        margin-left: 1rem;
+        margin-left: 0rem;
       }        
     }
 
@@ -126,9 +167,13 @@
   }
 
   @include breakpoint(medium up) {
+    height: 40rem;
   }
   // adjustment for topbar margin stuff
   @include breakpoint(large up) {
-    height: 35rem;
+    height: 48rem;
+  }  
+  @include breakpoint(xlarge up) {
+    height: 43rem;
   }
 }
