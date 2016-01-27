@@ -171,9 +171,9 @@
   }
   // adjustment for topbar margin stuff
   @include breakpoint(large up) {
-    height: 48rem;
+    height: 42.5rem;
   }  
   @include breakpoint(xlarge up) {
-    height: 43rem;
+    height: 52rem;
   }
 }
