@@ -22,9 +22,9 @@ $(document).ready(function(){
   }, 700);
 
   $('#cta').mouseover(function(){
-    $('#request-quote').addClass('tada');
+    $('#request-quote').addClass('pulse');
   });
   $('#cta').mouseleave(function(){
-    $('#request-quote').removeClass('tada');
+    $('#request-quote').removeClass('pulse');
   });
 });

@@ -3412,7 +3412,6 @@ footer {
     margin: auto;
     max-width: 13rem;
     border-radius: 50%;
-    border: 3px solid white;
     margin-bottom: 2rem; }
   .meet-container .boxed h2 {
     font-weight: bold; }
@@ -3423,11 +3422,17 @@ footer {
 .meet-container .kevin hr {
   border-color: #3A539B; }
 
+.meet-container .kevin img#kevin-photo {
+  border: 2px solid #3A539B; }
+
 .meet-container .yuna h4 {
   color: #9c3a52; }
 
 .meet-container .yuna hr {
   border-color: #9c3a52; }
+
+.meet-container .yuna img#yuna-photo {
+  border: 2px solid #9c3a52; }
 
 .meet-container .team-member {
   padding-left: 0px; }
@@ -3435,6 +3440,8 @@ footer {
     color: #181818; }
   .meet-container .team-member p {
     text-align: justify; }
+  .meet-container .team-member a.button {
+    font-weight: bold; }
 
 /************************/
 /******* About SCSS *****/
@@ -3764,6 +3771,9 @@ footer {
     padding: 2rem; }
   .section-four .cta {
     box-shadow: 0px 3px 3px 0px #252525; }
+    @media screen and (min-width: 0em) and (max-width: 39.9375em) {
+      .section-four .cta {
+        padding-bottom: 2rem; } }
     @media screen and (min-width: 40em) {
       .section-four .cta {
         width: 40%;

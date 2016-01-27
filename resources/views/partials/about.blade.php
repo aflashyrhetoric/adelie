@@ -4,8 +4,8 @@
   <div class="small-12 small-centered medium-10 columns large-uncollapse">
     <!--Mission Statement -->
     <div class="small-12 mission-statement columns tac">
-      <h1><strong>Why?</strong></h1>
-      <h2>We aim to elevate <span class="about-highlight">small businesses</span> by leveraging the power of the web through design.</h2>
+      <h1 class="animated fadeInDown"><strong>Why?</strong></h1>
+      <h2 class="animated fadeIn">We aim to elevate <span class="about-highlight">small businesses</span> by leveraging the power of the web through design.</h2>
     </div>
     <div class="small-12 medium-4 reason columns">
       <i class="fa fa-4x fa-users"></i>

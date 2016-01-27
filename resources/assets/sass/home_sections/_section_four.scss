@@ -22,6 +22,9 @@
   }
 
   .cta {
+    @include breakpoint(small only) {
+      padding-bottom: 2rem;
+    }
   
     @include breakpoint(medium up) {
       width: 40%;
