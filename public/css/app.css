@@ -3669,6 +3669,9 @@ footer {
   @media screen and (min-width: 90em) {
     .section-one {
       height: 52rem; } }
+  @media screen and (min-width: 120em) {
+    .section-one {
+      height: 65rem; } }
 
 /*********************************/
 /******* Home: Section *******/

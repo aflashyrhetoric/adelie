@@ -179,4 +179,7 @@
   @include breakpoint(xlarge up) {
     height: 52rem;
   }
+  @include breakpoint(xxlarge up) {
+    height: 65rem;
+  }
 }
