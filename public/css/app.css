@@ -3521,6 +3521,7 @@ footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  overflow: hidden;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -3537,8 +3538,9 @@ footer {
     .outer-flex {
       background: url("../img/bg-desktop.png");
       background-color: #3A539B;
-      background-size: 1440px 1080px;
-      background-position: center top;
+      background-size: 100% 768px;
+      background-position: absolute;
+      overflow: hidden;
       background-repeat: no-repeat; } }
   @media screen and (min-width: 64em) {
     .outer-flex {
@@ -3551,15 +3553,15 @@ footer {
       background-size: cover;
       box-shadow: 0px -3px 3px 0px black;
       background-color: #3A539B;
-      background-size: 1440px 1080px;
-      background-position: center top;
+      background-size: 100% 90%;
+      background-position: center center;
       background-repeat: no-repeat; } }
   @media screen and (min-width: 120em) {
     .outer-flex {
       background: url("../img/bg-desktop.png") #DCDCDC no-repeat 0% 20% fixed;
       background-size: cover;
       background-color: #3A539B;
-      background-size: 1920px 1440px;
+      background-size: 100% 100%;
       background-position: center top;
       background-repeat: no-repeat; } }
 
@@ -3663,7 +3665,7 @@ footer {
       height: 40rem; } }
   @media screen and (min-width: 64em) {
     .section-one {
-      height: 42.5rem; } }
+      height: 39rem; } }
   @media screen and (min-width: 90em) {
     .section-one {
       height: 52rem; } }
@@ -3679,8 +3681,7 @@ footer {
   margin-top: 0;
   max-width: 100%;
   width: 100%;
-  padding-top: 1rem;
-  border-top: 5px solid #292929; }
+  padding-top: 1rem; }
   .section-two i {
     color: #292929;
     padding-bottom: 1rem; }
