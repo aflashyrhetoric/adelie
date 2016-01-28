@@ -3448,7 +3448,7 @@ footer {
 /************************/
 @media screen and (min-width: 0em) and (max-width: 39.9375em) {
   .about-container {
-    padding-top: 0rem;
+    padding-top: 2rem;
     padding-bottom: 2rem; } }
 
 @media screen and (min-width: 40em) {
@@ -3460,8 +3460,8 @@ footer {
   padding-top: 0rem;
   padding-bottom: 4rem; }
   .about-container .mission-statement h2 {
-    font-weight: bold;
-    font-family: "corporate-e", sans-serif; }
+    font-weight: normal;
+    font-family: "raleway", sans-serif; }
 
 .about-container .about-subheader {
   padding: 3rem; }
@@ -3529,14 +3529,14 @@ footer {
   background-repeat: repeat; }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .outer-flex {
-      background: url("../img/bg-tablet.png") #DCDCDC no-repeat 0% 50%;
+      background: url("../img/bg-tablet-alt.png") #DCDCDC no-repeat 0% 50%;
       background-size: cover;
       background-color: #3A539B;
       background-position: center top;
       background-size: 1024px 768px; } }
   @media screen and (min-width: 64em) and (max-width: 89.9375em) {
     .outer-flex {
-      background: url("../img/bg-desktop.png");
+      background: url("../img/bg-laptop-alt.png");
       background-color: #3A539B;
       background-size: 100% 768px;
       background-position: absolute;
@@ -3553,15 +3553,15 @@ footer {
       background-size: cover;
       box-shadow: 0px -3px 3px 0px black;
       background-color: #3A539B;
-      background-size: 100% 90%;
-      background-position: center center;
+      background-size: 100% auto;
+      background-position: center top;
       background-repeat: no-repeat; } }
   @media screen and (min-width: 120em) {
     .outer-flex {
-      background: url("../img/bg-desktop.png") #DCDCDC no-repeat 0% 20% fixed;
+      background: url("../img/bg-desktophd.png") #DCDCDC no-repeat 0% 20%;
       background-size: cover;
       background-color: #3A539B;
-      background-size: 100% 100%;
+      background-size: 100% auto;
       background-position: center top;
       background-repeat: no-repeat; } }
 
@@ -3616,6 +3616,11 @@ footer {
         .section-one .inner-flex h1, .section-one .inner-flex p {
           background-color: rgba(0, 0, 0, 0.8);
           color: white; } }
+      @media screen and (min-width: 120em) {
+        .section-one .inner-flex h1, .section-one .inner-flex p {
+          background-color: transparent;
+          padding: 0;
+          color: white; } }
     .section-one .inner-flex a#learn-more {
       box-shadow: 0px 3px 3px 0px black; }
       .section-one .inner-flex a#learn-more:hover {
@@ -3662,16 +3667,7 @@ footer {
       background-color: #030303; }
   @media screen and (min-width: 40em) {
     .section-one {
-      height: 40rem; } }
-  @media screen and (min-width: 64em) {
-    .section-one {
-      height: 39rem; } }
-  @media screen and (min-width: 90em) {
-    .section-one {
-      height: 52rem; } }
-  @media screen and (min-width: 120em) {
-    .section-one {
-      height: 65rem; } }
+      height: 100vh; } }
 
 /*********************************/
 /******* Home: Section *******/

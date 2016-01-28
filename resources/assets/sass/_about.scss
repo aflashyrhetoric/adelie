@@ -4,7 +4,7 @@
 
 .about-container {
 @include breakpoint(small only) {
-  padding-top: 0rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 @include breakpoint(medium up) {
@@ -15,8 +15,8 @@
     padding-top:0rem;
     padding-bottom:4rem;
     h2{
-      font-weight: bold;
-      font-family: $corporate_e;
+      font-weight: normal;
+      font-family: $raleway;
     }
   }
 
