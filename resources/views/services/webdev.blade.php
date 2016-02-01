@@ -137,7 +137,7 @@
     small-12 medium-4 medium-offset-1 columns cta-box boxed">
     <h3>Interested in web services?</h3>
     <hr class="mini-hr">
-    <a class="button" href="contact">Request A Quote</a>
+    <a class="button" href="/contact">Request A Quote</a>
   </div>
   <hr class="show-for-small-only">
 </div>
