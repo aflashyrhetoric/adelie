@@ -56,7 +56,7 @@
     <ol>
     <li><strong>You</strong> fill out our <a href="https://adelie.typeform.com/to/q4RsNk">Graphic Design Project Form.</a></li>
     <li><strong>We</strong> assess your answers, if all the elements are ready (copy, photos, etc.), we will send you a detailed quote with projected date of delivery.</li>
-    <li>Once the quote and delivery date are accepted, <strong>we</strong> both will sign off on the agreement.</li>
+    <li>Once the quote and delivery date are accepted, <strong>we both</strong> will sign off on the agreement.</li>
     <li>Once the deposit (if any) is made, the project will begin! </li>
     <li>Once <strong>you</strong> are satisfied with the completed design, the final item(s) will be delivered electronically.</li>
     <li><strong>Congratulations! You are finished!</strong></li>

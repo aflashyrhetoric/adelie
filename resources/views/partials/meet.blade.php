@@ -11,7 +11,7 @@
     <h2 class="animated fadeIn">kevin</h2>
     <h4 class="animated fadeIn">web developer</h4>
     <hr>
-    <p>A tinkering programmer for six years, and a web developer for four.</p>
+    <p>A tinkering programmer for five years, and a web developer for four.</p>
     <p>Around seven years ago, a family friend showed me her website. She said she had got it "done professionally." I saw the site and cringed. It had obnoxious, electric-blue banners and illegible fonts. Things were scrolling and flashing all over the place. In the corner: a stolen, watermarked stock photo. I wasn't a professional, but I knew this wasn't good work.</p>
     <p>I later found out that she had paid nearly one thousand dollars for this broken mess of a site.</p>
     <p>I learned HTML and CSS and decided to redo her site for free. Granted, it was my first website and it wasn't amazing, but it was something.</p>

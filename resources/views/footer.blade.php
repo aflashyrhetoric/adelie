@@ -15,6 +15,7 @@
   <ul class="lstn">
     <li><a href="/" class="footer-links">Home</a></li>
     <li><a href="/about" class="footer-links">About Adelie</a></li>
+    <li><a href="http://www.medium.com/the-waddle" target="_blank" class="footer-links">The Adelie Blog</a></li>
     <li><a href="/meet" class="footer-links">Meet The Adelie Team</a></li>
     <li><a href="/contact" class="footer-links">Contact Us</a></li>
   </ul>
@@ -24,19 +25,20 @@
   columns footer-body">
   <h2>links</h2>
   <hr class="mini-hr">
+
   <i class="fa fa-envelope fa-inverse"></i>
   <span>
     <a href="mailto:contact@adelieweb.com"> | contact@adelieweb.com</a>
   </span>
   <br>
+
   <i class="fa fa-facebook"></i>
-  <span>| facebook.com/adelieweb</span>
+  <span><a href="http://www.facebook.com/adelieweb">| facebook.com/adelieweb</a></span>
   <br>
+
   <i class="fa fa-twitter"></i>
-  <span>| twitter.com/adelieweb</span>
-  {{--   <i class="fa fa-envelope-o"></i>
-  <span>contact@adelieweb.com</span>
-  --}}
+  <span><a href="http://www.twitter.com/adelieweb">| twitter.com/adelieweb</a></span>
+
 </div>
 <div class="
   medium-12 columns footer-end">

@@ -3412,7 +3412,8 @@ footer {
     margin: auto;
     max-width: 13rem;
     border-radius: 50%;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    pointer-events: none; }
   .meet-container .boxed h2 {
     font-weight: bold; }
 
@@ -3536,9 +3537,9 @@ footer {
       background-size: 1024px 768px; } }
   @media screen and (min-width: 64em) and (max-width: 89.9375em) {
     .outer-flex {
-      background: url("../img/bg-laptop-alt.png");
+      background: url("../img/bg-desktop.png");
       background-color: #3A539B;
-      background-size: 100% 768px;
+      background-size: cover;
       background-position: absolute;
       overflow: hidden;
       background-repeat: no-repeat; } }
@@ -3667,7 +3668,7 @@ footer {
       background-color: #030303; }
   @media screen and (min-width: 40em) {
     .section-one {
-      height: 100vh; } }
+      height: 90vh; } }
 
 /*********************************/
 /******* Home: Section *******/

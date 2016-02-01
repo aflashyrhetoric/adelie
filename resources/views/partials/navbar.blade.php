@@ -17,7 +17,7 @@
       <div class="top-bar-right">
         <ul class="dropdown menu hide-for-small-only show-for-medium-up" data-dropdown-menu>
           <li><a href="/about">ABOUT</a></li>
-          <li><a href="https://medium.com/the-waddle">BLOG</a></li>
+          <li><a href="https://medium.com/the-waddle" target="_blank">BLOG</a></li>
           <li class="has-submenu">
             <a href="#">SERVICES</a>
             <ul class="submenu menu vertical" data-submenu>

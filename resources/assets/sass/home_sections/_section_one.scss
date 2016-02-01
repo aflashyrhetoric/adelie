@@ -29,10 +29,9 @@
 
   // Laptop 1025 - 1439
   @include breakpoint(large only) {
-    background: url('../img/bg-laptop-alt.png');
-    // @include cover-bg('../bg-tablet.png');
+    background: url('../img/bg-desktop.png');
     background-color: $web-blue;
-    background-size: 100% 768px;
+    background-size: cover;
     background-position: absolute;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -176,7 +175,7 @@
 
   @include breakpoint(medium up) {
     // height: 40rem;
-    height: 100vh;
+    height: 90vh;
   }
   // // // adjustment for topbar margin stuff
   // @include breakpoint(large up) {

@@ -84,7 +84,7 @@
       <li><strong>We</strong> assess your specific needs regarding visual brand components, budget, etc. and send you a project proposal including a detailed quote. </li>
       <li><strong>You</strong> will have the chance to review our proposal to confirm we’re on the right track. </li>
       <li>Once the proposal is accepted, <strong>we</strong> will send you a contract detailing the timeline of the whole project including estimated delivery dates for proofs and payment schedule(s). </li>
-      <li><strong>We</strong> both sign a contract that protects both parties.</li>
+      <li><strong>We both </strong>sign a contract that protects both parties.</li>
       <li>Once the agreed upon down payment is received, <strong>we</strong> will begin the design process!</li>
       <li>Through the rounds of proofs, <strong>you</strong> will have regular opportunities to offer constructive feedback so we can both track with the direction of the project. </li>
       <li>Once <strong>you</strong> are satisfied with your visual brand components, the final kit will be delivered electronically.</li>
