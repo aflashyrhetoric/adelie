@@ -27,5 +27,6 @@ Route::get('/meet', 'StaticPagesController@meet');
 // Contacts
 Route::get('/contact', 'ContactsController@newMessage');
 Route::post('/contact', 'ContactsController@sendMessage');
+Route::get('/request', 'ContactsController@requestQuote');
 
 Route::get('/thankyou', 'ContactsController@thankyou');

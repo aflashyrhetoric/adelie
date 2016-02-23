@@ -20,6 +20,11 @@ class ContactsController extends Controller
         return view('partials.contact');
     }
 
+    public function requestQuote()
+    {
+        return view('partials.request');
+    }
+
     public function sendMessage(ContactFormRequest $request)
     {
 
