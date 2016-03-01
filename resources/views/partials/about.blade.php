@@ -32,9 +32,9 @@
         <h1>Ready to begin?</h1>
         <h4>Let's build something great.</h4>
         <hr class="mini-hr">
-        <a class="button about-button" href="contact">Request A Quote</a>
+        <a class="button about-button" href="/request">Request A Quote</a>
         <br>
-        <a href="meet">Or, click here to meet the team!</a>
+        <a href="meet">Or, meet the team!</a>
     </div>
 </div>
 @endsection

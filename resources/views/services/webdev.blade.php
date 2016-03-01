@@ -35,20 +35,22 @@
     </ol>
     <h4 id="introduction" class="anchor-item">1. Introduction</h4>
     <hr>
-    <p>The web is now a ubiquitous medium. It's at the tip of our fingers everywhere we go, accessible through smartphones, tablets, desktops, laptops - and now, even some televisions!</p>
-    <p>Point is, the web has come and is here to stay. Naturally, businesses have almost universally embraced the web as a business tool. </p>
+    <p>The web has become a ubiquitous medium.</p>
+    <p>Naturally, businesses have embraced the web as a powerful tool to help them expand their reach, express their identities, and connect with their clients & customers.</p>
     <p><strong>A website allows you to:</strong></p>
     <ul>
-      <li>Generally showcase your business</li>
+      <li>Showcase your business</li>
+      <li>Show up on search engines like Google & Bing</li>
       <li>Display your products & services</li>
-      <li>Expand your reach beyond the local community</li>
+      <li>Expand your reach</li>
       <li>Run promotional events</li>
-      <li>Talk to your customers via a blog</li>
+      <li>Inform your audience</li>
       <li>Show off photos</li>
       <li>Encourage newsletter signups</li>
       <li><strong>So much more.</strong></li>
     </ul>
-    <p>But frankly, even though <em>visiting</em> a website is as easy as clicking a button, <em>creating</em> a website is not.</p>
+    <p><strong>Interested?</strong> Keep reading to learn how it's done, or <a href="/request">click here to request a quote.</a></p>
+
     <a href="#top">(Back To Top)</a><br><br>
     <!--Whats It Take? -->
     <h4 id="whatsittake" class="anchor-item">2. What does it take to make a site?</h4>

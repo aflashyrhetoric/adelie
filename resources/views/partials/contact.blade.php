@@ -4,6 +4,7 @@
   <div class="small-12 small-centered medium-9 columns">
     <div class="contact-header">
       <h1 class="animated fadeIn">Contact Us</h1>
+      <p>Looking for a quote? <a href="/request">Click here!</a></p>
       <p><em>We try to reply to all messages within 24 hours.</em></p>
       <hr>
     </div>
@@ -28,6 +29,7 @@
     {!! Form::textarea('message') !!}
     {!! Form::submit('Send Message', array('class' => 'button')) !!}
     {!! Form::close() !!}
+
   </div>
 </div>
 @endsection

@@ -30,7 +30,7 @@
     {!! Form::submit('Send Message', array('class' => 'button')) !!}
     {!! Form::close() !!}
     <hr/>
-    <p> Estimates given are just that - estimates! We'll do our best to give a ballpark range, but please keep in mind that final costs may vary. As we learn more about your project, we'll be able to give you more accurate quotes. Thanks! </p>
+    <p> Estimates given are just that - estimates! We'll do our best to give an accurate range, but please keep in mind that final costs may vary. As we learn more about your project, we'll be able to give you more accurate quotes. Thanks! </p>
   </div>
 </div>
 @endsection

@@ -11,17 +11,15 @@
     <h2 class="animated fadeIn">kevin</h2>
     <h4 class="animated fadeIn">web developer</h4>
     <hr>
-    <p>A tinkering programmer for five years, and a web developer for four.</p>
-    <p>Around seven years ago, a family friend showed me her website. She said she had got it "done professionally." I saw the site and cringed. It had obnoxious, electric-blue banners and illegible fonts. Things were scrolling and flashing all over the place. In the corner: a stolen, watermarked stock photo. I wasn't a professional, but I knew this wasn't good work.</p>
-    <p>I later found out that she had paid nearly one thousand dollars for this broken mess of a site.</p>
+    <p>Around seven years ago, a family friend showed me her website. It had been done professionally. It had flashing banners and everything was written in a cursive font. Things were scrolling all over the place. In the corner: a stolen, watermarked stock photo.</p>
     <p>I learned HTML and CSS and decided to redo her site for free. Granted, it was my first website and it wasn't amazing, but it was something.</p>
-    <p>She saw the site and smiled when I showed her my version.</p>
-    <p><strong>I was hooked.</strong></p>
-    <p>Since then, web design and web development have become an obsession. I regularly research best practices, always looking for ways to improve my process. I'd obsess about text editors (Sublime Text all the way!), responsive layouts, front-end frameworks like Vue and full-stack frameworks like Laravel. </p>
-    <p>I've learned quite a bit about what a website <em>can be</em>: anything from a personal journal to a public portfolio, a simple online business card to a primary source of income.</p>
-    <p>I've also learned that many people tend to compromise for <em>cheap, low quality sites</em>, operating under the impression that a proper website will leave them bankrupt.</p>
-    <p><strong>At Adelie, I hope to dispel that notion.</strong></p>
-    <p>I believe in bold designs that don't sacrifice functionality. I believe that honest conversations are the best way to sift through tons of technical details to create a great final product. So, let's talk. Let's build something great.</p>
+    <p>She saw my version of the site and smiled.</p>
+    <p><strong>I was hooked!</strong></p>
+    <p>Since then, web design and web development have become an obsession. Testing new techniques to optimize the development process, integrating unique technologies into our workflow, talking to amazing clients who yearn to grow their businesses - I love every moment of it. And I've learned tons in the past several years.</p>
+    <p>I've learned what a website <em>can be</em>: anything from a personal journal to a public portfolio, a simple online business card to a primary source of income.</p>
+    <p>I've also learned that small businesses tend to compromise for <em>cheap, low quality sites</em>, operating under the impression that a proper website will leave them bankrupt.</p>
+    <p><strong>At Adelie, I work to dispel that notion.</strong></p>
+    <p>So, let's talk. Let's build something great.</p>
     <p>If you're interested, please don't hesitate to contact me at <a href="mailto:koh@adelieweb.com">koh@adelieweb.com.</a></p>
     <hr>
     <a class="button" href="/services/webdev">Read More About Web Services</a>
@@ -42,5 +40,18 @@
     <a class="button" href="/services/graphic_design">Read More About Graphic Design Services</a>
     <a class="button" href="/services/branding">Read More About Branding Services</a>
   </div>
+
+    <div class="
+    small-12 
+    tac 
+    columns">
+    <hr>
+        <h1>Ready to begin?</h1>
+        <h4>Let's build something great.</h4>
+        <hr class="mini-hr">
+        <a class="button about-button" href="/request">Request A Quote</a>
+        <br>
+        <a href="/about">Or, read about Adelie!</a>
+    </div>
 </div>
 @endsection
