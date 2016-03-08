@@ -16,12 +16,16 @@ Route::get('/', function () {
   // return view('temp');
 });
 
-Route::get('/services', 'StaticPagesController@redirectToHome');
+// About
 Route::get('about', 'StaticPagesController@about');
+
+// Services
 Route::get('/services/webdev', 'StaticPagesController@webdev');
 Route::get('/services/graphic_design', 
   'StaticPagesController@graphicDesign');
 Route::get('/services/branding', 'StaticPagesController@branding');
+
+// Meet The Team
 Route::get('/meet', 'StaticPagesController@meet');
 
 // Contacts
@@ -29,4 +33,11 @@ Route::get('/contact', 'ContactsController@newMessage');
 Route::post('/contact', 'ContactsController@sendMessage');
 Route::get('/request', 'ContactsController@requestQuote');
 
+// Case Studies
+Route::get('/case', 'StaticPagesController@case');
+
+// Transactional pages
 Route::get('/thankyou', 'ContactsController@thankyou');
+
+// Redirects
+Route::get('/services', 'StaticPagesController@redirectToHome');

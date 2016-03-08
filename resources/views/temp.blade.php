@@ -40,7 +40,8 @@
     }
     .temp h1 {
       font-family: 'corporate-e';
-      letter-spacing: -2px;
+      font-weight: 200;
+      letter-spacing: -1px;
     }
     .temp a{
     /*color: #3a539b;*/
