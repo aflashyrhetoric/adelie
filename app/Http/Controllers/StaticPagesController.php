@@ -48,7 +48,7 @@ class StaticPagesController extends Controller
         return view('partials.meet');
     }
 
-    public function case(){
+    public function casestudy(){
         return view('casestudy');
     }
 }

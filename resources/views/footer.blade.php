@@ -28,16 +28,16 @@
 
   <i class="fa fa-envelope fa-inverse"></i>
   <span>
-    <a href="mailto:contact@adelieweb.com"> | contact@adelieweb.com</a>
+    <a href="mailto:contact@adelieweb.com"> contact@adelieweb.com</a>
   </span>
   <br>
 
   <i class="fa fa-facebook"></i>
-  <span><a href="http://www.facebook.com/adelieweb">| facebook.com/adelieweb</a></span>
+  <span><a target="_blank" href="http://www.facebook.com/adelieweb">Adelie Facebook</a></span>
   <br>
 
   <i class="fa fa-twitter"></i>
-  <span><a href="http://www.twitter.com/adelieweb">| twitter.com/adelieweb</a></span>
+  <span><a target="_blank" href="http://www.twitter.com/adelieweb">Adelie Twitter</a></span>
 
 </div>
 <div class="
