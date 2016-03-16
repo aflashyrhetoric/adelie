@@ -57,7 +57,7 @@ $topbar-input-width: 200px !default;
   }
 }
 
-@mixin foundation-top-bar {
+@mixin foundation-top-bar-modified {
   // Top bar container
   .top-bar {
     @include top-bar-container;

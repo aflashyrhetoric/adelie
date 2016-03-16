@@ -1,0 +1,4 @@
+// Eliminates the right arrow on the dropdown menu
+.is-drilldown-submenu-parent > a::after {
+	border: inset 0px !important;
+}
