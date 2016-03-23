@@ -34,7 +34,7 @@ Route::post('/contact', 'ContactsController@sendMessage');
 Route::get('/request', 'ContactsController@requestQuote');
 
 // Case Studies
-Route::get('/cases', 'StaticPagesController@casestudy');
+Route::get('/cases', 'CaseStudiesController@index');
 
 // Transactional pages
 Route::get('/thankyou', 'ContactsController@thankyou');

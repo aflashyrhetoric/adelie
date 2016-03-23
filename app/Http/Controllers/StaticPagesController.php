@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\CaseStudy;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -30,7 +31,6 @@ class StaticPagesController extends Controller
     $current_service = 'Web Development';
     return view('services.webdev')->with('current_service', 
         $current_service);
-
     }
 
     public function graphicDesign(){
@@ -48,7 +48,4 @@ class StaticPagesController extends Controller
         return view('partials.meet');
     }
 
-    public function casestudy(){
-        return view('casestudy');
-    }
 }

@@ -12,6 +12,11 @@
 </div>
 <div class="case-study-container">
   <div class="row">
+    
+    @foreach ($cases as $case)
+     <p>This is user {{ $case->id }}</p>
+    @endforeach
+
     <div class="small-12 medium-4 case-study-item columns">
       <img src="http://placehold.it/350x350">
     </div>
