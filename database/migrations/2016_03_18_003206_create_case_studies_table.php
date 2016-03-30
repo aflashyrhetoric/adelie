@@ -12,7 +12,7 @@ class CreateCaseStudiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('casestudies', function(Blueprint $table)){
+        Schema::create('casestudies', function(Blueprint $table){
             $table->increments('id');
             $table->string('client-name');
             $table->text('about');
@@ -20,7 +20,7 @@ class CreateCaseStudiesTable extends Migration
             // Optional phases
             $table->text('phase-two')->nullable();
             $table->text('phase-three')->nullable();
-        }
+        });
     }
 
     /**

@@ -18,7 +18,7 @@ class CaseStudiesController extends Controller
     public function index()
     {
         $cases = CaseStudy::all();
-        return view('casestudy');
+        return view('casestudy', ['cases' => $cases]);
     }
 
     /**
