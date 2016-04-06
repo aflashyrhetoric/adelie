@@ -3461,6 +3461,9 @@ h6 {
       padding-bottom: 3px;
       border-bottom: 1px solid #304581; }
 
+.sticky {
+  z-index: 1; }
+
 .button {
   background-color: #252525; }
 
@@ -3524,7 +3527,8 @@ footer {
 
 .service-hero {
   padding-top: 7rem;
-  padding-bottom: 7rem; }
+  padding-bottom: 7rem;
+  border-bottom: 3px solid #3A539B; }
   .service-hero .service-hero-inner h1, .service-hero .service-hero-inner h2, .service-hero .service-hero-inner p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.3);
@@ -3533,6 +3537,11 @@ footer {
   .service-hero .service-hero-inner a {
     text-decoration: underline;
     color: #4f4f4f; }
+
+.main-service-section {
+  margin-bottom: 3rem;
+  padding: 3rem !important;
+  background-color: #fff; }
 
 .webdev-hero {
   background: url("../img/webdev-bg.jpg") #DCDCDC no-repeat 70% 50%;
@@ -3560,46 +3569,57 @@ footer {
   .services-nav li:hover {
     background-color: #4f4f4f; }
 
-@media screen and (max-width: 39.9375em) {
-  .service-container {
-    padding-top: 1rem;
-    padding-bottom: 1rem; } }
-
-@media screen and (min-width: 40em) {
-  .service-container {
-    padding-top: 3rem;
-    padding-bottom: 3rem; } }
-
-.service-container .anchor-item {
-  padding-top: 4rem;
-  margin-top: -4rem;
-  font-weight: bold; }
-
-.service-container h2 {
-  font-size: 2rem;
-  font-weight: bold; }
-
-.service-container h2, .service-container h4 {
-  color: #292929; }
-
-@media screen and (min-width: 40em) {
-  .service-container .webdev-process {
-    margin-bottom: 3rem; } }
-
-.service-container .webdev-process strong, .service-container .webdev-process b, .service-container .webdev-process li.success {
-  color: #292929; }
-
-.service-container .cta-box {
-  text-align: center; }
-  .service-container .cta-box h3 {
-    font-weight: bold; }
-
-.service-container .boxed {
-  padding: 1rem; }
+.service-container {
+  background-color: #f0f2f1; }
+  @media screen and (max-width: 39.9375em) {
+    .service-container {
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
   @media screen and (min-width: 40em) {
-    .service-container .boxed {
-      border: 1px solid lightgray;
-      box-shadow: 0px 3px 3px 0px gray; } }
+    .service-container {
+      padding-top: 3rem;
+      padding-bottom: 3rem; } }
+  .service-container .process {
+    background-color: #fff;
+    padding: 2rem !important; }
+    .service-container .process b {
+      color: #3A539B; }
+    @media screen and (min-width: 40em) {
+      .service-container .process {
+        margin-bottom: 3rem; } }
+  .service-container .process-title {
+    text-align: center;
+    margin-bottom: 3rem; }
+    .service-container .process-title h2 {
+      font-size: 3rem; }
+    @media screen and (max-width: 39.9375em) {
+      .service-container .process-title {
+        margin-top: 3rem; } }
+    .service-container .process-title h4 {
+      color: #75877e; }
+  .service-container .anchor-item {
+    padding-top: 4rem;
+    margin-top: -4rem;
+    font-weight: bold; }
+  .service-container h2 {
+    font-size: 2rem;
+    font-weight: bold; }
+  .service-container h2, .service-container h4 {
+    color: #292929; }
+  .service-container .webdev-process strong, .service-container .webdev-process b, .service-container .webdev-process li.success {
+    color: #3A539B; }
+  .service-container .cta-box {
+    background-color: #ffffff;
+    text-align: center; }
+    .service-container .cta-box h2 {
+      font-weight: bold;
+      color: #3A539B; }
+  .service-container .boxed {
+    padding: 1rem; }
+    @media screen and (min-width: 40em) {
+      .service-container .boxed {
+        border: 1px solid lightgray;
+        box-shadow: 0px 3px 3px 0px gray; } }
 
 @media screen and (max-width: 39.9375em) {
   .meet-container {
@@ -3661,14 +3681,15 @@ footer {
 .meet-container .yuna img#yuna-photo {
   border: 2px solid #9c3a52; }
 
-.meet-container .team-member {
-  padding-left: 0px; }
-  .meet-container .team-member h2, .meet-container .team-member p {
-    color: #181818; }
-  .meet-container .team-member p {
-    text-align: justify; }
-  .meet-container .team-member a.button {
-    font-weight: bold; }
+.meet-container .team-member h2, .meet-container .team-member p {
+  color: #181818; }
+
+.meet-container .team-member p {
+  text-align: justify; }
+
+.meet-container .team-member a.button {
+  font-weight: bold;
+  background-color: #3A539B; }
 
 /************************/
 /******* About SCSS *****/
@@ -3732,10 +3753,6 @@ footer {
 /**************************
 ** Case Study Section SCSS
 **************************/
-@media screen and (min-width: 64em) {
-  .case-study-container .row {
-    margin-bottom: 1rem; } }
-
 /*********************************/
 /******* SECTION IMPORTS *********/
 /*********************************/

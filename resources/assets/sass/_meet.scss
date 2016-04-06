@@ -80,7 +80,6 @@
     }
   }
   .team-member {
-    padding-left: 0px;
     h2,p{
       color: #181818;
     }
@@ -89,6 +88,7 @@
     }
     a.button {
       font-weight: bold;
+      background-color: $web-blue;
     }
   }
 }

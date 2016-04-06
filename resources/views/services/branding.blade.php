@@ -1,8 +1,11 @@
 @extends('app')
 @section('content')
 <div class="branding-hero service-hero hide-for-small-only">
-  <div class="service-hero-inner hide-for-small-only small-12 small-centered
-    medium-5 medium-offset-1
+  <div class="service-hero-inner 
+    hide-for-small-only 
+    small-12  small-centered
+    medium-8 
+    large-5 
     columns">
     <h2><strong>Services</strong></h2>
     <h2>/</h2>
@@ -14,10 +17,42 @@
 </div>
 <div class="row service-container large-uncollapse">
   <div class="
+    small-12 
+    medium-7 
+    medium-centered process-title columns">
+    <h2>Our Process</h2>
+    <h4>Getting started is easy.</h4>
+  </div>
+  <div class="
     small-12
-    medium-5 medium-offset-1
-    large-uncentered
-    columns boxed
+    medium-9 medium-centered
+    large-7
+    columns process branding-process boxed">
+    <ol>
+      <li><strong>You</strong> fill out our <a href="https://adelie.typeform.com/to/uO6UfN">Visual Branding Questionnaire.</a></li>
+      <li><strong>We</strong> assess your specific needs regarding visual brand components, budget, etc. and send you a project proposal including a detailed quote. </li>
+      <li><strong>You</strong> will have the chance to review our proposal to confirm we’re on the right track. </li>
+      <li>Once the proposal is accepted, <strong>we</strong> will send you a contract detailing the timeline of the whole project including estimated delivery dates for proofs and payment schedule(s). </li>
+      <li><strong>We both </strong>sign a contract that protects both parties.</li>
+      <li>Once the agreed upon down payment is received, <strong>we</strong> will begin the design process!</li>
+      <li>Through the rounds of proofs, <strong>you</strong> will have regular opportunities to offer constructive feedback so we can both track with the direction of the project. </li>
+      <li>Once <strong>you</strong> are satisfied with your visual brand components, the final kit will be delivered electronically.</li>
+      <li><strong>Congratulations! You are finished!</strong></li>
+      <li><em>We're flexible! At any time during this process we are happy to work with you to make this as smooth an experience as possible. We sincerely appreciate your feedback.</em> </li>
+    </ol>
+  </div>
+  <div class="
+    small-12 
+    medium-7 
+    medium-centered process-title columns">
+    <h2>What is branding?</h2>
+    <h4>Learn more below.</h4>
+  </div>
+  <div class="
+    small-12
+    medium-9 medium-centered
+    large-9
+    columns process branding-process boxed
     ">
     <!--Introduction -->
     <p><em>In this section, we define and discuss <em>branding</em> so that anyone interested can learn more about our process before spending a dime. <strong>If you'd like an estimate, please <a href="/contact">click here to contact us.</a></strong> You may also explore our other services by clicking in the dropdown below.</em></p>
@@ -72,32 +107,15 @@
   </div>
   <hr class="show-for-small-only">
   <!-- Sidebar -->
-  <div class="
-    small-12
-    medium-4 medium-offset-1 end
-    columns webdev-process boxed">
-    <h2>Our Process</h2>
-    <h4>Getting started is easy.</h4>
-    <hr>
-    <ol>
-      <li><strong>You</strong> fill out our <a href="https://adelie.typeform.com/to/uO6UfN">Visual Branding Questionnaire.</a></li>
-      <li><strong>We</strong> assess your specific needs regarding visual brand components, budget, etc. and send you a project proposal including a detailed quote. </li>
-      <li><strong>You</strong> will have the chance to review our proposal to confirm we’re on the right track. </li>
-      <li>Once the proposal is accepted, <strong>we</strong> will send you a contract detailing the timeline of the whole project including estimated delivery dates for proofs and payment schedule(s). </li>
-      <li><strong>We both </strong>sign a contract that protects both parties.</li>
-      <li>Once the agreed upon down payment is received, <strong>we</strong> will begin the design process!</li>
-      <li>Through the rounds of proofs, <strong>you</strong> will have regular opportunities to offer constructive feedback so we can both track with the direction of the project. </li>
-      <li>Once <strong>you</strong> are satisfied with your visual brand components, the final kit will be delivered electronically.</li>
-      <li><strong>Congratulations! You are finished!</strong></li>
-      <li><em>We're flexible! At any time during this process we are happy to work with you to make this as smooth an experience as possible. We sincerely appreciate your feedback.</em> </li>
-    </ol>
-  </div>
   <!--Second section -->
   <div class="
-    small-12 medium-4 medium-offset-1 columns cta-box boxed">
+    small-11 small-centered
+    medium-9 
+    large-5
+    columns cta-box boxed">
     <h3>Interested in branding services?</h3>
     <hr class="mini-hr">
-    <a class="button" href="/contact">Request A Quote</a>
+    <a class="button" href="/request">Request A Quote</a>
   </div>
   <hr class="show-for-small-only">
 </div>

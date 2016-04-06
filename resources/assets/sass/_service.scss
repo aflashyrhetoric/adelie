@@ -13,6 +13,7 @@
 .service-hero {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  border-bottom: 3px solid $web-blue;
 
   .service-hero-inner {
     h1, h2, p {
@@ -26,8 +27,13 @@
       text-decoration: underline;
       color: lighten($primary-color, 15);
     }
-
   }
+}
+
+.main-service-section {
+  margin-bottom: 3rem;
+  padding: 3rem !important;
+  background-color: #fff;
 }
 
 .webdev-hero{
@@ -73,23 +79,46 @@
 
   }
 }
+
+$service-bg-color: #f0f2f1;
 .service-container {
+  background-color: $service-bg-color;
   @include breakpoint(small only) {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-
   @include breakpoint(medium up) {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
-
+  .process {
+    background-color: #fff;
+    padding: 2rem !important;
+    b{
+      color: $web-blue;
+    }
+    @include breakpoint(medium up) {
+      margin-bottom: 3rem; 
+    }
+  }
+  .process-title{
+    h2{
+      font-size: 3rem;   
+    }
+    text-align: center;
+    @include breakpoint(small only) {
+      margin-top: 3rem; 
+    }
+    margin-bottom: 3rem;
+    h4 {
+      color: darken($service-bg-color, 45);
+    }
+  }
   .anchor-item{
     padding-top: 4rem;
     margin-top: -4rem;
     font-weight: bold;
   }
-
   h2 {
     font-size: 2rem;
     font-weight: bold;
@@ -101,19 +130,16 @@
   }
 
   .webdev-process {
-    @include breakpoint(medium up) {
-      margin-bottom: 3rem; 
-    }
-
-    
     strong, b, li.success {
-      color: $primary-color;
+      color: $web-blue;
     }
   }
 
   .cta-box {
-    h3{
+    background-color: $white;
+    h2{
       font-weight: bold;
+      color: $web-blue;
     }
     text-align: center;
   }

@@ -1,8 +1,9 @@
 @extends('app')
 @section('content')
 <div class="webdev-hero service-hero hide-for-small-only">
-  <div class="service-hero-inner small-12 small-centered
-    medium-7 medium-offset-1
+  <div class="service-hero-inner 
+    small-12 small-centered
+    medium-7 
     columns">
     <h2><strong>Services</strong></h2>
     <h2>/</h2>
@@ -12,18 +13,51 @@
 <div class="small-hero show-for-small-only">
   <h1>{{$current_service}}</h1>
 </div>
-<div class="row service-container large-uncollapse">
+<div class="row service-container">
+  <div class="
+    small-12 
+    medium-7 
+    medium-centered process-title columns">
+    <h2>Our Process</h2>
+    <h4>Getting started is easy.</h4>
+  </div>
   <div class="
     small-12
-    medium-5 medium-offset-1
-    large-uncentered
+    medium-9 medium-centered
+    large-7 
+    columns process webdev-process boxed">
+    <ol>
+      <li><b>We</b> analyze your specific needs regarding budget, site functionality, etc.</li>
+      <li><b>You</b> will get a chance to look at our analysis and confirm that we're on the right track.</li>
+      <li><b>We</b> will do research and plan a cost-effective solution for your needs.</li>
+      <li><b>We</b> will send you a <em>Website Proposal</em> with cost and delivery estimates.</li>
+      <li>Once the proposal is accepted, <b>we both</b> sign a contract that protects both parties.</li>
+      <li>Once the downpayment is received, <b>we</b> (Adelie) begin developing!</li>
+      <li>As work continues, you'll get a chance to offer constructive feedback.</li>
+      <li>Once work is completed and full payment is received, your website goes live!</li>
+      <li class="success"><strong>Hooray! All done! Go enjoy your brand new site!</strong></li>
+      <li><em>At any time during this process, we can work with you to revise project parameters to meet budgetary/time restrictions.</em></li>
+    </ol>
+  </div>
+  <div class="
+    small-12 
+    medium-7 
+    medium-centered process-title columns">
+    <h2>What is web development?</h2>
+    <h4>Learn more below.</h4>
+  </div>
+  <div class="
+    small-12
+    medium-9 medium-centered
     columns boxed
+    main-service-section
     ">
     <!--Introduction -->
-    <p><em>In this section, we define and discuss web design & development so that anyone interested can learn more about our process before spending a dime. <strong>If you'd like an estimate, please <a href="/contact">click here to contact us.</a></strong> You may also explore our other services by clicking in the dropdown below.</em></p>
+
+    <p><strong>Look for an estimate? <a href="/contact">Contact us</a></strong>!</p>
     <!--Top Tag -->
     <a id="top"></a>
-    @include('services/_dropdown')
+   <!--('services/_dropdown')-->
     <br>
     <h2>Table Of Contents</h2>
     <hr>
@@ -106,40 +140,16 @@
     <p>At Adelie, we use a variety of tools to build a variety of websites. Different tools are used depending on the deadline, budget, complexity, and flexibility required. </p>
     <p>In the interest of brevity, we'll omit the technical details on this page, but if you want to learn more about our preferred tech stack, web hosts, registrars, etc, feel free to message us at contact@adelieweb.com, or by <a href="/contact">clicking here.</a></p>
     <a href="#top">(Back To Top)</a><br><br>
-    <div class="boxed cta-box">
-      <h2>Interested in web services?</h2>
-      <p>Click below to contact us with questions or to request a quote.</p>
-      <a href="/contact" class="button">Contact Us</a>
-    </div>
   </div>
   <hr class="show-for-small-only">
   <!-- Sidebar -->
-  <div class="
-    small-12
-    medium-4 medium-offset-1 end
-    columns webdev-process boxed">
-    <h2>Our Process</h2>
-    <h4>Getting started is easy.</h4>
-    <hr>
-    <ol>
-      <li><b>We</b> analyze your specific needs regarding budget, site functionality, etc.</li>
-      <li><b>You</b> will get a chance to look at our analysis and confirm that we're on the right track.</li>
-      <li><b>We</b> will do research and plan a cost-effective solution for your needs.</li>
-      <li><b>We</b> will send you a <em>Website Proposal</em> with cost and delivery estimates.</li>
-      <li>Once the proposal is accepted, <b>we both</b> sign a contract that protects both parties.</li>
-      <li>Once the downpayment is received, <b>we</b> (Adelie) begin developing!</li>
-      <li>As work continues, you'll get a chance to offer constructive feedback.</li>
-      <li>Once work is completed and full payment is received, your website goes live!</li>
-      <li class="success"><strong>Hooray! All done! Go enjoy your brand new site!</strong></li>
-      <li><em>At any time during this process, we can work with you to revise project parameters to meet budgetary/time restrictions.</em></li>
-    </ol>
-  </div>
   <!--Second section -->
   <div class="
-    small-12 medium-4 medium-offset-1 columns cta-box boxed">
-    <h3>Interested in web services?</h3>
+    small-11 small-centered medium-9 large-5 columns cta-box boxed">
+    <h2>Ready to get started?</h2>
+    <p>Contact us to learn more.</p>
     <hr class="mini-hr">
-    <a class="button" href="/contact">Request A Quote</a>
+    <a class="button" href="/request">Request A Quote</a>
   </div>
   <hr class="show-for-small-only">
 </div>

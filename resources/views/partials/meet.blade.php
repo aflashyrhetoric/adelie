@@ -6,7 +6,7 @@
     <h2 class="animated fadeIn">Introducing the people behind the name.</h2>
   </div>
   <!-- Kevin -->
-  <div class="kevin team-member small-12 medium-6 large-5 columns boxed">
+  <div class="kevin team-member small-12 medium-6 large-6 columns boxed">
     <img class="animated fadeIn" id="kevin-photo" src="../img/ko_bw.JPG" alt="kevin">
     <h2 class="animated fadeIn">kevin</h2>
     <h4 class="animated fadeIn">web developer</h4>
@@ -24,7 +24,7 @@
     <hr>
     <a class="button" href="/services/webdev">Read More About Web Services</a>
   </div>
-  <div class="yuna team-member small-12 medium-6 large-5 large-offset-1 columns boxed">
+  <div class="yuna team-member small-12 medium-6 large-6 columns boxed">
     <img class="animated fadeIn" id="yuna-photo" src="../img/yuna_bw.jpg" alt="yuna">
     <h2 class="animated fadeIn">yuna</h2>
     <h4 class="animated fadeIn">design & brand management</h4>

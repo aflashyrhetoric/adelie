@@ -1,4 +1,4 @@
-<div data-sticky-container style="height: 65.3906px !important;">
+<div data-sticky-container style="max-height: 65.3906px !important;">
   <div data-sticky data-sticky-on="medium" data-anchor="site-container" data-margin-top="0" style="width:100%;">
     <!-- Small Screen Menu Toggle -->
     <div class="title-bar" data-responsive-toggle="adelie-navbar" data-hide-for="medium">
