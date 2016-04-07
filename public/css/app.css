@@ -3753,6 +3753,18 @@ footer {
 /**************************
 ** Case Study Section SCSS
 **************************/
+@media screen and (max-width: 39.9375em) {
+  .case-description-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem; } }
+
+.case-study-container {
+  padding: 0rem 0rem 2rem 0rem;
+  min-height: 50%; }
+
+.cases-cta {
+  padding: 2rem; }
+
 /*********************************/
 /******* SECTION IMPORTS *********/
 /*********************************/

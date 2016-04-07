@@ -2,9 +2,24 @@
 ** Case Study Section SCSS
 **************************/
 
+.case-description-container{
+  @include breakpoint(small only) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .case-description {
+
+  }
+}
 .case-study-container {
+  padding: 0rem 0rem 2rem 0rem;
+  min-height: 50%;
   .row {
     @include breakpoint( large up ) {
     }
   }
+}
+
+.cases-cta {
+  padding: 2rem;
 }
