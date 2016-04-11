@@ -3761,6 +3761,9 @@ footer {
 .case-study-container {
   padding: 0rem 0rem 2rem 0rem;
   min-height: 50%; }
+  .case-study-container .row img {
+    display: block;
+    margin: auto; }
 
 .cases-cta {
   padding: 2rem; }

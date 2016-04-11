@@ -8,26 +8,21 @@
         <strong>Case Studies</strong>
       </h1>
       <p>An inside look at how we approach and solve real business problems.</p>
-      <p class="case-description">Our <a href="/portfolio">Portfolio</a> serves as a general overview of the work we've done, but we wanted a separate space to dive in and discuss our thought process when approaching client's problems.</p>
+      <p class="case-description">Our <a href="/portfolio">Behance Portfolio</a> serves as a visual overview of graphic design work we've done,<br> but we wanted a separate space to dive in and discuss our thought process when approaching client's problems.</p>
     </div>
   </div>
 </div>
 <div class="case-study-container">
-  <div class="row">
-
-    @foreach ($cases as $case)
-     <p>This is user {{ $case -> id }}</p>
-
+  @foreach ($cases->chunk(3) as $case_row)
+  <div class="column row large-uncollapse">
+    @foreach ($case_row as $case)
     <div class="small-12 medium-4 case-study-item columns">
       <a href="{{ $case->url }}"><img src="http://placehold.it/350x350"></a>
+      <p>This is user {{ $case -> client_name }} </p>
     </div>
-    <div class="small-12 medium-4 case-study-item columns">
-      <img src="http://placehold.it/350x350">
-    </div>
-    <div class="small-12 medium-4 case-study-item columns">
-      <img src="http://placehold.it/350x350">
-    </div>
+    @endforeach
   </div>
+    @endforeach 
 </div>
 <!-- Request A Quote CTA -->
 <div class="

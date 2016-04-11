@@ -14,12 +14,13 @@ class CreateCaseStudiesTable extends Migration
     {
         Schema::create('casestudies', function(Blueprint $table){
             $table->increments('id');
-            $table->string('client-name');
+            $table->string('client_name');
             $table->text('about');
-            $table->text('phase-one');
+            $table->text('phase_one');
             // Optional phases
-            $table->text('phase-two')->nullable();
-            $table->text('phase-three')->nullable();
+            $table->text('phase_two')->nullable();
+            $table->text('phase_three')->nullable();
+            $table->timestamps();
         });
     }
 

@@ -22,10 +22,10 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 
 $factory->define(App\CaseStudy::class, function (Faker\Generator $faker) {
     return [
-        'client-name' => $faker->name,
+        'client_name' => $faker->name,
         'about' => $faker->realText($faker->numberBetween(20,45)),
-        'phase-one' => $faker->realText($faker->numberBetween(20,55)),
-        'phase-two' => $faker->realText($faker->numberBetween(30,55)),
-        'phase-three' => $faker->realText($faker->numberBetween(20,55))
+        'phase_one' => $faker->realText($faker->numberBetween(20,55)),
+        'phase_two' => $faker->realText($faker->numberBetween(30,55)),
+        'phase_three' => $faker->realText($faker->numberBetween(20,55))
     ];
 });

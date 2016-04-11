@@ -1,0 +1,352 @@
+
+
+
+o  [[          *@?\(.*\%#\)\@!\_^\s*\zs\(\(abstract\s\+\|final\s\+\|private\s\+\|protected\s\+\|public\s\+\|static\s\+\)*function\|\(abstract\s\+\|final\s\+\)*class\|interface\)?<CR>:nohls<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin/php.vim
+n  [[          *@?\(.*\%#\)\@!\_^\s*\zs\(\(abstract\s\+\|final\s\+\|private\s\+\|protected\s\+\|public\s\+\|static\s\+\)*function\|\(abstract\s\+\|final\s\+\)*class\|interface\)?<CR>:nohls<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin/php.vim
+o  ]]          *@/\(.*\%#\)\@!\_^\s*\zs\(\(abstract\s\+\|final\s\+\|private\s\+\|protected\s\+\|public\s\+\|static\s\+\)*function\|\(abstract\s\+\|final\s\+\)*class\|interface\)/<CR>:nohls<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin/php.vim
+n  ]]          *@/\(.*\%#\)\@!\_^\s*\zs\(\(abstract\s\+\|final\s\+\|private\s\+\|protected\s\+\|public\s\+\|static\s\+\)*function\|\(abstract\s\+\|final\s\+\)*class\|interface\)/<CR>:nohls<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/ftplugin/php.vim
+   <C-F>         :call JsBeautify()<CR>
+	Last set from ~/.vimrc
+n  <C-H>         <C-W><C-H>
+	Last set from ~/.vimrc
+v  <Tab>         <Plug>(emmet-expand-abbr)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Tab>         <Plug>(emmet-expand-abbr)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <NL>          <C-W><NL>
+	Last set from ~/.vimrc
+n  <C-K>         <C-W><C-K>
+	Last set from ~/.vimrc
+n  <C-L>         <C-W><C-L>
+	Last set from ~/.vimrc
+x  <C-N>       * :<C-U>call multiple_cursors#new("v", 0)<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim
+n  <C-N>       * :call multiple_cursors#new("n", 1)<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim
+   <C-N><D-d>    <Nop>
+	Last set from ~/.vimrc
+n  <C-P>       * :<C-U>CtrlP<CR>
+	Last set from ~/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim
+v  <C-Y>c        <Plug>(emmet-code-pretty)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <C-Y>m        <Plug>(emmet-merge-lines)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>A        <Plug>(emmet-anchorize-summary)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>a        <Plug>(emmet-anchorize-url)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>k        <Plug>(emmet-remove-tag)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>j        <Plug>(emmet-split-join-tag)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>/        <Plug>(emmet-toggle-comment)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>i        <Plug>(emmet-image-size)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>N        <Plug>(emmet-move-prev)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>n        <Plug>(emmet-move-next)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <C-Y>D        <Plug>(emmet-balance-tag-outword)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>D        <Plug>(emmet-balance-tag-outword)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <C-Y>d        <Plug>(emmet-balance-tag-inward)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>d        <Plug>(emmet-balance-tag-inward)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>u        <Plug>(emmet-update-tag)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <C-Y>;        <Plug>(emmet-expand-word)
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+x  #           * :<C-U>call VisualStarSearchSet('?')<CR>?<C-R>=@/<CR><CR>
+	Last set from ~/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim
+x  *           * :<C-U>call VisualStarSearchSet('/')<CR>/<C-R>=@/<CR><CR>
+	Last set from ~/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim
+v  ,*          * :<C-U>call VisualStarSearchSet('/')<CR>:execute 'noautocmd vimgrep /' . @/ . '/ **'<CR>
+	Last set from ~/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim
+n  ,*          * :execute 'noautocmd vimgrep /\V' . substitute(escape(expand("<cword>"), '\'), '\n', '\\n', 'g') . '/ **'<CR>
+	Last set from ~/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim
+n  ,ig           <Plug>IndentGuidesToggle
+	Last set from ~/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+n  ,ca           <Plug>NERDCommenterAltDelims
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cu           <Plug>NERDCommenterUncomment
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cu           <Plug>NERDCommenterUncomment
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cb           <Plug>NERDCommenterAlignBoth
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cb           <Plug>NERDCommenterAlignBoth
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cl           <Plug>NERDCommenterAlignLeft
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cl           <Plug>NERDCommenterAlignLeft
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cA           <Plug>NERDCommenterAppend
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cy           <Plug>NERDCommenterYank
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cy           <Plug>NERDCommenterYank
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cs           <Plug>NERDCommenterSexy
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cs           <Plug>NERDCommenterSexy
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,ci           <Plug>NERDCommenterInvert
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,ci           <Plug>NERDCommenterInvert
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,c$           <Plug>NERDCommenterToEOL
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cn           <Plug>NERDCommenterNested
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cn           <Plug>NERDCommenterNested
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cm           <Plug>NERDCommenterMinimal
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,cm           <Plug>NERDCommenterMinimal
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,c<Space>     <Plug>NERDCommenterToggle
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,c<Space>     <Plug>NERDCommenterToggle
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  ,cc           <Plug>NERDCommenterComment
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  ,f            :tag<Space>
+	Last set from ~/.vimrc
+   ,p            :CtrlP<CR>
+	Last set from ~/.vimrc
+   ,cp           :VCoolor<CR>
+	Last set from ~/.vimrc
+n  ,cc           <Plug>NERDCommenterToggleComment<CR>
+	Last set from ~/.vimrc
+n  ,k            :NERDTreeToggle<CR>
+	Last set from ~/.vimrc
+n  ,<Space>      :nohlsearch<CR>
+	Last set from ~/.vimrc
+n  ,ls           :so ~/.vim/sessions/
+	Last set from ~/.vimrc
+n  ,ss           :mks! ~/.vim/sessions/
+	Last set from ~/.vimrc
+n  ,es           :tabedit ~/.vim/snippets/
+	Last set from ~/.vimrc
+n  ,ev           :tabedit $MYVIMRC<CR>
+	Last set from ~/.vimrc
+   ,`            :b#<CR>
+	Last set from ~/.vimrc
+   ,+            :vsp <CR>
+	Last set from ~/.vimrc
+   ,=            <C-W>=<CR><Space>
+	Last set from ~/.vimrc
+   ,q            :q!<CR><Space>
+	Last set from ~/.vimrc
+   ,3            :vsp<CR> :vsp<CR>
+	Last set from ~/.vimrc
+   ,2            :vsp<CR>
+	Last set from ~/.vimrc
+   ,1            :only<CR>
+	Last set from ~/.vimrc
+x  S             <Plug>VSurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  cS            <Plug>CSurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  cs            <Plug>Csurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  ds            <Plug>Dsurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+v  gx            <Plug>NetrwBrowseXVis
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+n  gx            <Plug>NetrwBrowseX
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+x  gS            <Plug>VgSurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  j           * gj
+	Last set from ~/.vimrc
+n  k           * gk
+	Last set from ~/.vimrc
+n  ySS           <Plug>YSsurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  ySs           <Plug>YSsurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  yss           <Plug>Yssurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  yS            <Plug>YSurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  ys            <Plug>Ysurround
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>(multiple-cursors-new-word) * :<C-U>call multiple_cursors#new('v', 1)<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-new) * :<C-U>call multiple_cursors#new('v', 0)<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-skip) * :<C-U>call multiple_cursors#skip()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-prev) * :<C-U>call multiple_cursors#prev()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+x  <Plug>(multiple-cursors-wait) * :<C-U>call <SNR>105_wait_for_user_input('')<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-wait) * :call <SNR>105_wait_for_user_input('')<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+x  <Plug>(multiple-cursors-detect) * :<C-U>call <SNR>105_detect_bad_input()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-detect) * :call <SNR>105_detect_bad_input()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+x  <Plug>(multiple-cursors-apply) * :<C-U>call <SNR>105_apply_user_input_next('v')<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-apply) * :call <SNR>105_apply_user_input_next('n')<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+x  <Plug>(multiple-cursors-input) * :<C-U>call <SNR>105_process_user_input()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+n  <Plug>(multiple-cursors-input) * :call <SNR>105_process_user_input()<CR>
+	Last set from ~/.vim/bundle/vim-multiple-cursors/autoload/multiple_cursors.vim
+   <M-Down>    * }
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <D-Down>    * <C-End>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <M-Up>      * {
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <D-Up>      * <C-Home>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <M-Right>   * <C-Right>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <D-Right>   * <End>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <M-Left>    * <C-Left>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+   <D-Left>    * <Home>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/gvimrc
+v  <Plug>NetrwBrowseXVis * :<C-U>call netrw#BrowseXVis()<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+n  <Plug>NetrwBrowseX * :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
+	Last set from /Applications/MacVim.app/Contents/Resources/vim/runtime/plugin/netrwPlugin.vim
+n  <Plug>IndentGuidesDisable & :IndentGuidesDisable<CR>
+	Last set from ~/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+n  <Plug>IndentGuidesEnable & :IndentGuidesEnable<CR>
+	Last set from ~/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+n  <Plug>IndentGuidesToggle & :IndentGuidesToggle<CR>
+	Last set from ~/.vim/bundle/vim-indent-guides/plugin/indent_guides.vim
+v  <Plug>(emmet-code-pretty) * :call emmet#codePretty()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <Plug>(emmet-merge-lines) * :call emmet#mergeLines()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-anchorize-summary) * :call emmet#anchorizeURL(1)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-anchorize-url) * :call emmet#anchorizeURL(0)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-remove-tag) * :call emmet#removeTag()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-split-join-tag) * :call emmet#splitJoinTag()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-toggle-comment) * :call emmet#toggleComment()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-image-size) * :call emmet#imageSize()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-move-prev-item) * :call emmet#moveNextPrevItem(1)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-move-next-item) * :call emmet#moveNextPrevItem(0)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-move-prev) * :call emmet#moveNextPrev(1)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-move-next) * :call emmet#moveNextPrev(0)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <Plug>(emmet-balance-tag-outword) * :call emmet#balanceTag(-2)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-balance-tag-outword) * :call emmet#balanceTag(-1)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <Plug>(emmet-balance-tag-inward) * :call emmet#balanceTag(2)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-balance-tag-inward) * :call emmet#balanceTag(1)<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-update-tag) * :call emmet#updateTag()<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-expand-word) * :call emmet#expandAbbr(1,"")<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+v  <Plug>(emmet-expand-abbr) * :call emmet#expandAbbr(2,"")<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>(emmet-expand-abbr) * :call emmet#expandAbbr(3,"")<CR>
+	Last set from ~/.vim/bundle/emmet-vim/plugin/emmet.vim
+n  <Plug>NERDCommenterAltDelims * :call <SNR>37_SwitchToAlternativeDelimiters(1)<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterUncomment * :call NERDComment("x", "Uncomment")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterUncomment * :call NERDComment("n", "Uncomment")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterAlignBoth * :call NERDComment("x", "AlignBoth")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAlignBoth * :call NERDComment("n", "AlignBoth")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterAlignLeft * :call NERDComment("x", "AlignLeft")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAlignLeft * :call NERDComment("n", "AlignLeft")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterAppend * :call NERDComment("n", "Append")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterYank * :call NERDComment("x", "Yank")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterYank * :call NERDComment("n", "Yank")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterSexy * :call NERDComment("x", "Sexy")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterSexy * :call NERDComment("n", "Sexy")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterInvert * :call NERDComment("x", "Invert")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterInvert * :call NERDComment("n", "Invert")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterToEOL * :call NERDComment("n", "ToEOL")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterNested * :call NERDComment("x", "Nested")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterNested * :call NERDComment("n", "Nested")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterMinimal * :call NERDComment("x", "Minimal")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterMinimal * :call NERDComment("n", "Minimal")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterToggle * :call NERDComment("x", "Toggle")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterToggle * :call NERDComment("n", "Toggle")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+x  <Plug>NERDCommenterComment * :call NERDComment("x", "Comment")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+n  <Plug>NERDCommenterComment * :call NERDComment("n", "Comment")<CR>
+	Last set from ~/.vim/bundle/nerdcommenter/plugin/NERD_commenter.vim
+v  <Plug>VgSurround * :<C-U>call <SNR>34_opfunc(visualmode(),visualmode() ==# 'V' ? 0 : 1)<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+v  <Plug>VSurround * :<C-U>call <SNR>34_opfunc(visualmode(),visualmode() ==# 'V' ? 1 : 0)<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>YSurround * :<C-U>set opfunc=<SNR>34_opfunc2<CR>g@
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Ysurround * :<C-U>set opfunc=<SNR>34_opfunc<CR>g@
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>YSsurround * :<C-U>call <SNR>34_opfunc2(v:count1)<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Yssurround * :<C-U>call <SNR>34_opfunc(v:count1)<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>CSurround * :<C-U>call <SNR>34_changesurround(1)<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Csurround * :<C-U>call <SNR>34_changesurround()<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>Dsurround * :<C-U>call <SNR>34_dosurround(<SNR>34_inputtarget())<CR>
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+n  <Plug>SurroundRepeat * .
+	Last set from ~/.vim/bundle/vim-surround/plugin/surround.vim
+   <D-d>         <C-N>
+	Last set from ~/.vimrc
+n  <D-p>         :CtrlP<CR>
+	Last set from ~/.vimrc
+   <S-Tab>       <<<Space>
+	Last set from ~/.vimrc
+v  <BS>          "-d
+n  ÷             :silent VCoolIns ra<CR>
+	Last set from ~/.vim/bundle/vCoolor.vim/plugin/vCoolor.vim
+n  ö             :silent VCoolIns h<CR>
+	Last set from ~/.vim/bundle/vCoolor.vim/plugin/vCoolor.vim
+n  ò             :VCoolIns r<CR>
+	Last set from ~/.vim/bundle/vCoolor.vim/plugin/vCoolor.vim
+n  ã             :VCoolor<CR>
+	Last set from ~/.vim/bundle/vCoolor.vim/plugin/vCoolor.vim

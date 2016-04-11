@@ -31,10 +31,13 @@ Route::get('/meet', 'StaticPagesController@meet');
 // Contacts
 Route::get('/contact', 'ContactsController@newMessage');
 Route::post('/contact', 'ContactsController@sendMessage');
-Route::get('/request', 'ContactsController@requestQuote');
+Route::get('/request','ContactsController@requestQuote');
 
 // Case Studies
-Route::get('/cases', 'CaseStudiesController@index');
+ Route::resource('cases', 'CaseStudiesController');
+//Route::get('/cases', 'CaseStudiesController@index');
+//Route::get('/cases', 'CaseStudiesController@create');
+//Route::get('/cases', 'CaseStudiesController@create');
 
 // Transactional pages
 Route::get('/thankyou', 'ContactsController@thankyou');
