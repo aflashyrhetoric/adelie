@@ -50,7 +50,8 @@ class CaseStudiesController extends Controller
      */
     public function show($id)
     {
-        //
+      $case = CaseStudy::find($id);
+      return view('casestudy.show', ['case' => $case]);
     }
 
     /**

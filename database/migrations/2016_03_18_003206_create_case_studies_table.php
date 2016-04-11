@@ -16,6 +16,7 @@ class CreateCaseStudiesTable extends Migration
             $table->increments('id');
             $table->string('client_name');
             $table->text('about');
+            $table->string('url_slug');
             $table->text('phase_one');
             // Optional phases
             $table->text('phase_two')->nullable();
