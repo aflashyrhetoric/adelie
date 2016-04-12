@@ -39,7 +39,8 @@ class CaseStudiesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      $new_study = CaseStudy::create($request->all());
+      return redirect('/cases');
     }
 
     /**

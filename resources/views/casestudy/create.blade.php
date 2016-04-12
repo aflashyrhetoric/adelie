@@ -1,10 +1,11 @@
 @extends('app')
 @section('content')
-
-{!! Form::open(['url' => 'cases']) !!}
-  @include('partials._case-study-form')
-{!! Form::close() !!}
-
-@include('errors._list')
-
-@stop
+<div class="case-form-container">
+<div class="case-form">
+  <h2>Create Form</h2>
+  {!! Form::open(['url' => 'cases']) !!}
+    @include ('partials._case-study-form')
+  {!! Form::close() !!}
+</div>
+</div>
+@endsection

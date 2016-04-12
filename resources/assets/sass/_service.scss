@@ -37,17 +37,17 @@
 }
 
 .webdev-hero{
-  @include breakpoint($medium-up) {
+  @include breakpoint(medium up) {
     @include cover-bg-nofixed('../img/webdev-bg.jpg', 70%, 50%);
   }
 }
 .branding-hero{
-  @include breakpoint($medium-up) {
+  @include breakpoint(medium up) {
     @include cover-bg('../img/branding-bg.jpg', 70%, 80%);
   }
 }
 .graphicdesign-hero{
-  @include breakpoint($medium-up) {
+  @include breakpoint(medium up) {
     @include cover-bg-nofixed('../img/graphicdesign-bg.jpg', 70%, 50%);
   }
 }
