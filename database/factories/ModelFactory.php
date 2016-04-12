@@ -24,8 +24,8 @@ $factory->define(App\CaseStudy::class, function (Faker\Generator $faker) {
     return [
         'client_name' => $faker->name,
         'about' => $faker->realText($faker->numberBetween(20,45)),
-        'phase_one' => $faker->realText($faker->numberBetween(20,55)),
-        'phase_two' => $faker->realText($faker->numberBetween(30,55)),
-        'phase_three' => $faker->realText($faker->numberBetween(20,55))
+        'phase_one' => $faker->realText($faker->numberBetween(450,855)),
+        'phase_two' => $faker->realText($faker->numberBetween(300,555)),
+        'phase_three' => $faker->realText($faker->numberBetween(400,800))
     ];
 });

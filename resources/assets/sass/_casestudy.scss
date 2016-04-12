@@ -2,6 +2,7 @@
 ** Case Study Section SCSS
 **************************/
 
+// CaseStudy/Index
 .case-description-container{
   @include breakpoint(small only) {
     padding-top: 2rem;
@@ -19,9 +20,16 @@
       display:block;
       margin: auto;
     }
-
-    @include breakpoint( large up ) {
+    .case-study-item{
+      text-align: center;
     }
+  }
+}
+
+// CaseStudy/Show
+.phases-container{
+  .case-study {
+    text-align: center;
   }
 }
 

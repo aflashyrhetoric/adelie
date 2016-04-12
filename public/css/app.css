@@ -3764,6 +3764,8 @@ footer {
   .case-study-container .row img {
     display: block;
     margin: auto; }
+  .case-study-container .row .case-study-item {
+    text-align: center; }
 
 .cases-cta {
   padding: 2rem; }

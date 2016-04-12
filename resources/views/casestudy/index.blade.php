@@ -17,8 +17,8 @@
   <div class="column row large-uncollapse">
     @foreach ($case_row as $case)
     <div class="small-12 medium-4 case-study-item columns">
-      <a href="{{ $case->url }}"><img src="http://placehold.it/350x350"></a>
-      <p>This is user {{ $case -> client_name }} </p>
+      <a href="/cases/{{ $case->id }}"><img src="http://placehold.it/350x350"></a>
+      <p>{{ $case -> client_name }} </p>
     </div>
     @endforeach
   </div>

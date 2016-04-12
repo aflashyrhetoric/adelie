@@ -10,6 +10,27 @@
     </div>
   </div>
 </div>
+<div class="row phases-container">
+
+  <div class="small-12 medium-8 medium-centered columns case-study">
+    <h3>The Problem</h3>
+    <p> {{ $case->phase_one}} </p>
+
+    @if (isset($case->phase_two))
+    <h3>Adelie's Solution</h3>
+    <p> {{ $case->phase_two }} </p>
+    @endif
+    
+    @if (isset($case->phase_three))
+    <h3>More Details</h3>
+    <p> {{ $case->phase_three }} </p>
+    @endif
+     
+
+  </div>
+  
+
+</div>
 <!-- Request A Quote CTA -->
 <div class="
   small-12
