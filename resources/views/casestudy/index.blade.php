@@ -3,7 +3,7 @@
 <div class="row about-container medium-uncollapse large-uncollapse">
   <div class="small-12 small-centered medium-10 columns large-uncollapse">
     <!--Mission Statement -->
-    <div class="small-12 case-description-container columns tac">
+    <div class="small-12 columns tac">
       <h1 class="animated fadeInDown">
         <strong>Case Studies</strong>
       </h1>
