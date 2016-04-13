@@ -15,6 +15,7 @@ class CreateCaseStudiesTable extends Migration
         Schema::create('casestudies', function(Blueprint $table){
             $table->increments('id');
             $table->string('client_name');
+            $table->string('tagline')->nullable();
             $table->text('about');
             $table->string('url_slug');
             $table->text('phase_one');

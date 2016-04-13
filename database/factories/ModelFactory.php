@@ -23,7 +23,8 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(App\CaseStudy::class, function (Faker\Generator $faker) {
     return [
         'client_name' => $faker->name,
-        'about' => $faker->realText($faker->numberBetween(20,45)),
+        'tagline' => $faker->realText($faker->numberBetween(30,50)),
+        'about' => $faker->realText($faker->numberBetween(300,700)),
         'phase_one' => $faker->realText($faker->numberBetween(450,855)),
         'phase_two' => $faker->realText($faker->numberBetween(300,555)),
         'phase_three' => $faker->realText($faker->numberBetween(400,800))

@@ -5,6 +5,7 @@
     <!--Mission Statement -->
     <div class="small-12 case-description-container columns tac">
       <h1 class="animated fadeInDown"><strong>{{ $case->client_name }}</strong></h1>
+      <h2 class="animated fadeInDown">{{ $case->tagline }}</h2>
       <p class="animated fadeIn">{{ $case->about }}</p>
        <a href="/cases">View All Case Studies</a> 
     </div>
