@@ -2,6 +2,12 @@
 {!! Form::label('client-name', 'Client Name:') !!}
 {!! Form::text('client-name') !!}
 
+{!! Form::label('tagline', 'Tagline') !!}
+{!! Form::text('tagline') !!}
+
+{!! Form::label('thumbnail_url', 'Upload hero') !!}
+{!! Form::file('thumbnail_url') !!}
+
 {!! Form::label('about', 'Description:') !!}
 {!! Form::textarea('about') !!}
 
@@ -15,5 +21,5 @@
 {!! Form::textarea('phase-three') !!}
 
 <br>
-{!! Form::submit("Submit Case Study") !!}
+{!! Form::submit("Submit Case Study", ['class'=>'button']) !!}
 </div>

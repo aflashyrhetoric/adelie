@@ -2,93 +2,29 @@
 ** Case Study Section SCSS
 **************************/
 
-// CaseStudy/Index
-.case-description-container{
-  .case-adelie {
-    color: lighten($web-blue, 20);
+.case-study-header {
+  min-height: 50vh;
+  border-bottom: 3px solid #e3e3e3;
+  padding: 3rem;
+  background-color: blue;
+  .case-study-title-container {
+    padding: 3rem;
   }
-  .case-client{
-    display: block;
-    width: 50%;
-    @include breakpoint(small only) {
-      width: 90%;
-    }
-    margin: auto;
-    margin-bottom: 1rem;
-    color: white;
-    background-color: $web-blue;
-    padding: 2rem;
-  }
-  min-height: 80vh;
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .case-description {
-    font-size: 2rem;
-  }
-  .case-tagline{
-  }
-  // Button 
-  #read-case-study-button {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-
-    color: white;
-    background-color: $web-blue;
-    &:hover {
-      background-color: darken($web-blue, 5);
-    }
-
-    p {
-      font-weight: bold;
-      position: absolute;
-      text-align: left;
-      top: 20px;
-      left: 20px;
-    }
-    #case-arrow{
-      display: block;
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-    }
-  } 
-
-
-}
-.case-study-container {
-  padding: 0rem 0rem 2rem 0rem;
-  min-height: 50%;
-  .row {
-    img {
-      display:block;
-      margin: auto;
-    }
-    .case-study-item{
-      text-align: center;
-    }
+  .case-study-image-container {
+    padding: 3rem;
   }
 }
 
-// CaseStudy/Show
-.phases-container{
-  padding-bottom: 2rem;
-  .case-study {
-    text-align: center;
-  }
-}
 
-.case-form-container {
-  padding: 2rem;
-  .case-form {
-    width: 80%;
-    margin: auto;
+// CREATE.BLADE.PHP
+.case-form-container{
+  padding: 3rem;
+  width: 80%;
+  @include breakpoint( small only ) {
+    width: 90%;
   }
-}
+  margin: auto;
+  .case-form{
 
-.cases-cta {
-  padding: 2rem;
+  }
 }

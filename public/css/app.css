@@ -3756,70 +3756,23 @@ footer {
 /**************************
 ** Case Study Section SCSS
 **************************/
-.case-description-container {
-  min-height: 80vh; }
-  .case-description-container .case-adelie {
-    color: #7188ca; }
-  .case-description-container .case-client {
-    display: block;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 1rem;
-    color: white;
-    background-color: #3A539B;
-    padding: 2rem; }
-    @media screen and (max-width: 39.9375em) {
-      .case-description-container .case-client {
-        width: 90%; } }
-  @media screen and (max-width: 39.9375em) {
-    .case-description-container {
-      padding-top: 2rem;
-      padding-bottom: 2rem; } }
-  .case-description-container .case-description {
-    font-size: 2rem; }
-  .case-description-container #read-case-study-button {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    color: white;
-    background-color: #3A539B; }
-    .case-description-container #read-case-study-button:hover {
-      background-color: #334988; }
-    .case-description-container #read-case-study-button p {
-      font-weight: bold;
-      position: absolute;
-      text-align: left;
-      top: 20px;
-      left: 20px; }
-    .case-description-container #read-case-study-button #case-arrow {
-      display: block;
-      position: absolute;
-      bottom: 20px;
-      right: 20px; }
-
-.case-study-container {
-  padding: 0rem 0rem 2rem 0rem;
-  min-height: 50%; }
-  .case-study-container .row img {
-    display: block;
-    margin: auto; }
-  .case-study-container .row .case-study-item {
-    text-align: center; }
-
-.phases-container {
-  padding-bottom: 2rem; }
-  .phases-container .case-study {
-    text-align: center; }
+.case-study-header {
+  min-height: 50vh;
+  border-bottom: 3px solid #e3e3e3;
+  padding: 3rem;
+  background-color: blue; }
+  .case-study-header .case-study-title-container {
+    padding: 3rem; }
+  .case-study-header .case-study-image-container {
+    padding: 3rem; }
 
 .case-form-container {
-  padding: 2rem; }
-  .case-form-container .case-form {
-    width: 80%;
-    margin: auto; }
-
-.cases-cta {
-  padding: 2rem; }
+  padding: 3rem;
+  width: 80%;
+  margin: auto; }
+  @media screen and (max-width: 39.9375em) {
+    .case-form-container {
+      width: 90%; } }
 
 /*********************************/
 /******* SECTION IMPORTS *********/

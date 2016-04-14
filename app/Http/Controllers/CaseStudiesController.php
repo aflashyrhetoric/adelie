@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 use App\CaseStudy;
 use App\Http\Requests;
@@ -39,8 +40,14 @@ class CaseStudiesController extends Controller
      */
     public function store(Request $request)
     {
-      $new_study = CaseStudy::create($request->all());
-      return redirect('/cases');
+      $thumbnail = Input::file('thumbnail_url)');
+      dd($thumbnail);
+      $thumbnail->move(public_path() . '/images/', time() . '-' . $file->getClientOriginalName());
+
+      $new_study = CaseStudy::create(Input::all());
+      return "Done";
+      //$new_study = CaseStudy::create($request->all());
+      //return redirect('/cases');
     }
 
     /**
