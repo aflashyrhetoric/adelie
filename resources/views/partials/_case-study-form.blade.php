@@ -1,24 +1,24 @@
 <div>
-{!! Form::label('client-name', 'Client Name:') !!}
-{!! Form::text('client-name') !!}
+{!! Form::label('client_name', 'Client Name:') !!}
+{!! Form::text('client_name') !!}
 
 {!! Form::label('tagline', 'Tagline') !!}
 {!! Form::text('tagline') !!}
 
-{!! Form::label('thumbnail_url', 'Upload hero') !!}
-{!! Form::file('thumbnail_url') !!}
+{!! Form::label('thumbnail', 'Upload Hero') !!}
+{!! Form::file('thumbnail') !!}
 
 {!! Form::label('about', 'Description:') !!}
 {!! Form::textarea('about') !!}
 
-{!! Form::label('phase-one', 'Phase One:') !!}
-{!! Form::textarea('phase-one') !!}
+{!! Form::label('phase_one', 'Phase One:') !!}
+{!! Form::textarea('phase_one') !!}
 
-{!! Form::label('phase-two', 'Phase Two (Optional)') !!}
-{!! Form::textarea('phase-two') !!}
+{!! Form::label('phase_two', 'Phase Two (Optional)') !!}
+{!! Form::textarea('phase_two') !!}
 
-{!! Form::label('phase-one', 'Phase Three (Optional)') !!}
-{!! Form::textarea('phase-three') !!}
+{!! Form::label('phase_one', 'Phase Three (Optional)') !!}
+{!! Form::textarea('phase_three') !!}
 
 <br>
 {!! Form::submit("Submit Case Study", ['class'=>'button']) !!}
