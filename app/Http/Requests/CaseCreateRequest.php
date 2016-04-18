@@ -30,6 +30,7 @@ class CaseCreateRequest extends Request
           //'client_name' => 'required|max:35',
           //'tagline' => 'required',
           //'thumbnail' => 'required|max:1024',
+          //'hero' => 'required|max:1024',
           //'about' => 'required',
           //'phase_one' => 'required'
         ];

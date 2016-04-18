@@ -3,16 +3,31 @@
 **************************/
 
 .case-study-header {
-  min-height: 50vh;
+  max-width: inherit;
+  min-height: 80vh;
   border-bottom: 3px solid #e3e3e3;
-  padding: 3rem;
-  background-color: blue;
+  padding: 4rem;
+  background-color: #e3e3e3;
   .case-study-title-container {
     padding: 3rem;
+    .case-title{
+      font-family: $corporate_e;
+    }
   }
   .case-study-image-container {
     padding: 3rem;
   }
+  .case-thumbnail {
+    @include breakpoint(large up) {
+    }
+  }
+  .case-study-description {
+    
+  }
+}
+
+.case-study-container{
+  .row{ margin-bottom: 1.5rem;}
 }
 
 
@@ -27,4 +42,30 @@
   .case-form{
 
   }
+}
+
+// PHASES
+
+.phase {
+  padding: 1rem;
+  padding-top: 2rem;
+  .phase-icon {
+    color: $web-blue;
+  }
+  .title {
+    font-family: $corporate_e;
+    font-variant: small-caps;
+  }
+  .subtitle {
+    font-family: $raleway;
+  }
+  .phase-description {
+     
+  }
+}
+
+// CTA box
+.cases-cta {
+  padding: 2rem;
+  padding-top: 1rem;
 }

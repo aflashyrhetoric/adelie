@@ -16,8 +16,8 @@
   @foreach ($cases->chunk(3) as $case_row)
   <div class="column row large-uncollapse">
     @foreach ($case_row as $case)
-    <div class="small-12 medium-4 case-study-item columns">
-      <a href="/cases/{{ $case->id }}"><img src="http://placehold.it/350x350"></a>
+    <div class="small-12 medium-4 case-study-item columns tac"> 
+      <a class="thumbnail" href="/cases/{{ $case->id }}"><img alt="{{ $case->client_name }} Case Study" src="/images/{{ $case->thumbnail_url }}"></a>
       <p>{{ $case -> client_name }} </p>
     </div>
     @endforeach

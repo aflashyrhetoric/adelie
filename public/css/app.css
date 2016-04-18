@@ -3757,14 +3757,20 @@ footer {
 ** Case Study Section SCSS
 **************************/
 .case-study-header {
-  min-height: 50vh;
+  max-width: inherit;
+  min-height: 80vh;
   border-bottom: 3px solid #e3e3e3;
-  padding: 3rem;
-  background-color: blue; }
+  padding: 4rem;
+  background-color: #e3e3e3; }
   .case-study-header .case-study-title-container {
     padding: 3rem; }
+    .case-study-header .case-study-title-container .case-title {
+      font-family: "corporate-e", sans-serif; }
   .case-study-header .case-study-image-container {
     padding: 3rem; }
+
+.case-study-container .row {
+  margin-bottom: 1.5rem; }
 
 .case-form-container {
   padding: 3rem;
@@ -3773,6 +3779,21 @@ footer {
   @media screen and (max-width: 39.9375em) {
     .case-form-container {
       width: 90%; } }
+
+.phase {
+  padding: 1rem;
+  padding-top: 2rem; }
+  .phase .phase-icon {
+    color: #3A539B; }
+  .phase .title {
+    font-family: "corporate-e", sans-serif;
+    font-variant: small-caps; }
+  .phase .subtitle {
+    font-family: "raleway", sans-serif; }
+
+.cases-cta {
+  padding: 2rem;
+  padding-top: 1rem; }
 
 /*********************************/
 /******* SECTION IMPORTS *********/

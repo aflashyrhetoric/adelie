@@ -43,19 +43,23 @@ class CaseStudiesController extends Controller
     {
       // Get Thumbnail Image
       $thumbnail = $request->file('thumbnail');
-
       $thumbnail_url = public_path() . '/images/';
       $thumbnail_filename = time() . '-' . $thumbnail->getClientOriginalName();
       $thumbnail_location = $thumbnail_url . $thumbnail_filename;
-      //dd($thumbnail_filename);
-
       $thumbnail->move($thumbnail_url, $thumbnail_filename);
+      // Get Hero Image
+      $hero = $request->file('hero');
+      $hero_url = public_path() . '/images/';
+      $hero_filename = time() . '-' . $hero->getClientOriginalName();
+      $hero_location = $hero_url . $hero_filename;
+      $hero->move($hero_url, $hero_filename);
 
       $new_study = new CaseStudy;
       $new_study->client_name = $request->input('client_name');
       $new_study->tagline = $request->input('tagline');
       $new_study->about = $request->input('about');
-      $new_study->thumbnail_url = $thumbnail_location;
+      $new_study->thumbnail_url = $thumbnail_filename;
+      $new_study->hero_url = $hero_filename;
       $new_study->phase_one = $request->input('phase_one');
       //dd($request->input('phase_one'));
       //dd($request);

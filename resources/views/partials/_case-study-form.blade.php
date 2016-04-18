@@ -5,8 +5,11 @@
 {!! Form::label('tagline', 'Tagline') !!}
 {!! Form::text('tagline') !!}
 
-{!! Form::label('thumbnail', 'Upload Hero') !!}
+{!! Form::label('thumbnail', 'Upload Thumbnail - 350x350') !!}
 {!! Form::file('thumbnail') !!}
+
+{!! Form::label('hero', 'Upload Hero - 450 x 150') !!}
+{!! Form::file('hero') !!}
 
 {!! Form::label('about', 'Description:') !!}
 {!! Form::textarea('about') !!}

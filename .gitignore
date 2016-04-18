@@ -3,6 +3,7 @@
 /node_modules
 /bower_components
 /components
+/public/images/**
 Homestead.yaml
 Homestead.json
 .env
