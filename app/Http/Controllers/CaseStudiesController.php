@@ -30,6 +30,7 @@ class CaseStudiesController extends Controller
      */
     public function create()
     {
+      $this->middleware('auth');
       return view('casestudy.create');
     }
 

@@ -34,7 +34,7 @@ Route::post('/contact', 'ContactsController@sendMessage');
 Route::get('/request','ContactsController@requestQuote');
 
 // Case Studies
- Route::resource('cases', 'CaseStudiesController');
+Route::resource('cases', 'CaseStudiesController');
 //Route::get('/cases', 'CaseStudiesController@index');
 //Route::get('/cases', 'CaseStudiesController@create');
 //Route::get('/cases', 'CaseStudiesController@create');
@@ -44,3 +44,8 @@ Route::get('/thankyou', 'ContactsController@thankyou');
 
 // Redirects
 Route::get('/services', 'StaticPagesController@redirectToHome');
+
+// Auth
+Route::get('auth/login', 'Auth\AuthController@getLogin');
+Route::post('auth/login', 'Auth\AuthController@postLogin');
+Route::get('auth/logout', 'Auth\AuthController@getLogout');
