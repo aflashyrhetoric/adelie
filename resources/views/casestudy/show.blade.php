@@ -12,17 +12,20 @@
    <h4 class="case-tagline"> 
      {{ $case->tagline }} 
    </h4>
+   <hr>
    <p class="case-description">
       {{ $case->about }}
    </p>
   </div>
   <!-- Hero Image -->
-  <div class="small-12 small-centered 
-              medium-7 medium-centered 
-              large-5 large-offset-1 large-uncentered
+  <div class="case-thumbnail-container
+              small-12 small-centered 
+              medium-10 medium-centered 
+              large-5 large-offset-1 
+              large-uncentered
               columns">
     <!-- Hero image -->
-    <img class="case-thumbnail show-for-medium-up" src="/images/{{ $case->hero_url }}" 
+    <img class="case-thumbnail hide-for-small-only" src="/images/{{ $case->hero_url }}" 
 
     <!-- Substitute thumbnail for hero image on small screens -->
     <img class="case-thumbnail show-for-small-only" src="/images/{{ $case->thumbnail_url }}">

@@ -3764,13 +3764,19 @@ footer {
   min-height: 80vh;
   border-bottom: 3px solid #e3e3e3;
   padding: 4rem;
-  background-color: #e3e3e3; }
-  .case-study-header .case-study-title-container {
-    padding: 3rem; }
-    .case-study-header .case-study-title-container .case-title {
-      font-family: "corporate-e", sans-serif; }
-  .case-study-header .case-study-image-container {
-    padding: 3rem; }
+  background-color: #e3e3e3;
+  /*.case-study-image-container {*/
+  /*padding: 3rem;*/
+  /*}*/ }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .case-study-header .case-study-title-container {
+      text-align: center; } }
+  @media screen and (min-width: 40em) {
+    .case-study-header .case-study-title-container {
+      padding: 3rem;
+      text-align: center; } }
+  .case-study-header .case-study-title-container .case-title {
+    font-family: "corporate-e", sans-serif; }
 
 .case-study-container .row {
   margin-bottom: 1.5rem; }
