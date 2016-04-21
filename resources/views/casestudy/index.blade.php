@@ -12,18 +12,26 @@
     </div>
   </div>
 </div>
-<div class="case-study-container">
-  @foreach ($cases->chunk(3) as $case_row)
-  <div class="column row large-uncollapse">
-    @foreach ($case_row as $case)
-    <div class="small-12 medium-4 case-study-item columns tac"> 
-      <a class="thumbnail" href="/cases/{{ $case->id }}"><img alt="{{ $case->client_name }} Case Study" src="/images/{{ $case->thumbnail_url }}"></a>
-      <p>{{ $case -> client_name }} </p>
+@if ($cases->isEmpty())
+  <div class="row">
+    <div class="small-12 small-centered medium-4 tac">
+      <h2>We're currently working on adding more case studies. Come back soon!</h2>
     </div>
-    @endforeach
   </div>
-    @endforeach 
-</div>
+@else
+  <div class="case-study-container">
+    @foreach ($cases->chunk(3) as $case_row)
+    <div class="column row large-uncollapse">
+      @foreach ($case_row as $case)
+      <div class="small-12 medium-4 case-study-item columns tac"> 
+        <a class="thumbnail" href="/cases/{{ $case->id }}"><img alt="{{ $case->client_name }} Case Study" src="/images/{{ $case->thumbnail_url }}"></a>
+        <p>{{ $case -> client_name }} </p>
+      </div>
+      @endforeach
+    </div>
+      @endforeach 
+  </div>
+@endif
 <!-- Request A Quote CTA -->
 <div class="
   small-12
