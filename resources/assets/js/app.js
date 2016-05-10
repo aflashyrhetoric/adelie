@@ -27,4 +27,8 @@ $(document).ready(function(){
   $('#cta').mouseleave(function(){
     $('#request-quote').removeClass('pulse');
   });
+
+       //particlesJS.load(@dom-id, @path-json, @callback (optional)); 
+    particlesJS.load('particles-js', 'js/particles.json');
+
 });

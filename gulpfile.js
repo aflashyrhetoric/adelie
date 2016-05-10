@@ -48,10 +48,17 @@ elixir(function(mix) {
     'resources/assets/img/**', 
     'public/img/'
   );
-
   mix.copy(
     'resources/assets/img/favicon.ico',
     'public/'
+  );
+  mix.copy(
+    'resources/assets/js/particles.js',
+    'public/js/particles.js'
+  );
+  mix.copy(
+    'resources/assets/js/particles.json',
+    'public/js/particles.json'
   );
 });
 

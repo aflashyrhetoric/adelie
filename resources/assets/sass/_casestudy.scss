@@ -32,14 +32,37 @@
   }
 }
 
+.empty-case-container {
+  margin-bottom: 4rem;
+}
+
 .case-study-container{
   .row{ margin-bottom: 1.5rem;}
+}
+
+.cta-row {
+  padding-top: 2rem;
+  position: relative;
+  background-color: $web-blue;
+  /*background-color: $web-blue;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 400px;
+  margin-left: 0;
+  margin-right: 0;
+  canvas {
+    max-height: 400px;
+    /*position: relative;*/
+    /*bottom: 400px;*/
+    z-index: 0;
+  }
 }
 
 
 // CREATE.BLADE.PHP
 .case-form-container{
-  padding: 3rem;
+  padding: 4rem;
   width: 80%;
   @include breakpoint( small only ) {
     width: 90%;
@@ -71,6 +94,10 @@
 
 // CTA box
 .cases-cta {
+  background-color: rgba(29, 29, 29, 0.5);
+  background-size: cover;
+  color: white;
   padding: 2rem;
   padding-top: 1rem;
+  margin-bottom: 2rem;
 }

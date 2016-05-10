@@ -30,6 +30,7 @@
     </div>
     <!-- jQuery + Foundation Import -->
     <script src="/js/jquery.js"></script>
+    <script src="/js/particles.js"></script>
     <script src="/js/app.js"></script>
     <!-- Compressed JavaScript -->
     <script src="/js/vendor.js"></script>

@@ -3476,10 +3476,10 @@ h6 {
   letter-spacing: -0.05em; }
 
 footer {
-  border-top: 3px solid #666666;
+  border-top: 3px solid #4c69bc;
   text-align: center; }
   footer .footer-body {
-    background-color: #4C4C4C;
+    background-color: #3A539B;
     padding: 1rem; }
     @media screen and (max-width: 39.9375em) {
       footer .footer-body {
@@ -3778,11 +3778,31 @@ footer {
   .case-study-header .case-study-title-container .case-title {
     font-family: "corporate-e", sans-serif; }
 
+.empty-case-container {
+  margin-bottom: 4rem; }
+
 .case-study-container .row {
   margin-bottom: 1.5rem; }
 
+.cta-row {
+  padding-top: 2rem;
+  position: relative;
+  background-color: #3A539B;
+  /*background-color: $web-blue;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 400px;
+  margin-left: 0;
+  margin-right: 0; }
+  .cta-row canvas {
+    max-height: 400px;
+    /*position: relative;*/
+    /*bottom: 400px;*/
+    z-index: 0; }
+
 .case-form-container {
-  padding: 3rem;
+  padding: 4rem;
   width: 80%;
   margin: auto; }
   @media screen and (max-width: 39.9375em) {
@@ -3801,8 +3821,12 @@ footer {
     font-family: "raleway", sans-serif; }
 
 .cases-cta {
+  background-color: rgba(29, 29, 29, 0.5);
+  background-size: cover;
+  color: white;
   padding: 2rem;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  margin-bottom: 2rem; }
 
 /*********************************/
 /******* SECTION IMPORTS *********/
