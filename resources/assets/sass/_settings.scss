@@ -56,6 +56,7 @@ h6 {
   }
 }
 
+
 // Foundation overrides
 .title-bar {
   background-color: $background-color;
@@ -146,9 +147,9 @@ $footer-color: $web-blue;
 
 // Footer
 footer{
-  border-top: 3px solid lighten($footer-color, 10);
+  /*border-top: 3px solid lighten($footer-color, 10);*/
   text-align: center;
-
+  background: linear-gradient(to bottom right, lighten($web-blue, 15), lighten($web-blue, 50));
   .footer-body {
     background-color: $footer-color;
     padding: 1rem;

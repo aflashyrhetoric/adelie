@@ -28,7 +28,7 @@
     small-12 
     tac 
     columns">
-    <hr>
+        <br>
         <h1>Ready to begin?</h1>
         <h4>Let's build something great.</h4>
         <hr class="mini-hr">

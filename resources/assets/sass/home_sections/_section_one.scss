@@ -13,7 +13,7 @@
   overflow:hidden;
 
   // Mobile 0 -640
-  @include breakpoint(small up) {
+  @include breakpoint(small only) {
     justify-content: center;
     background: url('../img/pattern.png');
     background-repeat: repeat;
@@ -46,6 +46,7 @@
     @include cover-bg('../img/bg-desktop.png', 0%, 20%);
     box-shadow: 0px -3px 3px 0px black;
     background-color: $web-blue;
+    /*background: linear-gradient(to left, $web-blue, lighten($web-blue, 15));*/
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;

@@ -8,13 +8,13 @@
         <strong>Case Studies</strong>
       </h1>
       <p>An inside look at how we approach and solve real business problems.</p>
-      <p class="case-description">Our <a href="http://behance.net/yuna_oh">Behance Portfolio</a> serves as a visual overview of our graphic design work,<br> but we wanted a separate space to dive in and discuss our thought process when approaching client's problems.</p>
+      <p class="case-description">Our <a class="about-highlight" href="http://behance.net/yuna_oh">Behance Portfolio</a> serves as a visual overview of our graphic design work,<br> but we wanted a separate space to dive in and discuss our thought process when approaching client's problems.</p>
     </div>
   </div>
 </div>
 @if ($cases->isEmpty())
-  <div class="row">
-    <div class="empty-case-container small-12 small-centered medium-6 tac">
+  <div class="row empty-case-container">
+    <div class="small-12 small-centered medium-6 tac">
       <h2>We're currently working on adding more case studies. Come back soon!</h2>
     </div>
   </div>
@@ -32,7 +32,5 @@
       @endforeach 
   </div>
 @endif
-<!-- Request A Quote CTA -->
-<div id="particles-js" class="row cta-row">
 </div>
 @endsection

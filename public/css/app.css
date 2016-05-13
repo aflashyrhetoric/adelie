@@ -21,6 +21,7 @@
 .is-drilldown-submenu-parent > a::after {
   border: inset 0px !important; }
 
+/*$topbar-background: $dark-gray !default;*/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
    * 1. Set default font family to sans-serif.
@@ -3476,8 +3477,9 @@ h6 {
   letter-spacing: -0.05em; }
 
 footer {
-  border-top: 3px solid #4c69bc;
-  text-align: center; }
+  /*border-top: 3px solid lighten($footer-color, 10);*/
+  text-align: center;
+  background: linear-gradient(to bottom right, #5f78c3, #e0e5f4); }
   footer .footer-body {
     background-color: #3A539B;
     padding: 1rem; }
@@ -3700,47 +3702,47 @@ footer {
 /************************/
 /******* About SCSS *****/
 /************************/
-@media screen and (max-width: 39.9375em) {
-  .about-container {
-    padding-top: 2rem;
-    padding-bottom: 2rem; } }
-
-@media screen and (min-width: 40em) {
-  .about-container {
-    padding-top: 4rem;
-    padding-bottom: 4rem; } }
-
-.about-container .mission-statement {
-  padding-top: 0rem;
-  padding-bottom: 4rem; }
-  .about-container .mission-statement h2 {
-    font-weight: normal;
-    font-family: "raleway", sans-serif; }
-
-.about-container .about-subheader {
-  padding: 3rem; }
-
-.about-container .logo {
-  width: 250px;
-  margin: auto; }
-  .about-container .logo h1 {
-    font-family: "corporate-e", sans-serif;
-    letter-spacing: -3px;
-    font-size: 4rem; }
-
-.about-container span.about-highlight {
-  color: #3A539B; }
-
-.about-container .reason {
-  text-align: center; }
-  .about-container .reason h4 {
+.about-container {
+  color: white; }
+  @media screen and (max-width: 39.9375em) {
+    .about-container {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  @media screen and (min-width: 40em) {
+    .about-container {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      max-width: 100%;
+      background: linear-gradient(to bottom right, #415dae, #6d85c9); } }
+  .about-container .mission-statement {
+    padding-top: 0rem;
+    padding-bottom: 4rem; }
+    .about-container .mission-statement h2 {
+      font-weight: normal;
+      font-family: "raleway", sans-serif; }
+  .about-container .about-subheader {
+    padding: 3rem; }
+  .about-container .logo {
+    width: 250px;
+    margin: auto; }
+    .about-container .logo h1 {
+      font-family: "corporate-e", sans-serif;
+      letter-spacing: -3px;
+      font-size: 4rem; }
+  .about-container span.about-highlight, .about-container a.about-highlight {
     font-weight: bold; }
-  .about-container .reason i {
-    color: #3A539B;
-    padding: 1rem; }
-
-.about-container a.about-button {
-  background-color: #3A539B; }
+  .about-container a:not(.about-button) {
+    color: #253563;
+    text-decoration: underline; }
+  .about-container .reason {
+    text-align: center; }
+    .about-container .reason h4 {
+      font-weight: bold; }
+    .about-container .reason i {
+      color: white;
+      padding: 1rem; }
+  .about-container a.about-button {
+    background-color: #3A539B; }
 
 /*****************************/
 /******* Contact SCSS ********/
@@ -3779,7 +3781,9 @@ footer {
     font-family: "corporate-e", sans-serif; }
 
 .empty-case-container {
-  margin-bottom: 4rem; }
+  /*background: linear-gradient(to left, lighten($web-blue, 15), lighten($web-blue, 70));*/
+  max-width: 100%;
+  padding: 4rem; }
 
 .case-study-container .row {
   margin-bottom: 1.5rem; }
@@ -3826,6 +3830,7 @@ footer {
   color: white;
   padding: 2rem;
   padding-top: 1rem;
+  padding-bottom: 3rem;
   margin-bottom: 2rem; }
 
 /*********************************/
@@ -3847,12 +3852,14 @@ footer {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  overflow: hidden;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background: url("../img/pattern.png");
-  background-repeat: repeat; }
+  overflow: hidden; }
+  @media screen and (max-width: 39.9375em) {
+    .outer-flex {
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background: url("../img/pattern.png");
+      background-repeat: repeat; } }
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .outer-flex {
       background: url("../img/bg-tablet-alt.png") #DCDCDC no-repeat 0% 50%;
@@ -3879,6 +3886,7 @@ footer {
       background-size: cover;
       box-shadow: 0px -3px 3px 0px black;
       background-color: #3A539B;
+      /*background: linear-gradient(to left, $web-blue, lighten($web-blue, 15));*/
       background-size: 100% auto;
       background-position: center top;
       background-repeat: no-repeat; } }
