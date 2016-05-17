@@ -1,14 +1,15 @@
 @extends('app')
 @section('content')
-<div class="row about-container medium-uncollapse large-uncollapse">
+<div class="row cases-index-container about-container medium-uncollapse large-uncollapse">
   <div class="small-12 small-centered medium-10 columns large-uncollapse">
-    <!--Mission Statement -->
+    <!-- Cases Header -->
     <div class="small-12 columns tac">
-      <h1 class="animated fadeInDown">
-        <strong>Case Studies</strong>
+      <h1 class="page-title animated fadeInDown">
+        Case Studies
       </h1>
       <p>An inside look at how we approach and solve real business problems.</p>
-      <p class="case-description">Our <a class="about-highlight" href="http://behance.net/yuna_oh">Behance Portfolio</a> serves as a visual overview of our graphic design work,<br> but we wanted a separate space to dive in and discuss our thought process when approaching client's problems.</p>
+      <p class="case-description">We'll be adding more case studies regularly.</p>
+      <p>For a visual overview of our graphic design work, visit our<a class="about-highlight" href="http://behance.net/yuna_oh">Behance Portfolio.</a></p>
     </div>
   </div>
 </div>

@@ -7,12 +7,13 @@
 @include breakpoint(small only) {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  color: black; 
 }
 @include breakpoint(medium up) {
   padding-top: 4rem;
   padding-bottom: 4rem;
   max-width: 100%;
-    background: linear-gradient(to bottom right, lighten($web-blue, 5), lighten($web-blue, 19));
+  background: linear-gradient(to bottom right,$web-blue, lighten($web-blue, 30));
 }
   .mission-statement {
     padding-top:0rem;

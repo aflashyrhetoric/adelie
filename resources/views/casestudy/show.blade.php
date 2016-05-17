@@ -6,14 +6,14 @@
   <div class="case-study-title-container 
               small-12 small-centered 
               large-6 medium-uncentered columns">
-   <h1 class="case-title">
+   <h1 class="case-title animated fadeInDown">
      {{ $case->client_name }}
    </h1>
-   <h4 class="case-tagline"> 
+   <h4 class="case-tagline animated fadeInDown"> 
      {{ $case->tagline }} 
    </h4>
    <hr>
-   <p class="case-description">
+   <p class="case-description animated fadeIn">
       {{ $case->about }}
    </p>
   </div>
@@ -76,12 +76,15 @@
 </div>
 
 <!-- CTA --> 
-<div class="row">
+<div class="cta-row">
   <div class="
     small-12
-    medium-4
+    medium-10
+    large-8
     small-centered
     tac
+    animated
+    fadeInDown
     columns cases-cta boxed">
     <h1>Ready to begin?</h1>
     <h4>Let's build something great.</h4>

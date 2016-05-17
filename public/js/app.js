@@ -29,8 +29,7 @@ $(document).ready(function(){
   });
 
        //particlesJS.load(@dom-id, @path-json, @callback (optional)); 
-    particlesJS.load('particles-js', 'js/particles.json');
-
+//    particlesJS.load('particles-js', 'js/particles.json');
 });
 
 //# sourceMappingURL=app.js.map

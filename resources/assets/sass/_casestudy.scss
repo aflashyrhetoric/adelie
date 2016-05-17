@@ -2,12 +2,28 @@
 ** Case Study Section SCSS
 **************************/
 
+
+.cases-index-container{
+  background: $web-blue;
+  .page-title {
+    margin-bottom: 4rem;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 .case-study-header {
   max-width: inherit;
   min-height: 80vh;
   border-bottom: 3px solid #e3e3e3;
   padding: 4rem;
-  background-color: #e3e3e3;
+  padding-bottom: 0rem;
+  /*background-color: #e3e3e3;*/
+  background-color: $web-blue;
+  color:white;
   .case-study-title-container {
     @include breakpoint(medium only){
       text-align: center;
@@ -19,6 +35,9 @@
     .case-title{
       font-family: $corporate_e;
     }
+  }
+  p {
+    font-size: 1.5rem;
   }
   /*.case-study-image-container {*/
     /*padding: 3rem;*/
@@ -39,11 +58,12 @@
 }
 
 .case-study-container{
+  padding-top:2rem;
   .row{ margin-bottom: 1.5rem;}
 }
 
 .cta-row {
-  padding-top: 2rem;
+  padding: 2rem;
   position: relative;
   background-color: $web-blue;
   /*background-color: $web-blue;*/
@@ -96,11 +116,14 @@
 
 // CTA box
 .cases-cta {
-  background-color: rgba(29, 29, 29, 0.5);
+  background-color: darken($web-blue, 10);
   background-size: cover;
   color: white;
   padding: 2rem;
   padding-top: 1rem;
   padding-bottom: 3rem;
   margin-bottom: 2rem;
+  a {
+    text-decoration: underline;
+  }
 }
