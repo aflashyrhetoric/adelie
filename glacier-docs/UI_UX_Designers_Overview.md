@@ -2,6 +2,7 @@
 Glacier is the internal name for a new project in the works at Adelie. 
 
 ## Table of Contents
+0. About Adelie
 1. Overview 
 2. About The Project
 3. Compensation
@@ -12,8 +13,11 @@ Glacier is the internal name for a new project in the works at Adelie.
 8. Web Page Checklist
 9. Inspo!
 
+## About Adelie
+Adelie is a web development, branding, and graphic design agency based on Long Island, NY. For questions regarding web development or the Glacier project, contact Kevin at koh@adelieweb.com. For questions regarding graphic design or branding, contact Yuna at yuna@adelieweb.com.
+
 ## Overview of Glacier
-Glacier will be an educational platform with video tutorials and screencasts to help non-technical users:
+Glacier: simply, an educational website with easy-to-understand video tutorials and screencasts to help non-technical users:
 
 - gain basic web literacy ("What's a browser?")
 - adopt a web-based workflow using modern tooling (How to use Dropbox, Chrome extension ecosystem, productivity tools like Trello)
@@ -25,22 +29,23 @@ Glacier will be an educational platform with video tutorials and screencasts to 
 - more.
 
 ## About The Project
-Simply speaking, Glacier's architecture consists of two parts:
+Very simply speaking, Glacier's architecture consists of two parts:
 
 1. **The Front-Facing Interface**. The part that regular users see and interact with in order to access Glacier content.
 2. **The Management Interface**: The part that site administrators see and interact with in order to add/manage content for the site. Regular users will NOT see this part of the site.
 
-Currently, we're looking for UI/UX designers to help us conceptualize and build the **Front-Facing Interface**. The back-end system will be designed & built internally.
+Currently, we're looking to subcontract a cooperative, communicative UI/UX designer to help us conceptualize and build the **1) Front-Facing Interface**. The **Management Interface** will be designed & built internally at Adelie.
 
 ## Compensation
-Pay will be commensurate with experience and performance, with a minimum starting rate of $14/hr for applicants with no relevant experience.
+Designers will be hired as subcontractors for the duration of the Glacier project. (This is neither a full-time nor part-time position at Adelie itself.) Adelie will guarantee a minimum starting rate of $12/hr for applicants with no/minimal relevant experience. This project will require an estimated 20-25 hours of work, including time spent meeting in-person and making revisions/adjustments. Designers will be trusted to track their own billable hours for tasks and it will be honored within reason.
 
 ## Timelines
 We're aiming to launch the platform as a beta by September 15, 2016.
 
 ## Key Terms & Definitions
+The definitions provided below are provided both for convenience and to help you understand exactly what we mean by certain terms. For further clarification, ask away.
 
-- **Glacier**: This project *or* the website for this project.
+- **"Glacier"**: This project *or* the website for this project.
 - **Interface**: The arrangement of buttons, forms, media items, etc., that constitutes a "layout" for users to interact with.
 - **Page or Webpage**: Refers to a single page on a website. A webpage will be the "container" that "houses" the interface.
 - **UI**: User Interface, goes hand-in-hand with UX. Concerned with the tangible / tactile components that users interact with, such as a button. 
@@ -49,12 +54,30 @@ We're aiming to launch the platform as a beta by September 15, 2016.
 - **Wireframes**: Minimal, colorless, line-based representations of the orientation/scale/arrangement of various components (such as buttons, forms, text) on a page. Wireframes should illustrate function. 
 - **Mockup**: Colored, more substantial representations of the interfaces. Proper icons should be used.
 - **Prototype**: A live, testable version of an interface.
+- **Graphics**: Non-photographic images, such as those made in Illustrator or Sketch.
+- **Photos/Photographs/Pictures **: Photographic images - images taken by a camera.
 
-### Technical Requirements
-- All designs should be responsive, but for tablets and desktop screen sizes ONLY at this time.
-- Any content not created in-house should be legally sourced. 
-- Prototypes will **NOT** be required.
-- This project, though significant in raw scope, is not very complex. As such, adherence to strict design methodologies (such as "Material Design") is welcome, but not required.
+### Technical Stuff
+
+#### Preferred Software
+
+- We use [Sketch](https://www.sketchapp.com/) for design. You will not be required to send us .sketch project files (or AI/PSD files), so you may use whatever software you like.
+- We use [Slack](https://slack.com/) and email for communication. Should you join the Glacier team, you'll be invited to the Slack team.
+- We use [Trello](https://trello.com) for planning projects, which loosely follows the "Kanban" project management philosophy. Glacier-related Trello boards will soon be made.
+- We use [Google Drive](https://drive.google.com) for file sharing and management. 
+
+#### Preferred File Formats
+
+- We love PNG for graphics, wireframes and mockups. We don't like JPG, BMP, TIFFs.
+- We love JPG for photographic images. We hate RAW images.
+- We love RTF and Markdown (.md) for text. DOCX and TXT are acceptable, but ew. (This project probably won't require text anyway).
+
+#### Design Parameters
+- All designs should be [responsive](https://en.wikipedia.org/wiki/Responsive_web_design), but for tablets and desktop screen sizes ONLY at this time. Wireframes do not need to be "pixel-perfect"; that is, they should illustrate how layouts will adapt responsively, but they do not need to be concerned with specific screen dimensions.
+- Glacier's overall design will not necessarily be tied to Adelie's branding.
+- Any content not created in-house should be legally sourced. If you'd like to purchase (or license the use of) a stock photo, font-face, etc. for use in this project, submit a simple written request to billing@adelieweb.com and Adelie may be able to cover the cost.
+- Prototypes will **NOT** be required, although software like [Zeplin](https://zeplin.io/) may be explored.
+- This project, though significant in raw scope, is not very architecturally complex. As such, adherence to strict design methodologies (such as "Material Design") is welcome, but not at all required.
 
 ### Regarding Our Process
 - **First and foremost: communication is key**. We won't be able to exhaustively detail our process here. If you don't know something, ask! If we don't know something, we'll ask! For everything else, we'll communicate as we go.
@@ -67,7 +90,7 @@ We're aiming to launch the platform as a beta by September 15, 2016.
 
 **2. Work (work work work work) Phase**
 
-- Given this checklist, designers will be tasked with creating appropriate **wireframes** for each page in accordance with UI/UX best practices. 
+- Given this checklist, designers will be tasked with creating appropriate **wireframes** for each page in accordance with UI/UX best practices. We'll require 2 wireframes per page to depict tablet- and desktop-based layouts.
 
 **3. Critique / Revision Phase**
 
@@ -89,7 +112,7 @@ These are general pages that do **NOT** need to be wireframed (they will be desi
 - **Sign Up**: User signup page.
 - **Error Pages**: Pages like the "404" page, etc.
 
-#### Glacier-Specific Pages
+#### Glacier-Specific Page
 These are the pages that are specific to Glacier's functionality. 
 These pages **DO** need to be designed and wireframed.
 
@@ -110,7 +133,6 @@ General design resources. Skim them if you'd like.
 - [The Bootstrap Library](http://getbootstrap.com/components/). The popular library of UI/UX components, created and supported by Twitter.
 - [Font Awesome Icon Library](http://fontawesome.io/icons/). Icons that can be used freely.
 - [Stock Photo Source](allthefreestock.com). Free stock photos!
-
 
 #### Website Inspiration
 If you'd like, review the following websites to get an idea of what Glacier will be **loosely** modeled after. Click around, watch a video or two. Get a feel for the way that content is organized, the way that courses are organized. Take note of any fun UI quirks. This is more for inspiration than source material, so have fun with it.
