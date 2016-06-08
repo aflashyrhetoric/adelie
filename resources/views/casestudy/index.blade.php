@@ -9,7 +9,7 @@
       </h1>
       <p>An inside look at how we approach and solve real business problems.</p>
       <p class="case-description">We'll be adding more case studies regularly.</p>
-      <p>For a visual overview of our graphic design work, visit our<a class="about-highlight" href="http://behance.net/yuna_oh">Behance Portfolio.</a></p>
+      <p>For a visual overview of our graphic design work, visit our <a class="about-highlight" href="http://behance.net/yuna_oh">Behance Portfolio.</a></p>
     </div>
   </div>
 </div>
