@@ -59,7 +59,7 @@ The definitions provided below are provided both for convenience and to help you
 - **Mockup**: Colored, more substantial representations of the interfaces. Proper icons should be used.
 - **Prototype**: A live, testable version of an interface.
 - **Graphics**: Non-photographic images, such as those made in Illustrator or Sketch.
-- **Photos/Photographs/Pictures **: Photographic images - images taken by a camera.
+- **Photos/Photographs/Pictures**: Photographic images - images taken by a camera.
 
 ### Technical Stuff
 
