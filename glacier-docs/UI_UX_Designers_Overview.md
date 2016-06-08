@@ -138,7 +138,7 @@ General design resources. Skim them if you'd like.
 - [The Materialize Library](http://materializecss.com/badges.html). UI/UX Components that adhere to the Material Design spec, as detailed by Google.
 - [The Bootstrap Library](http://getbootstrap.com/components/). The popular library of UI/UX components, created and supported by Twitter.
 - [Font Awesome Icon Library](http://fontawesome.io/icons/). Icons that can be used freely.
-- [Stock Photo Source](allthefreestock.com). Free stock photos!
+- [Stock Photo Source](http://allthefreestock.com). Free stock photos!
 
 #### Website Inspiration
 If you'd like, review the following websites to get an idea of what Glacier will be **loosely** modeled after. Click around, watch a video or two. Get a feel for the way that content is organized, the way that courses are organized. Take note of any fun UI quirks. This is more for inspiration than direct source material, so have fun with it.
