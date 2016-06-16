@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
     <!--CDN for Font-Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="p:domain_verify" content="1d50050dc4a3d18aee1ee89218df61c8"/>
   </head>
   <body>
     <div id="site-container" class="container">
