@@ -21,6 +21,7 @@
 
   // Tablet 640 - 1024
   @include breakpoint(medium only) {
+    justify-content: center;
     @include cover-bg-nofixed('../img/bg-tablet-alt.png', 0%, 50%);
     background-color: $web-blue;
     background-position: center top;
