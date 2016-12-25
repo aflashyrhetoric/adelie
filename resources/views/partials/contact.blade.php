@@ -4,6 +4,7 @@
   <div class="small-12 small-centered medium-9 columns">
     <div class="contact-header">
       <h1 class="animated fadeIn">Contact Us</h1>
+      <p style="color: #B02A30"><strong>NOTE: We are not currently accepting new inquiries.</strong></p>
       <p>Looking for a quote? <a href="/request">Click here!</a></p>
       <p><em>We try to reply to all messages within 24 hours.</em></p>
       <hr>
