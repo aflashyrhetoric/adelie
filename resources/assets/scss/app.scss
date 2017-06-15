@@ -1,0 +1,16 @@
+// app.scss
+
+.section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+@import 'pages/*.scss';
+@import 'home_sections/*.scss';
+@import 'utilities/*.scss';
+@import 'foundation-overwrites/*.scss';
+

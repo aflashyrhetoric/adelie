@@ -1,36 +1,4 @@
-/*************************/
-/* Custom SCSS For the app.
-/*************************/
-
-.section {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  p {
-    font-size: 0.9rem;
-  }
-}
-
-@import '_vendor';
-@import '_settings',
-        '_service',
-        '_meet',
-        '_about',
-        '_contact',
-        '_casestudy';
-
-/*********************************/
-/******* SECTION IMPORTS *********/
-/*********************************/
-
-@import 'home_sections/_section_one',
-        'home_sections/_section_two',
-        'home_sections/_section_three',
-        'home_sections/_section_four';
-
-// Utility Classes
-
-// Margins
+// utils.scss
 
 .mbn {
   margin-bottom: 0 !important;
@@ -68,7 +36,7 @@ ul.lstn {
   }
 }
 
-.tac{
+.tac {
   text-align: center;
 }
 
