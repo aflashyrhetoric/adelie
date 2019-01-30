@@ -19,6 +19,7 @@
     <!--CDN for Font-Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <meta name="p:domain_verify" content="1d50050dc4a3d18aee1ee89218df61c8"/>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
     <div id="site-container" class="container">

@@ -5,8 +5,8 @@
     <div class="contact-header">
       <h1 class="animated fadeIn">Contact Us</h1>
       <p style="color: #B02A30"><strong>NOTE: We are not currently accepting new inquiries.</strong></p>
-      <p>Looking for a quote? <a href="/request">Click here!</a></p>
-      <p><em>We try to reply to all messages within 24 hours.</em></p>
+      {{-- <p>Looking for a quote? <a href="/request">Click here!</a></p>
+      <p><em>We try to reply to all messages within 24 hours.</em></p> --}}
       <hr>
     </div>
     <div class="errors and flash">
@@ -21,15 +21,15 @@
        @endif 
     </div>
     <!-- Form -->
-    {!! Form::open(array('url' => '/contact')) !!}
-    {!! Form::label('name', 'Name') !!}
-    {!! Form::text('name') !!}
+    {{-- {# {!! Form::open(array('url' => '/contact', 'class' => 'g-recaptcha', 'data-sitekey' => '6LdUDo4UAAAAAGrnuI_dJFfesYUy5nCSfmAW3TDY')) !!} --}}
+    {{-- {# {!! Form::label('name', 'Name') !!} --}}
+    {{-- {!! Form::text('name') !!}
     {!! Form::label('email', 'Email Address') !!}
     {!! Form::text('email') !!}
     {!! Form::label('message', 'Message') !!}
     {!! Form::textarea('message') !!}
     {!! Form::submit('Send Message', array('class' => 'button')) !!}
-    {!! Form::close() !!}
+    {!! Form::close() !!} #} #} --}}
 
   </div>
 </div>
